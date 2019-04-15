@@ -1,4 +1,4 @@
-package com.example.hyzhan.bean.model;
+package com.example.hyzhan.bean.card;
 
 import lombok.Data;
 
@@ -8,7 +8,7 @@ import lombok.Data;
  * desc：    TODO
  */
 @Data
-public class RouteMetaModel {
+public class RouteMetaCard {
 
     // 权限
     private String auth;
@@ -16,6 +16,4 @@ public class RouteMetaModel {
     private String module;
     // 是否挂载
     private boolean mount;
-
-
 }

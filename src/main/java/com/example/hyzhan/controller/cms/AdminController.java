@@ -3,10 +3,15 @@ package com.example.hyzhan.controller.cms;
 import com.example.hyzhan.annotation.RouteMeta;
 import com.example.hyzhan.bean.BaseResponse;
 import com.example.hyzhan.bean.Response;
-import com.example.hyzhan.bean.model.RouteMetaModel;
+import com.example.hyzhan.bean.args.AdminUserArgs;
+import com.example.hyzhan.bean.card.RouteMetaCard;
+import com.example.hyzhan.controller.BaseController;
+import com.example.hyzhan.service.admin.AdminUsersService;
 import com.example.hyzhan.utils.RouteUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 /**
@@ -17,7 +22,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/admin")
-public class AdminController {
+public class AdminController extends BaseController {
+
+    @Autowired
+    AdminUsersService adminUsersService;
 
     /**
      * @api {get} /admin/authority 获取所有可分配权限
@@ -28,14 +36,17 @@ public class AdminController {
      */
     @GetMapping("/authority")
     public BaseResponse authority() {
-        List<RouteMetaModel> routes = RouteUtil.getRoutes();
+        List<RouteMetaCard> routes = RouteUtil.getRoutes();
         return Response.success(routes);
     }
 
     @GetMapping("/users")
     @RouteMeta(auth = "查询所有用户", module = "管理员", mount = false)
-    public void getAdminUsers() {
+    public BaseResponse getAdminUsers(@Valid AdminUserArgs args) {
+        // 校验页码
+        checkPaginate(args);
 
+        return Response.success(adminUsersService.getAdminUsers(args));
     }
 
     @PutMapping("/password/{id}")

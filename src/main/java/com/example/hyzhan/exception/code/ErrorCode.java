@@ -7,7 +7,8 @@ package com.example.hyzhan.exception.code;
  */
 public enum ErrorCode {
     UNKNOWN_ERROR(-1, "服务内部错误，不想告诉你~"),
-    HTTP_METHOD_ERROR(-2, "Http 请求方法不匹配!")
+    HTTP_METHOD_ERROR(-2, "Http 请求方法不匹配!"),
+    PARAMETER(-3, "参数错误")
     ;
 
     private Integer code;

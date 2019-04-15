@@ -1,7 +1,7 @@
 package com.example.hyzhan.utils;
 
 import com.example.hyzhan.annotation.RouteMeta;
-import com.example.hyzhan.bean.model.RouteMetaModel;
+import com.example.hyzhan.bean.card.RouteMetaCard;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.core.annotation.AnnotationUtils;
@@ -20,7 +20,7 @@ import java.util.List;
 @Component
 public class RouteUtil implements BeanPostProcessor {
 
-    private static List<RouteMetaModel> routes = new ArrayList<>();
+    private static List<RouteMetaCard> routes = new ArrayList<>();
 
     /**
      * postProcessAfterInitialization 是在bean加载之后进行的操作
@@ -33,7 +33,7 @@ public class RouteUtil implements BeanPostProcessor {
             for (Method method : methods) {
                 RouteMeta routeMeta = AnnotationUtils.findAnnotation(method, RouteMeta.class);
                 if (routeMeta != null) {
-                    RouteMetaModel model = new RouteMetaModel();
+                    RouteMetaCard model = new RouteMetaCard();
                     model.setAuth(routeMeta.auth());
                     model.setModule(routeMeta.module());
                     model.setMount(routeMeta.mount());
@@ -44,7 +44,7 @@ public class RouteUtil implements BeanPostProcessor {
         return bean;
     }
 
-    public static List<RouteMetaModel> getRoutes() {
+    public static List<RouteMetaCard> getRoutes() {
         return routes;
     }
 }
