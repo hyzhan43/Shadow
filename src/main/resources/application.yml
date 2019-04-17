@@ -6,7 +6,10 @@ spring:
     username: root
     password: a123456
     driver-class-name: com.mysql.cj.jdbc.Driver
-
+  thymeleaf:
+    prefix: classpath:/doc/
+  resources:
+      static-locations: classpath:/doc/
 
   jpa:
     show-sql: true

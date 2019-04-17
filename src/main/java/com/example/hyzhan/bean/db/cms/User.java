@@ -14,6 +14,15 @@ import javax.persistence.*;
 @Table(name = "lin_user")
 public class User{
 
+    // 普通用户
+    public static final int COMMON = 1;
+    // 超级管理员
+    public static final int SUPER = 2;
+
+    public static final int ACTIVE = 1;
+    public static final int NOT_ACTIVE = 2;
+
+
     @Id
     @GeneratedValue
     private Integer id;
@@ -46,7 +55,7 @@ public class User{
     @Column(insertable = false, updatable = false)
     private Integer groupId;
 
-    @OneToOne(optional = false)
+    @OneToOne
     @JoinColumn(name = "groupId")
     private Group group;
 

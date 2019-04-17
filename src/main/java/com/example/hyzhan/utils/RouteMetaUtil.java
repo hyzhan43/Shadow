@@ -10,7 +10,9 @@ import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * author：  HyZhan
@@ -18,9 +20,9 @@ import java.util.List;
  * desc：    Spring容器加载所有配置的bean 处理类
  */
 @Component
-public class RouteUtil implements BeanPostProcessor {
+public class RouteMetaUtil implements BeanPostProcessor {
 
-    private static List<RouteMetaCard> routes = new ArrayList<>();
+    private static Map<String, RouteMetaCard> routeMetaCardMap = new HashMap<>();
 
     /**
      * postProcessAfterInitialization 是在bean加载之后进行的操作
@@ -37,14 +39,15 @@ public class RouteUtil implements BeanPostProcessor {
                     model.setAuth(routeMeta.auth());
                     model.setModule(routeMeta.module());
                     model.setMount(routeMeta.mount());
-                    routes.add(model);
+                    // 方法名为 key, 方便后续 判断权限组
+                    routeMetaCardMap.put(method.getName(), model);
                 }
             }
         }
         return bean;
     }
 
-    public static List<RouteMetaCard> getRoutes() {
-        return routes;
+    public static Map<String, RouteMetaCard> getRouteMetaCardMap() {
+        return routeMetaCardMap;
     }
 }

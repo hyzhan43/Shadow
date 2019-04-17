@@ -1,7 +1,8 @@
 package com.example.hyzhan.controller;
 
 import com.example.hyzhan.bean.args.BaseArgs;
-import com.example.hyzhan.exception.exception.ParameterException;
+import com.example.hyzhan.exception.BaseException;
+import com.example.hyzhan.exception.code.ErrorCode;
 
 /**
  * author：  HyZhan
@@ -18,7 +19,7 @@ public class BaseController {
         Integer pageSize = args.getPageSize();
 
         if (page < 0 || pageSize < 0){
-            throw new ParameterException();
+            throw new BaseException(ErrorCode.PARAMETER);
         }
     }
 }
