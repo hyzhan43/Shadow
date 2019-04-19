@@ -1,1 +1,1 @@
-apidoc -i ./ -o ./src/main/resources/doc
+apidoc -i ./ -o ./app/src/main/resources/doc
