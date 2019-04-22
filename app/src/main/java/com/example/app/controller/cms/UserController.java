@@ -1,9 +1,6 @@
 package com.example.app.controller.cms;
 
-import com.example.core.annotation.AdminRequired;
-import com.example.core.annotation.GroupRequired;
-import com.example.core.annotation.LoginRequired;
-import com.example.core.annotation.RouteMeta;
+import com.example.core.annotation.*;
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
 import com.example.core.bean.args.LoginArgs;
@@ -44,7 +41,9 @@ public class UserController {
         return Response.success(tokenCard);
     }
 
+    @Logger(template = "hello")
     @GetMapping("/test")
+    @LoginRequired
     public String test(){
         L.error("111");
         return "test";

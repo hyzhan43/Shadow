@@ -1,6 +1,7 @@
 package com.example.app.controller.cms;
 
 import com.example.core.annotation.AdminRequired;
+import com.example.core.annotation.Logger;
 import com.example.core.annotation.RouteMeta;
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;

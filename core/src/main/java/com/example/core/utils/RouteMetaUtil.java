@@ -48,4 +48,8 @@ public class RouteMetaUtil implements BeanPostProcessor {
     public static Map<String, RouteMetaCard> getRouteMetaCardMap() {
         return routeMetaCardMap;
     }
+
+    public static RouteMetaCard findRouteMetaCard(String key){
+        return routeMetaCardMap.get(key);
+    }
 }

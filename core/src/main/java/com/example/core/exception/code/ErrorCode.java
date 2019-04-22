@@ -9,6 +9,7 @@ public enum ErrorCode {
     UNKNOWN_ERROR(-1, "服务内部错误，不想告诉你~"),
     HTTP_METHOD_ERROR(-2, "Http 请求方法不匹配!"),
     PARAMETER(-3, "参数错误"),
+    USER_ERROR(-4, "用户异常"),
 
     // 权限
     TOKEN_EMPTY(1000, "token 无效"),
@@ -26,8 +27,7 @@ public enum ErrorCode {
     ACCOUNT_OR_PASSWORD_ERROR(2001, "账号或密码错误"),
     NICKNAME_EXIST(2002, "用户名重复, 请重新输入"),
     EMAIL_EXIST(2003, "邮箱重复, 请重新输入"),
-    CONFIRM_PASSWORD_ERROR(2004, "两次密码输入不正确, 请重新输入")
-    ;
+    CONFIRM_PASSWORD_ERROR(2004, "两次密码输入不正确, 请重新输入");
 
     private Integer code;
     private String msg;

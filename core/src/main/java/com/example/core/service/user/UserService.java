@@ -9,11 +9,13 @@ import com.example.core.exception.BaseException;
 import com.example.core.exception.code.ErrorCode;
 import com.example.core.repository.UserRepository;
 import com.example.core.service.BaseService;
+import com.example.core.service.log.LogService;
 import com.example.core.utils.JWTUtils;
 import com.example.core.utils.Utils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
@@ -28,12 +30,15 @@ public class UserService extends BaseService {
     @Autowired
     UserRepository userRepository;
 
+    @Autowired
+    LogService logService;
+
     // 获取当前用户
     public User getCurrentUser() {
-        return findById(Integer.parseInt(getCurrentUid()));
+        return getUser(Integer.parseInt(getCurrentUid()));
     }
 
-    public User findById(Integer uid) {
+    public User getUser(Integer uid) {
         Optional<User> userOptional = userRepository.findById(uid);
 
         // 如果不存在
@@ -44,6 +49,7 @@ public class UserService extends BaseService {
         return userOptional.get();
     }
 
+    @Transactional
     public TokenCard login(LoginArgs args) {
         Optional<User> userOptional = userRepository.findByNickname(args.getNickname());
 
@@ -57,6 +63,9 @@ public class UserService extends BaseService {
             // 密码不相等，抛出异常
             throw new BaseException(ErrorCode.ACCOUNT_OR_PASSWORD_ERROR);
         }
+
+        // 写入日志
+        logService.saveLoginLog(user);
 
         return getToken(user.getId().toString());
     }
@@ -105,10 +114,9 @@ public class UserService extends BaseService {
         userRepository.save(user);
     }
 
-    public void findByEmail(String email) {
+    public void emailIsPresent(String email) {
         Optional<User> userOptional = userRepository.findByEmail(email);
 
-        // 如果不存在
         if (userOptional.isPresent()) {
             throw new BaseException(ErrorCode.EMAIL_EXIST);
         }

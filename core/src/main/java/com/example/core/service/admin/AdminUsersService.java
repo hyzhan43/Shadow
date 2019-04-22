@@ -63,24 +63,24 @@ public class AdminUsersService extends PageService {
             throw new BaseException(ErrorCode.CONFIRM_PASSWORD_ERROR);
         }
 
-        User user = userService.findById(uid);
+        User user = userService.getUser(uid);
 
         user.setPassword(Utils.encode(newPassword));
         usersRepository.save(user);
     }
 
     public void deleteUser(Integer id) {
-        User user = userService.findById(id);
+        User user = userService.getUser(id);
         // 硬删除
         usersRepository.delete(user);
     }
 
     public void updateUser(Integer id, UpdateUserArgs args) {
-        User user = userService.findById(id);
+        User user = userService.getUser(id);
 
         String email = args.getEmail();
         if (!user.getEmail().equals(email)){
-            userService.findByEmail(email);
+            userService.emailIsPresent(email);
         }
 
         Integer groupId = args.getGroupId();
@@ -93,7 +93,7 @@ public class AdminUsersService extends PageService {
 
     public void transDisable(Integer id) {
 
-        User user = userService.findById(id);
+        User user = userService.getUser(id);
         if (user.getActive() != User.ACTIVE){
             throw new BaseException(ErrorCode.FORBIDDEN);
         }

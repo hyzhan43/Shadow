@@ -1,0 +1,1287 @@
+2019-04-22 11:31:26,355 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 7452 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 11:31:26,358 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 11:31:27,683 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 11:31:27,776 -- registerRepositoriesIn - Finished Spring Data repository scanning in 84ms. Found 5 repository interfaces.
+2019-04-22 11:31:28,140 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dae1684c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 11:31:28,554 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 11:31:28,574 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 11:31:28,584 -- log - Starting service [Tomcat]
+2019-04-22 11:31:28,585 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 11:31:28,728 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 11:31:28,729 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2244 ms
+2019-04-22 11:31:28,908 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 11:31:29,173 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 11:31:29,225 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 11:31:29,303 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 11:31:29,305 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 11:31:29,478 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 11:31:29,750 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 11:31:30,667 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 11:31:31,275 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 11:31:31,320 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 11:31:31,418 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 11:31:31,505 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 11:31:31,530 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 11:31:31,532 -- logStarted - Started AppApplication in 6.55 seconds (JVM running for 7.787)
+2019-04-22 11:32:56,423 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 11:32:56,423 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 11:32:56,431 -- initServletBean - Completed initialization in 8 ms
+2019-04-22 11:32:56,581 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 11:39:14,325 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 548 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 11:39:14,328 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 11:39:15,020 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 11:39:15,106 -- registerRepositoriesIn - Finished Spring Data repository scanning in 79ms. Found 5 repository interfaces.
+2019-04-22 11:39:15,397 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3ae6e27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 11:39:15,682 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 11:39:15,695 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 11:39:15,703 -- log - Starting service [Tomcat]
+2019-04-22 11:39:15,703 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 11:39:15,826 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 11:39:15,826 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1422 ms
+2019-04-22 11:39:16,003 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 11:39:16,185 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 11:39:16,237 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 11:39:16,298 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 11:39:16,299 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 11:39:16,417 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 11:39:16,560 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 11:39:17,274 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 11:39:17,808 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 11:39:17,850 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 11:39:17,951 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 11:39:18,038 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 11:39:18,069 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 11:39:18,071 -- logStarted - Started AppApplication in 4.461 seconds (JVM running for 5.179)
+2019-04-22 11:40:13,613 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 11:40:13,614 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 11:40:13,622 -- initServletBean - Completed initialization in 8 ms
+2019-04-22 11:40:13,671 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(com.example.core.exception.BaseException)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 11:40:13,695 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(java.lang.Exception)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:388)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 11:40:13,696 -- logException - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-04-22 11:52:03,628 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(com.example.core.exception.BaseException)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 11:52:03,632 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(java.lang.Exception)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:388)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 11:52:03,633 -- logException - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-04-22 11:59:21,434 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(com.example.core.exception.BaseException)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 11:59:21,444 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(java.lang.Exception)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:388)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 11:59:21,444 -- logException - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-04-22 11:59:47,423 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 4356 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 11:59:47,439 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 11:59:48,243 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 11:59:48,331 -- registerRepositoriesIn - Finished Spring Data repository scanning in 82ms. Found 5 repository interfaces.
+2019-04-22 11:59:48,627 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56f34ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 11:59:48,936 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 11:59:48,949 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 11:59:48,956 -- log - Starting service [Tomcat]
+2019-04-22 11:59:48,956 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 11:59:49,073 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 11:59:49,074 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1571 ms
+2019-04-22 11:59:49,263 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 11:59:49,445 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 11:59:49,502 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 11:59:49,558 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 11:59:49,560 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 11:59:49,671 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 11:59:49,809 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 11:59:50,546 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 11:59:51,141 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 11:59:51,180 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 11:59:51,276 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 11:59:51,361 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 11:59:51,385 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 11:59:51,387 -- logStarted - Started AppApplication in 4.458 seconds (JVM running for 5.046)
+2019-04-22 11:59:54,523 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 11:59:54,524 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 11:59:54,531 -- initServletBean - Completed initialization in 7 ms
+2019-04-22 11:59:54,591 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(com.example.core.exception.BaseException)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 11:59:54,613 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(java.lang.Exception)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:388)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 11:59:54,614 -- logException - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-04-22 12:02:33,114 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 4352 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 12:02:33,117 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 12:02:33,875 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 12:02:33,979 -- registerRepositoriesIn - Finished Spring Data repository scanning in 96ms. Found 5 repository interfaces.
+2019-04-22 12:02:34,363 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1aaad156] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 12:02:34,711 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 12:02:34,725 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 12:02:34,733 -- log - Starting service [Tomcat]
+2019-04-22 12:02:34,733 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 12:02:34,863 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 12:02:34,864 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1663 ms
+2019-04-22 12:02:35,067 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 12:02:35,261 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 12:02:35,316 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 12:02:35,392 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 12:02:35,394 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 12:02:35,543 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 12:02:35,715 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 12:02:36,598 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 12:02:37,350 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 12:02:37,396 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 12:02:37,510 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 12:02:37,607 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 12:02:37,634 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 12:02:37,637 -- logStarted - Started AppApplication in 5.14 seconds (JVM running for 7.081)
+2019-04-22 12:02:41,404 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 12:02:41,405 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 12:02:41,415 -- initServletBean - Completed initialization in 10 ms
+2019-04-22 12:04:31,974 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s479ms695µs410ns).
+2019-04-22 12:04:31,992 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(com.example.core.exception.BaseException)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 12:04:32,257 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(java.lang.Exception)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:388)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 12:04:32,260 -- logException - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-04-22 12:06:03,669 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 6460 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 12:06:03,672 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 12:06:04,567 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 12:06:04,666 -- registerRepositoriesIn - Finished Spring Data repository scanning in 86ms. Found 5 repository interfaces.
+2019-04-22 12:06:05,012 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aee22148] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 12:06:05,294 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 12:06:05,307 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 12:06:05,314 -- log - Starting service [Tomcat]
+2019-04-22 12:06:05,314 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 12:06:05,419 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 12:06:05,419 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1706 ms
+2019-04-22 12:06:05,580 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 12:06:05,776 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 12:06:05,825 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 12:06:05,878 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 12:06:05,881 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 12:06:05,992 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 12:06:06,128 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 12:06:06,906 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 12:06:07,458 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 12:06:07,496 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 12:06:07,587 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 12:06:07,667 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 12:06:07,690 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 12:06:07,693 -- logStarted - Started AppApplication in 4.613 seconds (JVM running for 5.208)
+2019-04-22 12:06:11,556 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 12:06:11,557 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 12:06:11,567 -- initServletBean - Completed initialization in 10 ms
+2019-04-22 12:06:11,615 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(com.example.core.exception.BaseException)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 12:06:11,638 -- doResolveHandlerMethodException - Failure in @ExceptionHandler public com.example.core.bean.BaseResponse com.example.core.exception.handle.ExceptionHandle.handle(java.lang.Exception)
+org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:307)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:412)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:388)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-22 12:06:11,638 -- logException - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-04-22 12:22:47,661 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 1364 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 12:22:47,680 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 12:22:48,420 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 12:22:48,508 -- registerRepositoriesIn - Finished Spring Data repository scanning in 81ms. Found 5 repository interfaces.
+2019-04-22 12:22:48,791 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cb4291d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 12:22:49,067 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 12:22:49,079 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 12:22:49,088 -- log - Starting service [Tomcat]
+2019-04-22 12:22:49,089 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 12:22:49,190 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 12:22:49,191 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1428 ms
+2019-04-22 12:22:49,340 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 12:22:49,522 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 12:22:49,571 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 12:22:49,632 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 12:22:49,634 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 12:22:49,744 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 12:22:49,883 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 12:22:50,581 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 12:22:51,115 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 12:22:51,155 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 12:22:51,250 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 12:22:51,338 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 12:22:51,365 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 12:22:51,367 -- logStarted - Started AppApplication in 4.28 seconds (JVM running for 4.84)
+2019-04-22 12:22:57,642 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 12:22:57,643 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 12:22:57,650 -- initServletBean - Completed initialization in 7 ms
+2019-04-22 13:02:48,657 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 7272 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 13:02:48,660 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 13:02:49,545 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 13:02:49,644 -- registerRepositoriesIn - Finished Spring Data repository scanning in 90ms. Found 5 repository interfaces.
+2019-04-22 13:02:50,018 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3874e19e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 13:02:50,393 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 13:02:50,408 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:02:50,416 -- log - Starting service [Tomcat]
+2019-04-22 13:02:50,417 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 13:02:50,538 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 13:02:50,538 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1797 ms
+2019-04-22 13:02:50,742 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 13:02:50,916 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 13:02:50,970 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 13:02:51,047 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 13:02:51,048 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 13:02:51,207 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 13:02:51,412 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 13:02:52,358 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 13:02:53,064 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 13:02:53,112 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 13:02:53,228 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 13:02:53,327 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:02:53,355 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 13:02:53,358 -- logStarted - Started AppApplication in 5.474 seconds (JVM running for 6.227)
+2019-04-22 13:03:05,220 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 13:03:05,220 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 13:03:05,231 -- initServletBean - Completed initialization in 11 ms
+2019-04-22 13:03:30,459 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 13:10:49,652 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10036 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 13:10:49,655 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 13:10:50,398 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 13:10:50,484 -- registerRepositoriesIn - Finished Spring Data repository scanning in 79ms. Found 5 repository interfaces.
+2019-04-22 13:10:50,807 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7644e4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 13:10:51,100 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 13:10:51,112 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:10:51,120 -- log - Starting service [Tomcat]
+2019-04-22 13:10:51,120 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 13:10:51,227 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 13:10:51,227 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1516 ms
+2019-04-22 13:10:51,380 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 13:10:51,571 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 13:10:51,624 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 13:10:51,681 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 13:10:51,684 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 13:10:51,798 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 13:10:51,937 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 13:10:52,664 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 13:10:53,213 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 13:10:53,253 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 13:10:53,351 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 13:10:53,432 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:10:53,453 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 13:10:53,456 -- logStarted - Started AppApplication in 4.421 seconds (JVM running for 5.135)
+2019-04-22 13:10:59,017 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 13:10:59,017 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 13:10:59,028 -- initServletBean - Completed initialization in 10 ms
+2019-04-22 13:11:56,072 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 1724 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 13:11:56,075 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 13:11:56,799 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 13:11:56,882 -- registerRepositoriesIn - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-04-22 13:11:57,173 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aee22148] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 13:11:57,459 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 13:11:57,473 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:11:57,481 -- log - Starting service [Tomcat]
+2019-04-22 13:11:57,481 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 13:11:57,590 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 13:11:57,590 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1466 ms
+2019-04-22 13:11:57,743 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 13:11:57,919 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 13:11:57,969 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 13:11:58,029 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 13:11:58,031 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 13:11:58,149 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 13:11:58,302 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 13:11:59,044 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 13:11:59,586 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 13:11:59,623 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 13:11:59,716 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 13:11:59,797 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:11:59,820 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 13:11:59,823 -- logStarted - Started AppApplication in 4.316 seconds (JVM running for 4.909)
+2019-04-22 13:12:03,460 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 13:12:03,460 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 13:12:03,468 -- initServletBean - Completed initialization in 8 ms
+2019-04-22 13:12:33,825 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 11016 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 13:12:33,827 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 13:12:34,618 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 13:12:34,708 -- registerRepositoriesIn - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-04-22 13:12:35,000 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81c0fb82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 13:12:35,292 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 13:12:35,305 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:12:35,313 -- log - Starting service [Tomcat]
+2019-04-22 13:12:35,313 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 13:12:35,418 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 13:12:35,418 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1532 ms
+2019-04-22 13:12:35,562 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 13:12:35,748 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 13:12:35,795 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 13:12:35,854 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 13:12:35,856 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 13:12:35,969 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 13:12:36,115 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 13:12:36,826 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 13:12:37,352 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 13:12:37,393 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 13:12:37,494 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 13:12:37,580 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:12:37,607 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 13:12:37,609 -- logStarted - Started AppApplication in 4.454 seconds (JVM running for 5.017)
+2019-04-22 13:13:01,647 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 13:13:01,647 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 13:13:01,656 -- initServletBean - Completed initialization in 9 ms
+2019-04-22 13:28:07,203 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 3780 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 13:28:07,206 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 13:28:08,062 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 13:28:08,159 -- registerRepositoriesIn - Finished Spring Data repository scanning in 89ms. Found 5 repository interfaces.
+2019-04-22 13:28:08,525 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a5439fed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 13:28:08,875 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 13:28:08,890 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:28:08,898 -- log - Starting service [Tomcat]
+2019-04-22 13:28:08,898 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 13:28:09,017 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 13:28:09,018 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1702 ms
+2019-04-22 13:28:09,239 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 13:28:09,411 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 13:28:09,465 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 13:28:09,545 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 13:28:09,547 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 13:28:09,698 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 13:28:09,880 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 13:28:10,771 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 13:28:11,445 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 13:28:11,490 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 13:28:11,604 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 13:28:11,708 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 13:28:11,737 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 13:28:11,740 -- logStarted - Started AppApplication in 5.254 seconds (JVM running for 6.094)
+2019-04-22 13:28:14,075 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 13:28:14,076 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 13:28:14,086 -- initServletBean - Completed initialization in 10 ms
+2019-04-22 13:33:34,786 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m50s959ms605µs383ns).
+2019-04-22 14:04:11,956 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 9100 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 14:04:11,958 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 14:04:12,868 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 14:04:12,949 -- registerRepositoriesIn - Finished Spring Data repository scanning in 75ms. Found 5 repository interfaces.
+2019-04-22 14:04:13,247 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$12e05ec4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 14:04:13,525 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 14:04:13,537 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 14:04:13,545 -- log - Starting service [Tomcat]
+2019-04-22 14:04:13,545 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 14:04:13,647 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 14:04:13,647 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1587 ms
+2019-04-22 14:04:13,800 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 14:04:13,969 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 14:04:14,019 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 14:04:14,084 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 14:04:14,086 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 14:04:14,197 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 14:04:14,335 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 14:04:15,087 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 14:04:15,653 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 14:04:15,690 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 14:04:15,784 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 14:04:15,874 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 14:04:15,899 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 14:04:15,902 -- logStarted - Started AppApplication in 4.511 seconds (JVM running for 5.068)
+2019-04-22 14:04:19,547 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 14:04:19,547 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 14:04:19,555 -- initServletBean - Completed initialization in 8 ms
+2019-04-22 14:07:41,130 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10232 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 14:07:41,133 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 14:07:41,918 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 14:07:42,004 -- registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-04-22 14:07:42,298 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be4bf604] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 14:07:42,580 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 14:07:42,592 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 14:07:42,600 -- log - Starting service [Tomcat]
+2019-04-22 14:07:42,600 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 14:07:42,707 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 14:07:42,707 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1494 ms
+2019-04-22 14:07:42,858 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 14:07:43,025 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 14:07:43,074 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 14:07:43,134 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 14:07:43,137 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 14:07:43,247 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 14:07:43,391 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 14:07:44,082 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 14:07:44,622 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 14:07:44,665 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 14:07:44,775 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 14:07:44,860 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 14:07:44,886 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 14:07:44,888 -- logStarted - Started AppApplication in 4.311 seconds (JVM running for 4.887)
+2019-04-22 14:07:48,220 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 14:07:48,221 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 14:07:48,228 -- initServletBean - Completed initialization in 7 ms
+2019-04-22 14:08:07,995 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 16:45:23,551 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10844 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 16:45:23,555 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 16:45:24,499 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 16:45:24,584 -- registerRepositoriesIn - Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2019-04-22 16:45:24,876 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$afdeb7c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 16:45:25,149 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 16:45:25,162 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 16:45:25,169 -- log - Starting service [Tomcat]
+2019-04-22 16:45:25,170 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 16:45:25,272 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 16:45:25,272 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1662 ms
+2019-04-22 16:45:25,418 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 16:45:25,586 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 16:45:25,634 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 16:45:25,694 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 16:45:25,697 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 16:45:25,807 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 16:45:25,948 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 16:45:26,642 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 16:45:27,213 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 16:45:27,252 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 16:45:27,356 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 16:45:27,445 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 16:45:27,473 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 16:45:27,477 -- logStarted - Started AppApplication in 4.511 seconds (JVM running for 5.079)
+2019-04-22 16:45:38,408 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 16:45:38,408 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 16:45:38,416 -- initServletBean - Completed initialization in 8 ms
+2019-04-22 16:46:16,576 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 16:48:58,541 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 896 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 16:48:58,544 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 16:48:59,398 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 16:48:59,481 -- registerRepositoriesIn - Finished Spring Data repository scanning in 77ms. Found 5 repository interfaces.
+2019-04-22 16:48:59,771 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1c4a5f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 16:49:00,061 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 16:49:00,076 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 16:49:00,085 -- log - Starting service [Tomcat]
+2019-04-22 16:49:00,085 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 16:49:00,190 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 16:49:00,190 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1583 ms
+2019-04-22 16:49:00,338 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 16:49:00,509 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 16:49:00,556 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 16:49:00,616 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 16:49:00,618 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 16:49:00,730 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 16:49:00,876 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 16:49:01,590 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 16:49:02,154 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 16:49:02,191 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 16:49:02,284 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 16:49:02,372 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 16:49:02,392 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 16:49:02,395 -- logStarted - Started AppApplication in 4.472 seconds (JVM running for 5.062)
+2019-04-22 16:49:05,480 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 16:49:05,480 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 16:49:05,487 -- initServletBean - Completed initialization in 7 ms
+2019-04-22 16:49:05,631 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 16:55:30,524 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10592 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 16:55:30,526 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 16:55:31,335 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 16:55:31,418 -- registerRepositoriesIn - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-04-22 16:55:31,712 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51903528] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 16:55:31,993 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 16:55:32,005 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 16:55:32,013 -- log - Starting service [Tomcat]
+2019-04-22 16:55:32,014 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 16:55:32,171 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 16:55:32,172 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1519 ms
+2019-04-22 16:55:32,423 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 16:55:32,621 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 16:55:32,673 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 16:55:32,748 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 16:55:32,750 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 16:55:32,872 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 16:55:33,011 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 16:55:33,930 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 16:55:34,487 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 16:55:34,525 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 16:55:34,633 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 16:55:34,716 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 16:55:34,738 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 16:55:34,739 -- logStarted - Started AppApplication in 4.85 seconds (JVM running for 5.483)
+2019-04-22 16:55:48,430 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 16:55:48,430 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 16:55:48,439 -- initServletBean - Completed initialization in 9 ms
+2019-04-22 16:55:48,585 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 17:25:03,857 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 1008 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 17:25:03,860 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 17:25:04,738 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 17:25:04,821 -- registerRepositoriesIn - Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2019-04-22 17:25:05,137 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa2a7ef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:25:05,422 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 17:25:05,435 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:25:05,443 -- log - Starting service [Tomcat]
+2019-04-22 17:25:05,443 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 17:25:05,553 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 17:25:05,553 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1618 ms
+2019-04-22 17:25:05,697 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 17:25:05,874 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 17:25:05,922 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 17:25:05,981 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 17:25:05,983 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 17:25:06,095 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 17:25:06,233 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 17:25:06,890 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 17:25:07,460 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 17:25:07,502 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 17:25:07,608 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 17:25:07,701 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:25:07,729 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 17:25:07,731 -- logStarted - Started AppApplication in 4.523 seconds (JVM running for 5.061)
+2019-04-22 17:25:14,585 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 17:25:14,586 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 17:25:14,595 -- initServletBean - Completed initialization in 9 ms
+2019-04-22 17:25:14,741 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 17:26:04,790 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8916 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 17:26:04,794 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 17:26:05,552 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 17:26:05,635 -- registerRepositoriesIn - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-04-22 17:26:05,928 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e949fd3a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:26:06,208 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 17:26:06,225 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:26:06,233 -- log - Starting service [Tomcat]
+2019-04-22 17:26:06,233 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 17:26:06,332 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 17:26:06,333 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1493 ms
+2019-04-22 17:26:06,472 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 17:26:06,662 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 17:26:06,710 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 17:26:06,763 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 17:26:06,765 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 17:26:06,881 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 17:26:07,011 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 17:26:07,705 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 17:26:08,256 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 17:26:08,293 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 17:26:08,385 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 17:26:08,465 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:26:08,486 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 17:26:08,488 -- logStarted - Started AppApplication in 4.272 seconds (JVM running for 4.836)
+2019-04-22 17:26:17,495 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 17:26:17,495 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 17:26:17,504 -- initServletBean - Completed initialization in 8 ms
+2019-04-22 17:26:17,645 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 17:30:20,992 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10132 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 17:30:20,995 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 17:30:21,743 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 17:30:21,830 -- registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-04-22 17:30:22,124 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d10ead74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:30:22,402 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 17:30:22,415 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:30:22,423 -- log - Starting service [Tomcat]
+2019-04-22 17:30:22,423 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 17:30:22,523 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 17:30:22,523 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1409 ms
+2019-04-22 17:30:22,672 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 17:30:22,850 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 17:30:22,896 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 17:30:22,954 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 17:30:22,956 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 17:30:23,069 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 17:30:23,212 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 17:30:23,929 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 17:30:24,540 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 17:30:24,580 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 17:30:24,677 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 17:30:24,761 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:30:24,785 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 17:30:24,787 -- logStarted - Started AppApplication in 4.399 seconds (JVM running for 4.988)
+2019-04-22 17:30:29,213 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 17:30:29,213 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 17:30:29,222 -- initServletBean - Completed initialization in 9 ms
+2019-04-22 17:30:29,365 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 17:31:04,272 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 4904 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 17:31:04,274 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 17:31:05,016 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 17:31:05,099 -- registerRepositoriesIn - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-04-22 17:31:05,405 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cb4291d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:31:05,686 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 17:31:05,699 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:31:05,706 -- log - Starting service [Tomcat]
+2019-04-22 17:31:05,707 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 17:31:05,811 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 17:31:05,811 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1472 ms
+2019-04-22 17:31:05,967 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 17:31:06,147 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 17:31:06,194 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 17:31:06,248 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 17:31:06,250 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 17:31:06,364 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 17:31:06,498 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 17:31:07,175 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 17:31:07,731 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 17:31:07,768 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 17:31:07,861 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 17:31:07,946 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:31:07,968 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 17:31:07,970 -- logStarted - Started AppApplication in 4.285 seconds (JVM running for 4.83)
+2019-04-22 17:31:10,909 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 17:31:10,909 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 17:31:10,919 -- initServletBean - Completed initialization in 10 ms
+2019-04-22 17:31:11,068 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 17:31:59,640 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 5592 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 17:31:59,645 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 17:32:00,398 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 17:32:00,483 -- registerRepositoriesIn - Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2019-04-22 17:32:00,776 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53ef0af0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:32:01,053 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 17:32:01,066 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:32:01,074 -- log - Starting service [Tomcat]
+2019-04-22 17:32:01,074 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 17:32:01,182 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 17:32:01,183 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1456 ms
+2019-04-22 17:32:01,333 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 17:32:01,502 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 17:32:01,550 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 17:32:01,609 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 17:32:01,611 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 17:32:01,723 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 17:32:01,855 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 17:32:02,542 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 17:32:03,100 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 17:32:03,141 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 17:32:03,234 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 17:32:03,315 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:32:03,336 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 17:32:03,339 -- logStarted - Started AppApplication in 4.222 seconds (JVM running for 4.754)
+2019-04-22 17:32:06,768 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 17:32:06,769 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 17:32:06,776 -- initServletBean - Completed initialization in 7 ms
+2019-04-22 17:32:06,914 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 17:33:35,059 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8140 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 17:33:35,062 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 17:33:35,957 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 17:33:36,037 -- registerRepositoriesIn - Finished Spring Data repository scanning in 73ms. Found 5 repository interfaces.
+2019-04-22 17:33:36,336 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b34d2869] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:33:36,616 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 17:33:36,629 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:33:36,637 -- log - Starting service [Tomcat]
+2019-04-22 17:33:36,638 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 17:33:36,740 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 17:33:36,740 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1567 ms
+2019-04-22 17:33:36,890 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 17:33:37,059 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 17:33:37,106 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 17:33:37,164 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 17:33:37,165 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 17:33:37,280 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 17:33:37,413 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 17:33:38,110 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 17:33:38,690 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 17:33:38,730 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 17:33:38,827 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 17:33:38,909 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:33:38,934 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 17:33:38,936 -- logStarted - Started AppApplication in 4.474 seconds (JVM running for 5.028)
+2019-04-22 17:33:47,091 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 17:33:47,091 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 17:33:47,100 -- initServletBean - Completed initialization in 8 ms
+2019-04-22 17:33:47,246 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-22 17:39:56,577 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 7004 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-22 17:39:56,580 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-22 17:39:57,402 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 17:39:57,489 -- registerRepositoriesIn - Finished Spring Data repository scanning in 75ms. Found 5 repository interfaces.
+2019-04-22 17:39:57,783 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9004dea7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:39:58,068 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-22 17:39:58,082 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:39:58,090 -- log - Starting service [Tomcat]
+2019-04-22 17:39:58,090 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 17:39:58,199 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-22 17:39:58,199 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1459 ms
+2019-04-22 17:39:58,365 -- getConnection - HikariPool-1 - Starting...
+2019-04-22 17:39:58,558 -- getConnection - HikariPool-1 - Start completed.
+2019-04-22 17:39:58,615 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-22 17:39:58,673 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-22 17:39:58,675 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-22 17:39:58,799 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-22 17:39:58,970 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-22 17:39:59,698 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-22 17:40:00,306 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 17:40:00,348 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-22 17:40:00,454 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-22 17:40:00,543 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-22 17:40:00,567 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-22 17:40:00,569 -- logStarted - Started AppApplication in 4.611 seconds (JVM running for 5.17)
+2019-04-22 17:40:03,801 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 17:40:03,801 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-22 17:40:03,810 -- initServletBean - Completed initialization in 8 ms
+2019-04-22 17:40:03,951 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory

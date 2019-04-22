@@ -61,4 +61,12 @@ public class User{
 
     @Column(length = 100)
     private String password;
+
+    public boolean isAdmin(){
+        return this.admin == SUPER;
+    }
+
+    public boolean isActive(){
+        return this.active == ACTIVE;
+    }
 }
