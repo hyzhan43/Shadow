@@ -9,6 +9,7 @@ import com.example.core.utils.RouteMetaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -35,8 +36,15 @@ public class AuthService {
                 routeMetaModel.getAuth(),
                 routeMetaModel.getModule());
 
-        if (!authOptional.isPresent()){
+        if (!authOptional.isPresent()) {
             throw new BaseException(ErrorCode.AUTH_ERROR);
         }
+    }
+
+    public List<Auth> getAuthsByGroupId(Integer groupId) {
+
+        List<Auth> auths = authRepository.findByGroupId(groupId);
+
+        return auths;
     }
 }

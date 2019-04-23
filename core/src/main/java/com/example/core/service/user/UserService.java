@@ -49,7 +49,6 @@ public class UserService extends BaseService {
         return userOptional.get();
     }
 
-    @Transactional
     public TokenCard login(LoginArgs args) {
         Optional<User> userOptional = userRepository.findByNickname(args.getNickname());
 

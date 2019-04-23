@@ -19,11 +19,15 @@ import javax.validation.Valid;
  * desc：    TODO
  */
 @RestController
-@RequestMapping("/user")
+@RequestMapping("cms/user")
 public class UserController {
 
+    private UserService userService;
+
     @Autowired
-    UserService userService;
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     @PostMapping("/register")
     @RouteMeta(auth = "注册", module = "用户", mount = false)

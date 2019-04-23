@@ -5,9 +5,9 @@ import com.example.core.annotation.Logger;
 import com.example.core.annotation.RouteMeta;
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
-import com.example.core.bean.args.AdminUserArgs;
-import com.example.core.bean.args.ChangePasswordArgs;
-import com.example.core.bean.args.UpdateUserArgs;
+import com.example.core.bean.args.*;
+import com.example.core.bean.card.GroupCard;
+import com.example.core.bean.card.PageCard;
 import com.example.core.bean.card.RouteMetaCard;
 import com.example.core.controller.BaseController;
 import com.example.core.service.admin.AdminUsersService;
@@ -25,11 +25,15 @@ import java.util.Collection;
  */
 
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("cms/admin")
 public class AdminController extends BaseController {
 
+    private AdminUsersService adminUsersService;
+
     @Autowired
-    AdminUsersService adminUsersService;
+    public AdminController(AdminUsersService adminUsersService) {
+        this.adminUsersService = adminUsersService;
+    }
 
     /**
      * @api {get} /admin/authority 获取所有可分配权限
@@ -63,7 +67,7 @@ public class AdminController extends BaseController {
 
     @PutMapping("/password/{id}")
     @RouteMeta(auth = "修改用户密码", module = "管理员", mount = false)
-    public BaseResponse ChangePassword(@PathVariable Integer id, @Valid @RequestBody ChangePasswordArgs args) {
+    public BaseResponse ChangePassword(@PathVariable Integer id, @Valid ChangePasswordArgs args) {
 
         adminUsersService.changePassword(id, args);
 
@@ -81,7 +85,7 @@ public class AdminController extends BaseController {
     @PutMapping("/{id}")
     @RouteMeta(auth = "管理员更新用户信息", module = "管理员", mount = false)
     @AdminRequired
-    public BaseResponse updateUser(@PathVariable Integer id, @Valid @RequestBody UpdateUserArgs args) {
+    public BaseResponse updateUser(@PathVariable Integer id, @Valid UpdateUserArgs args) {
 
         adminUsersService.updateUser(id, args);
 
@@ -95,6 +99,28 @@ public class AdminController extends BaseController {
 
         adminUsersService.transDisable(id);
         return Response.success("操作成功");
+    }
+
+    @AdminRequired
+    @PutMapping("/active/{id}")
+    @RouteMeta(auth = "激活用户", module = "管理员", mount = false)
+    public BaseResponse transActive(@PathVariable Integer id) {
+
+        adminUsersService.transActive(id);
+        return Response.success("操作成功");
+    }
+
+
+    @AdminRequired
+    @GetMapping("/groups")
+    @RouteMeta(auth = "查询所有权限组及其权限", module = "管理员", mount = false)
+    public BaseResponse getAdminGroups(BaseArgs args) {
+
+        checkPaginate(args);
+
+        PageCard<GroupCard> groupCards = adminUsersService.getAdminGroups(args);
+
+        return Response.success(groupCards);
     }
 
 }

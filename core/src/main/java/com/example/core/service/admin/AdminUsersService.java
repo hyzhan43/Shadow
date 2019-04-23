@@ -1,9 +1,11 @@
 package com.example.core.service.admin;
 
 import com.example.core.bean.args.AdminUserArgs;
+import com.example.core.bean.args.BaseArgs;
 import com.example.core.bean.args.ChangePasswordArgs;
 import com.example.core.bean.args.UpdateUserArgs;
 import com.example.core.bean.card.AdminUserCard;
+import com.example.core.bean.card.GroupCard;
 import com.example.core.bean.card.PageCard;
 import com.example.core.bean.db.Group;
 import com.example.core.bean.db.User;
@@ -29,7 +31,7 @@ import org.springframework.stereotype.Service;
 public class AdminUsersService extends PageService {
 
     @Autowired
-    UserRepository usersRepository;
+    UserRepository userRepository;
 
     @Autowired
     UserService userService;
@@ -46,9 +48,9 @@ public class AdminUsersService extends PageService {
 
         Page<User> userPage;
         if (groupId == null) {
-            userPage = usersRepository.findByAdmin(User.COMMON, pageable);
+            userPage = userRepository.findByAdmin(User.COMMON, pageable);
         } else {
-            userPage = usersRepository.findByAdminAndGroupId(User.COMMON, groupId, pageable);
+            userPage = userRepository.findByAdminAndGroupId(User.COMMON, groupId, pageable);
         }
 
         Page<AdminUserCard> page = userPage.map(AdminUserCard::new);
@@ -66,13 +68,13 @@ public class AdminUsersService extends PageService {
         User user = userService.getUser(uid);
 
         user.setPassword(Utils.encode(newPassword));
-        usersRepository.save(user);
+        userRepository.save(user);
     }
 
     public void deleteUser(Integer id) {
         User user = userService.getUser(id);
         // 硬删除
-        usersRepository.delete(user);
+        userRepository.delete(user);
     }
 
     public void updateUser(Integer id, UpdateUserArgs args) {
@@ -88,7 +90,7 @@ public class AdminUsersService extends PageService {
 
         user.setGroup(group);
         user.setEmail(email);
-        usersRepository.save(user);
+        userRepository.save(user);
     }
 
     public void transDisable(Integer id) {
@@ -99,6 +101,22 @@ public class AdminUsersService extends PageService {
         }
 
         user.setActive(User.FORBID);
-        usersRepository.save(user);
+        userRepository.save(user);
+    }
+
+    public void transActive(Integer id) {
+        User user = userService.getUser(id);
+        if (user.isActive()){
+            throw new BaseException(ErrorCode.USER_IS_ACTIVE);
+        }
+
+        user.setActive(User.ACTIVE);
+        userRepository.save(user);
+    }
+
+    public PageCard<GroupCard> getAdminGroups(BaseArgs args) {
+        Pageable pageable = PageRequest.of(args.getPage(), args.getPageSize());
+
+        return groupService.getAdminGroups(pageable);
     }
 }

@@ -17,6 +17,7 @@ public abstract class PageService extends BaseService {
         PageCard<T> pageCard = new PageCard<>();
 
         pageCard.setCurPage(source.getPageable().getPageNumber());
+        pageCard.setSize(source.getPageable().getPageSize());
         pageCard.setPageCount(source.getTotalPages());
         pageCard.setTotal(source.getTotalElements());
         pageCard.setCollection(source.getContent());

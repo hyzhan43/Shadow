@@ -21,6 +21,8 @@ public enum ErrorCode {
     AUTH_EMPTY(1007, "找不到对应权限"),
     GROUP_ERROR(1008, "找不到所属权限组"),
     FORBIDDEN(1009, "当前用户已处于禁止状态"),
+    USER_IS_ACTIVE(1010, "当前用户已处于激活状态"),
+    GROUPS_EMPTY(1011, "不存在任何权限组"),
 
 
     USER_NOT_EXIST(2000, "用户不存在"),
