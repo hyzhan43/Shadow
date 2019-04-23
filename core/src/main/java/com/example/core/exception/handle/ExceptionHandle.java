@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
@@ -65,6 +66,13 @@ public class ExceptionHandle {
     @ExceptionHandler(HttpMessageNotReadableException.class)
     @ResponseBody
     public BaseResponse methodHandle(HttpMessageNotReadableException e) {
+        return Response.error(ErrorCode.PARAMETER);
+    }
+
+    // 没有传 requestBody 会抛出此异常
+    @ExceptionHandler(BindException.class)
+    @ResponseBody
+    public BaseResponse methodHandle(BindException e) {
         return Response.error(ErrorCode.PARAMETER);
     }
 

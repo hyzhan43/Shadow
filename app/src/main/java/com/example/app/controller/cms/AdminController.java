@@ -6,11 +6,12 @@ import com.example.core.annotation.RouteMeta;
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
 import com.example.core.bean.args.*;
+import com.example.core.bean.card.AdminUserCard;
 import com.example.core.bean.card.GroupCard;
 import com.example.core.bean.card.PageCard;
 import com.example.core.bean.card.RouteMetaCard;
 import com.example.core.controller.BaseController;
-import com.example.core.service.admin.AdminUsersService;
+import com.example.core.resource.AdminResource;
 import com.example.core.utils.RouteMetaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -28,11 +29,11 @@ import java.util.Collection;
 @RequestMapping("cms/admin")
 public class AdminController extends BaseController {
 
-    private AdminUsersService adminUsersService;
+    private AdminResource adminResource;
 
     @Autowired
-    public AdminController(AdminUsersService adminUsersService) {
-        this.adminUsersService = adminUsersService;
+    public AdminController(AdminResource adminResource) {
+        this.adminResource = adminResource;
     }
 
     /**
@@ -44,6 +45,7 @@ public class AdminController extends BaseController {
      */
     @AdminRequired
     @GetMapping("/authority")
+    @RouteMeta(auth = "查询所有可分配的权限", module = "管理员", mount = false)
     public BaseResponse authority() {
         Collection<RouteMetaCard> routeMetaCards = RouteMetaUtil.getRouteMetaCardMap().values();
         return Response.success(routeMetaCards);
@@ -56,38 +58,45 @@ public class AdminController extends BaseController {
      * @apiSuccessExample {json} 返回样例：
      * {"code":0,"msg":"获取成功","data":{"curPage":0,"pageCount":1,"size":10,"total":2,"collection":[{"id":1,"nickname":"asd","active":1,"email":"asd","groupId":1,"groupName":"张三","admin":1},{"id":2,"nickname":"ww","active":1,"email":"ww","groupId":2,"groupName":"aa","admin":1}]}}
      */
+    @AdminRequired
     @GetMapping("/users")
     @RouteMeta(auth = "查询所有用户", module = "管理员", mount = false)
-    public BaseResponse getAdminUsers(@Valid AdminUserArgs args) {
+    public BaseResponse getAdminUsers(AdminUserArgs args) {
         // 校验页码
         checkPaginate(args);
 
-        return Response.success(adminUsersService.getAdminUsers(args));
+        PageCard<AdminUserCard> pageCard = adminResource.getAdminUsers(args);
+
+        return Response.success(pageCard);
     }
 
+    @AdminRequired
     @PutMapping("/password/{id}")
     @RouteMeta(auth = "修改用户密码", module = "管理员", mount = false)
-    public BaseResponse ChangePassword(@PathVariable Integer id, @Valid ChangePasswordArgs args) {
+    public BaseResponse ChangePassword(@PathVariable Integer id,
+                                       @Valid ChangePasswordArgs args) {
 
-        adminUsersService.changePassword(id, args);
+        adminResource.changePassword(id, args);
 
         return Response.success("密码修改成功");
     }
 
+    @AdminRequired
     @DeleteMapping("/{id}")
     @RouteMeta(auth = "删除用户", module = "管理员", mount = false)
+    @Logger(template = "管理员删除了一个用户")
     public BaseResponse deleteUser(@PathVariable Integer id) {
-        adminUsersService.deleteUser(id);
+        adminResource.deleteUser(id);
         return Response.success("操作成功");
     }
 
 
+    @AdminRequired
     @PutMapping("/{id}")
     @RouteMeta(auth = "管理员更新用户信息", module = "管理员", mount = false)
-    @AdminRequired
     public BaseResponse updateUser(@PathVariable Integer id, @Valid UpdateUserArgs args) {
 
-        adminUsersService.updateUser(id, args);
+        adminResource.updateUser(id, args);
 
         return Response.success("操作成功");
     }
@@ -97,7 +106,7 @@ public class AdminController extends BaseController {
     @RouteMeta(auth = "禁用用户", module = "管理员", mount = false)
     public BaseResponse transDisable(@PathVariable Integer id) {
 
-        adminUsersService.transDisable(id);
+        adminResource.transDisable(id);
         return Response.success("操作成功");
     }
 
@@ -106,7 +115,7 @@ public class AdminController extends BaseController {
     @RouteMeta(auth = "激活用户", module = "管理员", mount = false)
     public BaseResponse transActive(@PathVariable Integer id) {
 
-        adminUsersService.transActive(id);
+        adminResource.transActive(id);
         return Response.success("操作成功");
     }
 
@@ -118,7 +127,7 @@ public class AdminController extends BaseController {
 
         checkPaginate(args);
 
-        PageCard<GroupCard> groupCards = adminUsersService.getAdminGroups(args);
+        PageCard<GroupCard> groupCards = adminResource.getAdminGroups(args);
 
         return Response.success(groupCards);
     }

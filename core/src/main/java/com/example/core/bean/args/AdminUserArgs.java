@@ -15,7 +15,5 @@ import javax.validation.constraints.NotNull;
 @EqualsAndHashCode(callSuper = true)
 public class AdminUserArgs extends BaseArgs{
 
-    @NotNull(message = "分组id不能为空")
-    @Min(value = 0, message = "分组id必须大于0")
     public Integer groupId;
 }

@@ -1,16 +1,12 @@
-package com.example.core.service.log;
+package com.example.core.service;
 
 import com.example.core.bean.card.RouteMetaCard;
 import com.example.core.bean.db.Log;
 import com.example.core.bean.db.User;
 import com.example.core.repository.LogRepository;
-import com.example.core.service.user.UserService;
-import com.example.core.utils.L;
 import com.example.core.utils.RouteMetaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * author：  HyZhan
@@ -23,13 +19,17 @@ public class LogService {
     @Autowired
     UserService userService;
 
+    private LogRepository logRepository;
+
     @Autowired
-    LogRepository logRepository;
+    public LogService(LogRepository logRepository) {
+        this.logRepository = logRepository;
+    }
 
     public void saveLog(String uid, String template, Integer status, String method,
                         String url, String methodName) {
 
-        User user = userService.getUser(Integer.parseInt(uid));
+        User user = userService.getUserById(Integer.parseInt(uid));
 
         Log log = new Log();
         log.setUserId(user.getId());

@@ -4,17 +4,14 @@ import com.example.core.annotation.AdminRequired;
 import com.example.core.annotation.GroupRequired;
 import com.example.core.annotation.Logger;
 import com.example.core.annotation.LoginRequired;
-import com.example.core.bean.card.RouteMetaCard;
-import com.example.core.bean.db.Log;
 import com.example.core.bean.db.User;
 import com.example.core.exception.BaseException;
 import com.example.core.exception.code.ErrorCode;
-import com.example.core.service.auth.AuthService;
-import com.example.core.service.log.LogService;
-import com.example.core.service.user.UserService;
-import com.example.core.utils.JWTUtils;
+import com.example.core.service.AuthService;
+import com.example.core.service.LogService;
+import com.example.core.service.UserService;
+import com.example.core.utils.TokenUtils;
 import com.example.core.utils.L;
-import com.example.core.utils.RouteMetaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -65,9 +62,9 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         if (method.isAnnotationPresent(AdminRequired.class)) {
             uid = verifyToken(request);
 
-            User user = userService.getUser(Integer.parseInt(uid));
+            User user = userService.getUserById(Integer.parseInt(uid));
 
-            if (!user.isAdmin()) {
+            if (!user.isSuper()) {
                 throw new BaseException(ErrorCode.ADMIN_ERROR);
             }
 
@@ -78,13 +75,13 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         if (method.isAnnotationPresent(GroupRequired.class)) {
             String uid = verifyToken(request);
 
-            User user = userService.getUser(Integer.parseInt(uid));
+            User user = userService.getUserById(Integer.parseInt(uid));
 
-            if (user.isActive()) {
+            if (user.isForbid()) {
                 throw new BaseException(ErrorCode.ACTIVE_ERROR);
             }
 
-            if (!user.isAdmin()) {
+            if (!user.isSuper()) {
                 Integer groupId = user.getGroupId();
                 if (groupId == null) {
                     throw new BaseException(ErrorCode.GROUP_EMPTY);
@@ -143,7 +140,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
     private String prepareCachedValue(String token) {
 
-        String uid = JWTUtils.parseJwt(token);
+        String uid = TokenUtils.parseToken(token);
 
         if (uid == null || uid.isEmpty()) {
             throw new BaseException(ErrorCode.TOKEN_ERROR);

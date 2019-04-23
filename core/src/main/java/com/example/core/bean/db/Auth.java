@@ -2,10 +2,7 @@ package com.example.core.bean.db;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * author：  HyZhan
@@ -18,6 +15,7 @@ import javax.persistence.Table;
 public class Auth {
 
     @Id
+    @GeneratedValue
     private Integer id;
 
     /**

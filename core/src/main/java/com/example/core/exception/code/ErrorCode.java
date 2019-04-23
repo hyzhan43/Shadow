@@ -20,16 +20,17 @@ public enum ErrorCode {
     AUTH_ERROR(1006, "权限不够，请联系超级管理员获得权限"),
     AUTH_EMPTY(1007, "找不到对应权限"),
     GROUP_ERROR(1008, "找不到所属权限组"),
-    FORBIDDEN(1009, "当前用户已处于禁止状态"),
+    USER_IS_FORBID(1009, "当前用户已处于禁止状态"),
     USER_IS_ACTIVE(1010, "当前用户已处于激活状态"),
     GROUPS_EMPTY(1011, "不存在任何权限组"),
 
 
     USER_NOT_EXIST(2000, "用户不存在"),
-    ACCOUNT_OR_PASSWORD_ERROR(2001, "账号或密码错误"),
-    NICKNAME_EXIST(2002, "用户名重复, 请重新输入"),
-    EMAIL_EXIST(2003, "邮箱重复, 请重新输入"),
-    CONFIRM_PASSWORD_ERROR(2004, "两次密码输入不正确, 请重新输入");
+    USER_EXIST(2001, "用户已存在"),
+    ACCOUNT_OR_PASSWORD_ERROR(2002, "账号或密码错误"),
+    NICKNAME_EXIST(2003, "用户名重复, 请重新输入"),
+    EMAIL_EXIST(2004, "邮箱重复, 请重新输入"),
+    CONFIRM_PASSWORD_ERROR(2005, "两次密码输入不正确, 请重新输入");
 
     private Integer code;
     private String msg;

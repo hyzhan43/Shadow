@@ -10,7 +10,7 @@ import java.util.List;
  * create：  2019/4/14
  * desc：    TODO
  */
-public abstract class PageService extends BaseService {
+public abstract class PageResource {
 
     protected <T> PageCard<T> convertPageCard(Page<T> source) {
         // 分页查询 默认从 0页开始 查询10条

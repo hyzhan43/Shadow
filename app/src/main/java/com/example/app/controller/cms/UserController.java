@@ -6,7 +6,7 @@ import com.example.core.bean.Response;
 import com.example.core.bean.args.LoginArgs;
 import com.example.core.bean.args.RegisterArgs;
 import com.example.core.bean.card.TokenCard;
-import com.example.core.service.user.UserService;
+import com.example.core.resource.UserResource;
 import com.example.core.utils.L;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -22,18 +22,18 @@ import javax.validation.Valid;
 @RequestMapping("cms/user")
 public class UserController {
 
-    private UserService userService;
+    private UserResource userResource;
 
     @Autowired
-    public UserController(UserService userService) {
-        this.userService = userService;
+    public UserController(UserResource userResource) {
+        this.userResource = userResource;
     }
 
     @PostMapping("/register")
     @RouteMeta(auth = "注册", module = "用户", mount = false)
     public BaseResponse register(@Valid @RequestBody RegisterArgs args) {
 
-        userService.register(args);
+        userResource.register(args);
         return Response.success("注册成功");
     }
 
@@ -41,27 +41,7 @@ public class UserController {
     @RouteMeta(auth = "登陆", module = "用户", mount = false)
     public BaseResponse login(@Valid @RequestBody LoginArgs args) {
 
-        TokenCard tokenCard = userService.login(args);
+        TokenCard tokenCard = userResource.login(args);
         return Response.success(tokenCard);
-    }
-
-    @Logger(template = "hello")
-    @GetMapping("/test")
-    @LoginRequired
-    public String test(){
-        L.error("111");
-        return "test";
-    }
-
-    @AdminRequired
-    @GetMapping("/test2")
-    public String test2(){
-        return "test2";
-    }
-
-    @GroupRequired
-    @GetMapping("/test3")
-    public String test3(){
-        return "test3";
     }
 }

@@ -1,7 +1,11 @@
 package com.example.core.bean.card;
 
 import com.example.core.bean.db.User;
+import com.example.core.utils.L;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.beans.BeanUtils;
 
 /**

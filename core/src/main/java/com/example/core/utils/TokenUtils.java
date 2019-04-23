@@ -9,9 +9,9 @@ import io.jsonwebtoken.SignatureAlgorithm;
  * create：  2019/4/17
  * desc：    TODO
  */
-public class JWTUtils {
+public class TokenUtils {
 
-    public static String parseJwt(String token) {
+    public static String parseToken(String token) {
 
         return Jwts.parser()
                 .setSigningKey(Secure.SECRET)

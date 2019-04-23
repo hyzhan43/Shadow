@@ -1,4 +1,4 @@
-package com.example.core.service.auth;
+package com.example.core.service;
 
 import com.example.core.bean.card.RouteMetaCard;
 import com.example.core.bean.db.Auth;
@@ -20,8 +20,12 @@ import java.util.Optional;
 @Service
 public class AuthService {
 
+    private AuthRepository authRepository;
+
     @Autowired
-    AuthRepository authRepository;
+    public AuthService(AuthRepository authRepository) {
+        this.authRepository = authRepository;
+    }
 
     public void isUserAllowed(Integer groupId, String methodName) {
 
@@ -41,10 +45,7 @@ public class AuthService {
         }
     }
 
-    public List<Auth> getAuthsByGroupId(Integer groupId) {
-
-        List<Auth> auths = authRepository.findByGroupId(groupId);
-
-        return auths;
+    public List<Auth> getAuthByGroupId(Integer groupId) {
+        return authRepository.findByGroupId(groupId);
     }
 }
