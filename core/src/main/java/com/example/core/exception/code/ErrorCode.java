@@ -23,6 +23,11 @@ public enum ErrorCode {
     USER_IS_FORBID(1009, "当前用户已处于禁止状态"),
     USER_IS_ACTIVE(1010, "当前用户已处于激活状态"),
     GROUPS_EMPTY(1011, "不存在任何权限组"),
+    GROUP_IS_EXIST(1012, "分组已存在，不可创建同名分组"),
+    GROUP_EXIST_USER(1013, "分组下存在用户，不可删除"),
+    AUTH_IS_EXIST(1014, "已有权限，不可重复添加"),
+    ROUTE_META_NOT_EXIST(1015, "找不到对应的权限"),
+    REFRESH_ERROR(1016, "刷新token 失败"),
 
 
     USER_NOT_EXIST(2000, "用户不存在"),
@@ -30,8 +35,11 @@ public enum ErrorCode {
     ACCOUNT_OR_PASSWORD_ERROR(2002, "账号或密码错误"),
     NICKNAME_EXIST(2003, "用户名重复, 请重新输入"),
     EMAIL_EXIST(2004, "邮箱重复, 请重新输入"),
-    CONFIRM_PASSWORD_ERROR(2005, "两次密码输入不正确, 请重新输入");
+    CONFIRM_PASSWORD_ERROR(2005, "两次密码输入不正确, 请重新输入"),
 
+    SEARCH_KEYWORD_EMPTY(3000, "搜索关键字不可为空"),
+
+    ;
     private Integer code;
     private String msg;
 

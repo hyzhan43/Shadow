@@ -4,13 +4,15 @@ import com.example.core.bean.db.Group;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 
+import java.util.List;
+
 /**
  * author：  HyZhan
- * create：  2019/4/23
+ * create：  2019/4/22
  * desc：    TODO
  */
 @Data
-public class GroupCard {
+public class GroupInfoCard {
 
     private Integer id;
     // 组名
@@ -18,7 +20,10 @@ public class GroupCard {
     // 组信息
     private String info;
 
-    public GroupCard(Group group) {
+    private List<ModuleCard> modules;
+
+    public GroupInfoCard(Group group, List<ModuleCard> moduleCards) {
         BeanUtils.copyProperties(group, this);
+        this.modules = moduleCards;
     }
 }

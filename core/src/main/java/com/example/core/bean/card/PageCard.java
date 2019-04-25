@@ -23,4 +23,6 @@ public class PageCard<T> {
     private long total;
     // 数据
     private List<T> collection;
+
+
 }

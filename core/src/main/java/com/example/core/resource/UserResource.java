@@ -1,13 +1,14 @@
 package com.example.core.resource;
 
-import com.example.core.bean.args.LoginArgs;
-import com.example.core.bean.args.RegisterArgs;
-import com.example.core.bean.card.TokenCard;
+import com.example.core.bean.args.*;
+import com.example.core.bean.card.*;
+import com.example.core.bean.db.Auth;
 import com.example.core.bean.db.Group;
 import com.example.core.bean.db.User;
 import com.example.core.config.Setting;
 import com.example.core.exception.BaseException;
 import com.example.core.exception.code.ErrorCode;
+import com.example.core.service.AuthService;
 import com.example.core.service.GroupService;
 import com.example.core.service.LogService;
 import com.example.core.service.UserService;
@@ -15,6 +16,9 @@ import com.example.core.utils.TokenUtils;
 import com.example.core.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * author：  HyZhan
@@ -30,11 +34,15 @@ public class UserResource {
 
     private GroupService groupService;
 
+    private AuthService authService;
+
     @Autowired
-    public UserResource(UserService userService, LogService logService, GroupService groupService) {
+    public UserResource(UserService userService, LogService logService,
+                        GroupService groupService, AuthService authService) {
         this.userService = userService;
         this.logService = logService;
         this.groupService = groupService;
+        this.authService = authService;
     }
 
     public TokenCard login(LoginArgs args) {
@@ -72,5 +80,57 @@ public class UserResource {
         Group group = groupService.getGroupById(args.getGroupId());
 
         userService.registerUser(args, group);
+    }
+
+    public void updateInfo(UpdateInfoArgs args) {
+        User user = userService.getCurrentUser();
+
+        String email = args.getEmail();
+        if (!user.getEmail().equals(email)) {
+            userService.findUserByEmail(email);
+
+            userService.updateUserEmail(user, email);
+        }
+    }
+
+    public void changePassword(ChangePasswordArgs args) {
+
+        if (!args.getNewPassword().equals(args.getConfirmPassword())) {
+            throw new BaseException(ErrorCode.CONFIRM_PASSWORD_ERROR);
+        }
+
+        User user = userService.getCurrentUser();
+
+        userService.updateUserPassword(user, args.getOldPassword());
+    }
+
+    public UserCard getUserInfo() {
+        User user = userService.getCurrentUser();
+        return new UserCard(user);
+    }
+
+    public TokenCard refreshToken(RefreshTokenArgs args) {
+
+        // 验证 token
+        String uid = TokenUtils.parseToken(args.getRefreshToken());
+
+        if (uid == null || uid.isEmpty()) {
+            throw new BaseException(ErrorCode.REFRESH_ERROR);
+        }
+
+        String token = TokenUtils.createToken(uid, Setting.TOKEN_DELAYED_TIME);
+        return new TokenCard(token, args.getRefreshToken());
+    }
+
+    public UserApisCard getAllowedApis() {
+
+        User user = userService.getCurrentUser();
+        List<Auth> authList = authService.getAuthByGroupId(user.getGroupId());
+
+        List<AuthCard> authCards = authList.stream()
+                .map(AuthCard::new)
+                .collect(Collectors.toList());
+
+        return new UserApisCard(user, authCards);
     }
 }

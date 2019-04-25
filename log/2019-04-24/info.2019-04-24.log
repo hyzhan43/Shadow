@@ -1,0 +1,1579 @@
+2019-04-24 09:13:59,328 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 4980 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 09:13:59,331 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 09:14:00,298 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 09:14:00,392 -- registerRepositoriesIn - Finished Spring Data repository scanning in 83ms. Found 5 repository interfaces.
+2019-04-24 09:14:00,728 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd34cf8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 09:14:01,118 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 09:14:01,135 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 09:14:01,143 -- log - Starting service [Tomcat]
+2019-04-24 09:14:01,144 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 09:14:01,267 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 09:14:01,267 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1889 ms
+2019-04-24 09:14:01,527 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 09:14:01,746 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 09:14:01,802 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 09:14:01,879 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 09:14:01,881 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 09:14:02,054 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 09:14:02,316 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 09:14:03,333 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 09:14:03,945 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 09:14:04,004 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 09:14:04,107 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 09:14:04,198 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 09:14:04,219 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 09:14:04,221 -- logStarted - Started AppApplication in 5.822 seconds (JVM running for 7.072)
+2019-04-24 09:14:09,185 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 09:14:09,185 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 09:14:09,192 -- initServletBean - Completed initialization in 7 ms
+2019-04-24 09:14:09,335 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:10:27,241 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8164 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:10:27,244 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:10:28,128 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:10:28,215 -- registerRepositoriesIn - Finished Spring Data repository scanning in 81ms. Found 5 repository interfaces.
+2019-04-24 10:10:28,505 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8f160e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:10:28,786 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:10:28,799 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:10:28,807 -- log - Starting service [Tomcat]
+2019-04-24 10:10:28,807 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:10:28,911 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:10:28,911 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1618 ms
+2019-04-24 10:10:29,056 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:10:29,244 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:10:29,290 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:10:29,343 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:10:29,345 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:10:29,462 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:10:29,591 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:10:30,308 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:10:30,859 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:10:30,900 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:10:30,998 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:10:31,084 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:10:31,106 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:10:31,108 -- logStarted - Started AppApplication in 4.507 seconds (JVM running for 5.18)
+2019-04-24 10:11:06,687 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:11:06,687 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:11:06,694 -- initServletBean - Completed initialization in 7 ms
+2019-04-24 10:11:07,123 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:11:34,853 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 3124 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:11:34,856 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:11:35,646 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:11:35,729 -- registerRepositoriesIn - Finished Spring Data repository scanning in 75ms. Found 5 repository interfaces.
+2019-04-24 10:11:36,031 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b15145f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:11:36,314 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:11:36,326 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:11:36,334 -- log - Starting service [Tomcat]
+2019-04-24 10:11:36,334 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:11:36,437 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:11:36,437 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1541 ms
+2019-04-24 10:11:36,589 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:11:36,776 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:11:36,826 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:11:36,887 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:11:36,889 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:11:37,006 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:11:37,150 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:11:37,849 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:11:38,468 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:11:38,506 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:11:38,603 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:11:38,690 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:11:38,713 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:11:38,715 -- logStarted - Started AppApplication in 4.514 seconds (JVM running for 5.07)
+2019-04-24 10:11:44,629 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:11:44,630 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:11:44,640 -- initServletBean - Completed initialization in 10 ms
+2019-04-24 10:12:22,714 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:14:00,063 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8752 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:14:00,066 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:14:00,827 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:14:00,940 -- registerRepositoriesIn - Finished Spring Data repository scanning in 104ms. Found 5 repository interfaces.
+2019-04-24 10:14:01,347 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$351191f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:14:01,740 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:14:01,762 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:14:01,774 -- log - Starting service [Tomcat]
+2019-04-24 10:14:01,775 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:14:01,893 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:14:01,894 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1743 ms
+2019-04-24 10:14:02,128 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:14:02,310 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:14:02,367 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:14:02,439 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:14:02,440 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:14:02,583 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:14:02,765 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:14:03,620 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:14:04,323 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:14:04,370 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:14:04,492 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:14:04,596 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:14:04,625 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:14:04,627 -- logStarted - Started AppApplication in 5.152 seconds (JVM running for 7.143)
+2019-04-24 10:14:56,822 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:14:56,822 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:14:56,832 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 10:15:03,995 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:16:21,882 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s467ms887µs424ns).
+2019-04-24 10:18:36,762 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 6612 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:18:36,827 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:18:37,730 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:18:37,836 -- registerRepositoriesIn - Finished Spring Data repository scanning in 98ms. Found 5 repository interfaces.
+2019-04-24 10:18:38,212 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1885644a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:18:38,570 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:18:38,586 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:18:38,595 -- log - Starting service [Tomcat]
+2019-04-24 10:18:38,595 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:18:38,720 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:18:38,720 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1833 ms
+2019-04-24 10:18:38,926 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:18:39,104 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:18:39,162 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:18:39,240 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:18:39,242 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:18:39,405 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:18:39,577 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:18:40,484 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:18:41,232 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:18:41,281 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:18:41,394 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:18:41,493 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:18:41,520 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:18:41,523 -- logStarted - Started AppApplication in 5.605 seconds (JVM running for 6.415)
+2019-04-24 10:18:49,461 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:18:49,461 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:18:49,470 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 10:18:50,070 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:20:04,188 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s125ms981µs794ns).
+2019-04-24 10:20:09,665 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8520 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:20:09,669 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:20:10,514 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:20:10,615 -- registerRepositoriesIn - Finished Spring Data repository scanning in 93ms. Found 5 repository interfaces.
+2019-04-24 10:20:11,001 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$55f36e54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:20:11,352 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:20:11,371 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:20:11,380 -- log - Starting service [Tomcat]
+2019-04-24 10:20:11,380 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:20:11,500 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:20:11,501 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1716 ms
+2019-04-24 10:20:11,705 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:20:11,877 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:20:11,931 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:20:12,009 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:20:12,011 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:20:12,164 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:20:12,341 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:20:13,216 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:20:13,917 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:20:13,962 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:20:14,075 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:20:14,178 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:20:14,206 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:20:14,208 -- logStarted - Started AppApplication in 5.325 seconds (JVM running for 6.106)
+2019-04-24 10:20:40,618 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:20:40,618 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:20:40,627 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 10:20:41,219 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:22:52,814 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8172 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:22:52,848 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:22:53,660 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:22:53,747 -- registerRepositoriesIn - Finished Spring Data repository scanning in 81ms. Found 5 repository interfaces.
+2019-04-24 10:22:54,046 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba74a680] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:22:54,335 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:22:54,348 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:22:54,355 -- log - Starting service [Tomcat]
+2019-04-24 10:22:54,356 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:22:54,457 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:22:54,458 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1549 ms
+2019-04-24 10:22:54,609 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:22:54,793 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:22:54,844 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:22:54,900 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:22:54,902 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:22:55,019 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:22:55,163 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:22:55,850 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:22:56,443 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:22:56,482 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:22:56,579 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:22:56,663 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:22:56,690 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:22:56,692 -- logStarted - Started AppApplication in 4.474 seconds (JVM running for 5.066)
+2019-04-24 10:23:01,986 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 3336 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:23:02,060 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:23:02,941 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:23:03,045 -- registerRepositoriesIn - Finished Spring Data repository scanning in 95ms. Found 5 repository interfaces.
+2019-04-24 10:23:03,449 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb17ca84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:23:03,806 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:23:03,822 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:23:03,831 -- log - Starting service [Tomcat]
+2019-04-24 10:23:03,831 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:23:03,959 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:23:03,959 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1844 ms
+2019-04-24 10:23:04,159 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:23:04,338 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:23:04,396 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:23:04,480 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:23:04,482 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:23:04,637 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:23:04,816 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:23:05,711 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:23:06,426 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:23:06,474 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:23:06,593 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:23:06,694 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:23:06,722 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:23:06,725 -- logStarted - Started AppApplication in 5.68 seconds (JVM running for 6.483)
+2019-04-24 10:23:09,283 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:23:09,283 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:23:09,292 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 10:23:09,876 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:24:12,858 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 6116 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:24:12,863 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:24:13,611 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:24:13,696 -- registerRepositoriesIn - Finished Spring Data repository scanning in 79ms. Found 5 repository interfaces.
+2019-04-24 10:24:14,015 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b787240] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:24:14,298 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:24:14,311 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:24:14,319 -- log - Starting service [Tomcat]
+2019-04-24 10:24:14,320 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:24:14,421 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:24:14,422 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1504 ms
+2019-04-24 10:24:14,585 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:24:14,769 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:24:14,818 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:24:14,876 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:24:14,878 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:24:14,996 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:24:15,136 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:24:15,852 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:24:16,435 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:24:16,473 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:24:16,566 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:24:16,651 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:24:16,678 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:24:16,681 -- logStarted - Started AppApplication in 4.465 seconds (JVM running for 5.036)
+2019-04-24 10:24:31,702 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:24:31,702 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:24:31,711 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 10:24:32,196 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:25:12,439 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 9432 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:25:12,444 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:25:13,397 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:25:13,504 -- registerRepositoriesIn - Finished Spring Data repository scanning in 98ms. Found 5 repository interfaces.
+2019-04-24 10:25:13,883 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f73da3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:25:14,222 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:25:14,238 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:25:14,248 -- log - Starting service [Tomcat]
+2019-04-24 10:25:14,249 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:25:14,370 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:25:14,370 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1822 ms
+2019-04-24 10:25:14,572 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:25:14,746 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:25:14,800 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:25:14,882 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:25:14,884 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:25:15,043 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:25:15,205 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:25:16,060 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:25:16,764 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:25:16,816 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:25:16,931 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:25:17,032 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:25:17,059 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:25:17,061 -- logStarted - Started AppApplication in 5.413 seconds (JVM running for 6.299)
+2019-04-24 10:25:20,312 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:25:20,312 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:25:20,322 -- initServletBean - Completed initialization in 10 ms
+2019-04-24 10:25:20,928 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:26:25,444 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 3248 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:26:25,448 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:26:26,384 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:26:26,487 -- registerRepositoriesIn - Finished Spring Data repository scanning in 94ms. Found 5 repository interfaces.
+2019-04-24 10:26:26,879 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13aa78a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:26:27,238 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:26:27,254 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:26:27,263 -- log - Starting service [Tomcat]
+2019-04-24 10:26:27,263 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:26:27,387 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:26:27,387 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1838 ms
+2019-04-24 10:26:27,589 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:26:27,767 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:26:27,823 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:26:27,905 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:26:27,906 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:26:28,077 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:26:28,264 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:26:29,156 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:26:29,830 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:26:29,878 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:26:29,994 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:26:30,094 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:26:30,127 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:26:30,129 -- logStarted - Started AppApplication in 5.497 seconds (JVM running for 6.235)
+2019-04-24 10:26:37,459 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:26:37,459 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:26:37,469 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 10:26:38,048 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:27:13,344 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 7672 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:27:13,348 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:27:14,225 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:27:14,325 -- registerRepositoriesIn - Finished Spring Data repository scanning in 91ms. Found 5 repository interfaces.
+2019-04-24 10:27:14,680 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e13d7a77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:27:15,031 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:27:15,046 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:27:15,054 -- log - Starting service [Tomcat]
+2019-04-24 10:27:15,055 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:27:15,176 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:27:15,176 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1717 ms
+2019-04-24 10:27:15,366 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:27:15,573 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:27:15,629 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:27:15,706 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:27:15,707 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:27:15,882 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:27:16,052 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:27:16,955 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:27:17,643 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:27:17,694 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:27:17,813 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:27:17,945 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:27:17,973 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:27:17,976 -- logStarted - Started AppApplication in 5.442 seconds (JVM running for 6.246)
+2019-04-24 10:27:28,575 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:27:28,575 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:27:28,584 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 10:27:29,162 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 10:28:06,085 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s411ms284µs7ns).
+2019-04-24 10:30:50,026 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 3744 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 10:30:50,056 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 10:30:50,947 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 10:30:51,030 -- registerRepositoriesIn - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-04-24 10:30:51,337 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d10ead74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 10:30:51,621 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 10:30:51,633 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:30:51,642 -- log - Starting service [Tomcat]
+2019-04-24 10:30:51,642 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 10:30:51,745 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 10:30:51,745 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1597 ms
+2019-04-24 10:30:51,895 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 10:30:52,074 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 10:30:52,130 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 10:30:52,190 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 10:30:52,192 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 10:30:52,304 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 10:30:52,439 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 10:30:53,145 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 10:30:53,716 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 10:30:53,754 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 10:30:53,851 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 10:30:53,934 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 10:30:53,960 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 10:30:53,962 -- logStarted - Started AppApplication in 4.569 seconds (JVM running for 5.133)
+2019-04-24 10:30:57,449 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 10:30:57,450 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 10:30:57,458 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 10:30:57,951 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 11:11:45,318 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10160 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 11:11:45,321 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 11:11:46,309 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 11:11:46,394 -- registerRepositoriesIn - Finished Spring Data repository scanning in 77ms. Found 5 repository interfaces.
+2019-04-24 11:11:46,683 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba74a680] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 11:11:46,964 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 11:11:46,978 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 11:11:46,985 -- log - Starting service [Tomcat]
+2019-04-24 11:11:46,985 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 11:11:47,091 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 11:11:47,091 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1717 ms
+2019-04-24 11:11:47,247 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 11:11:47,436 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 11:11:47,486 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 11:11:47,540 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 11:11:47,542 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 11:11:47,670 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 11:11:47,832 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 11:11:48,579 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 11:11:49,192 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 11:11:49,233 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 11:11:49,336 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 11:11:49,425 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 11:11:49,448 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 11:11:49,451 -- logStarted - Started AppApplication in 4.692 seconds (JVM running for 5.253)
+2019-04-24 11:12:53,119 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 11:12:53,119 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 11:12:53,127 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 11:12:57,240 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 11:17:59,147 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10316 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 11:17:59,150 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 11:17:59,913 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 11:18:00,001 -- registerRepositoriesIn - Finished Spring Data repository scanning in 82ms. Found 5 repository interfaces.
+2019-04-24 11:18:00,306 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b15145f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 11:18:00,594 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 11:18:00,607 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 11:18:00,615 -- log - Starting service [Tomcat]
+2019-04-24 11:18:00,616 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 11:18:00,718 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 11:18:00,718 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1475 ms
+2019-04-24 11:18:00,877 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 11:18:01,061 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 11:18:01,115 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 11:18:01,173 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 11:18:01,175 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 11:18:01,294 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 11:18:01,434 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 11:18:02,122 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 11:18:02,699 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 11:18:02,737 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 11:18:02,836 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 11:18:02,920 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 11:18:02,944 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 11:18:02,948 -- logStarted - Started AppApplication in 4.433 seconds (JVM running for 5.016)
+2019-04-24 11:18:21,907 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 11:18:21,908 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 11:18:21,916 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 11:19:47,573 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 12:28:06,024 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 4180 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 12:28:06,044 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 12:28:06,966 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 12:28:07,075 -- registerRepositoriesIn - Finished Spring Data repository scanning in 101ms. Found 5 repository interfaces.
+2019-04-24 12:28:07,381 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4049ab86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 12:28:07,667 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 12:28:07,680 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:28:07,689 -- log - Starting service [Tomcat]
+2019-04-24 12:28:07,689 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 12:28:07,793 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 12:28:07,794 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1670 ms
+2019-04-24 12:28:07,948 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 12:28:08,135 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 12:28:08,194 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 12:28:08,267 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 12:28:08,269 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 12:28:08,401 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 12:28:08,527 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 12:28:09,260 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 12:28:09,851 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 12:28:09,893 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 12:28:09,997 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 12:28:10,091 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:28:10,113 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 12:28:10,115 -- logStarted - Started AppApplication in 4.691 seconds (JVM running for 5.332)
+2019-04-24 12:28:44,035 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 12:28:44,036 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 12:28:44,043 -- initServletBean - Completed initialization in 7 ms
+2019-04-24 12:29:27,265 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 1804 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 12:29:27,268 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 12:29:28,090 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 12:29:28,173 -- registerRepositoriesIn - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-04-24 12:29:28,456 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c8b0186] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 12:29:28,738 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 12:29:28,751 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:29:28,760 -- log - Starting service [Tomcat]
+2019-04-24 12:29:28,761 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 12:29:28,871 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 12:29:28,871 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1547 ms
+2019-04-24 12:29:29,026 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 12:29:29,216 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 12:29:29,267 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 12:29:29,330 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 12:29:29,332 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 12:29:29,444 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 12:29:29,582 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 12:29:30,306 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 12:29:30,890 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 12:29:30,932 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 12:29:31,036 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 12:29:31,131 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:29:31,154 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 12:29:31,158 -- logStarted - Started AppApplication in 4.467 seconds (JVM running for 5.006)
+2019-04-24 12:29:33,989 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 12:29:33,989 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 12:29:33,997 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 12:30:08,251 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 12:32:46,240 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 9452 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 12:32:46,243 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 12:32:47,135 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 12:32:47,221 -- registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-04-24 12:32:47,527 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba42f6c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 12:32:47,810 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 12:32:47,823 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:32:47,831 -- log - Starting service [Tomcat]
+2019-04-24 12:32:47,831 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 12:32:47,933 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 12:32:47,934 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1613 ms
+2019-04-24 12:32:48,075 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 12:32:48,252 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 12:32:48,300 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 12:32:48,357 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 12:32:48,359 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 12:32:48,473 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 12:32:48,608 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 12:32:49,322 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 12:32:49,971 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 12:32:50,011 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 12:32:50,114 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 12:32:50,213 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:32:50,237 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 12:32:50,239 -- logStarted - Started AppApplication in 4.501 seconds (JVM running for 5.19)
+2019-04-24 12:32:58,092 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 12:32:58,092 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 12:32:58,100 -- initServletBean - Completed initialization in 7 ms
+2019-04-24 12:33:01,794 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 12:42:55,717 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 2196 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 12:42:55,778 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 12:42:56,624 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 12:42:56,706 -- registerRepositoriesIn - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-04-24 12:42:57,018 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b85d0d67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 12:42:57,301 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 12:42:57,313 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:42:57,324 -- log - Starting service [Tomcat]
+2019-04-24 12:42:57,324 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 12:42:57,429 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 12:42:57,429 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1564 ms
+2019-04-24 12:42:57,580 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 12:42:57,755 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 12:42:57,804 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 12:42:57,862 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 12:42:57,864 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 12:42:57,980 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 12:42:58,129 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 12:42:58,857 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 12:42:59,448 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 12:42:59,486 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 12:42:59,588 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 12:42:59,673 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:42:59,697 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 12:42:59,699 -- logStarted - Started AppApplication in 4.578 seconds (JVM running for 5.181)
+2019-04-24 12:43:38,197 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 12:43:38,197 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 12:43:38,205 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 12:43:54,311 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 12:48:15,217 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 11096 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 12:48:15,227 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 12:48:16,096 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 12:48:16,184 -- registerRepositoriesIn - Finished Spring Data repository scanning in 82ms. Found 5 repository interfaces.
+2019-04-24 12:48:16,488 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13e55880] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 12:48:16,766 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 12:48:16,781 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:48:16,789 -- log - Starting service [Tomcat]
+2019-04-24 12:48:16,790 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 12:48:16,894 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 12:48:16,895 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1585 ms
+2019-04-24 12:48:17,057 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 12:48:17,226 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 12:48:17,276 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 12:48:17,336 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 12:48:17,338 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 12:48:17,452 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 12:48:17,613 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 12:48:18,360 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 12:48:18,987 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 12:48:19,025 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 12:48:19,128 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 12:48:19,215 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:48:19,241 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 12:48:19,244 -- logStarted - Started AppApplication in 4.645 seconds (JVM running for 5.264)
+2019-04-24 12:48:28,878 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 12:48:28,878 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 12:48:28,886 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 12:48:29,425 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 12:55:17,225 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10044 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 12:55:17,228 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 12:55:17,955 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 12:55:18,041 -- registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-04-24 12:55:18,336 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a363b68a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 12:55:18,626 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 12:55:18,639 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:55:18,647 -- log - Starting service [Tomcat]
+2019-04-24 12:55:18,647 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 12:55:18,774 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 12:55:18,774 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1503 ms
+2019-04-24 12:55:18,936 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 12:55:19,121 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 12:55:19,172 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 12:55:19,232 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 12:55:19,234 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 12:55:19,355 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 12:55:19,501 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 12:55:20,234 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 12:55:20,839 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 12:55:20,879 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 12:55:20,984 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 12:55:21,072 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 12:55:21,101 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 12:55:21,103 -- logStarted - Started AppApplication in 4.488 seconds (JVM running for 5.125)
+2019-04-24 12:55:29,442 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 12:55:29,443 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 12:55:29,450 -- initServletBean - Completed initialization in 7 ms
+2019-04-24 12:55:29,948 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 14:24:39,531 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10644 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 14:24:39,536 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 14:24:40,519 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 14:24:40,606 -- registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-04-24 14:24:40,910 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9004dea7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 14:24:41,200 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 14:24:41,214 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:24:41,222 -- log - Starting service [Tomcat]
+2019-04-24 14:24:41,223 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 14:24:41,332 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:24:41,333 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1659 ms
+2019-04-24 14:24:41,497 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 14:24:41,661 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 14:24:41,714 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 14:24:41,779 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 14:24:41,781 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 14:24:41,893 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 14:24:42,038 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 14:24:42,819 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 14:24:43,400 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 14:24:43,437 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 14:24:43,543 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 14:24:43,626 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:24:43,651 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 14:24:43,653 -- logStarted - Started AppApplication in 4.681 seconds (JVM running for 5.348)
+2019-04-24 14:24:45,934 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 14:24:45,934 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 14:24:45,942 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 14:25:01,217 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 14:27:11,465 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8336 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 14:27:11,468 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 14:27:12,230 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 14:27:12,322 -- registerRepositoriesIn - Finished Spring Data repository scanning in 86ms. Found 5 repository interfaces.
+2019-04-24 14:27:12,604 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa80b3a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 14:27:12,888 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 14:27:12,900 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:27:12,908 -- log - Starting service [Tomcat]
+2019-04-24 14:27:12,909 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 14:27:13,022 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:27:13,023 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1501 ms
+2019-04-24 14:27:13,173 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 14:27:13,273 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 14:27:13,378 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 14:27:13,442 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 14:27:13,443 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 14:27:13,550 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 14:27:13,694 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 14:27:14,423 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 14:27:15,029 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 14:27:15,073 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 14:27:15,181 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 14:27:15,288 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:27:15,312 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 14:27:15,314 -- logStarted - Started AppApplication in 4.554 seconds (JVM running for 5.154)
+2019-04-24 14:27:21,056 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 14:27:21,056 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 14:27:21,063 -- initServletBean - Completed initialization in 7 ms
+2019-04-24 14:27:21,591 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 14:45:28,189 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 2252 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 14:45:28,192 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 14:45:29,054 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 14:45:29,144 -- registerRepositoriesIn - Finished Spring Data repository scanning in 83ms. Found 5 repository interfaces.
+2019-04-24 14:45:29,436 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a63b21fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 14:45:29,714 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 14:45:29,726 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:45:29,734 -- log - Starting service [Tomcat]
+2019-04-24 14:45:29,735 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 14:45:29,837 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:45:29,837 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1510 ms
+2019-04-24 14:45:30,002 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 14:45:30,178 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 14:45:30,226 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 14:45:30,280 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 14:45:30,282 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 14:45:30,396 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 14:45:30,527 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 14:45:31,215 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 14:45:31,840 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 14:45:31,884 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 14:45:31,994 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 14:45:32,088 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:45:32,111 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 14:45:32,113 -- logStarted - Started AppApplication in 4.455 seconds (JVM running for 5.03)
+2019-04-24 14:46:06,013 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 14:46:06,013 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 14:46:06,022 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 14:46:22,971 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 6264 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 14:46:22,974 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 14:46:23,747 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 14:46:23,832 -- registerRepositoriesIn - Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2019-04-24 14:46:24,118 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1c4a5f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 14:46:24,415 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 14:46:24,427 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:46:24,436 -- log - Starting service [Tomcat]
+2019-04-24 14:46:24,436 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 14:46:24,539 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:46:24,539 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1479 ms
+2019-04-24 14:46:24,698 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 14:46:24,886 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 14:46:24,940 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 14:46:25,004 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 14:46:25,006 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 14:46:25,115 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 14:46:25,255 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 14:46:26,027 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 14:46:26,651 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 14:46:26,690 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 14:46:26,794 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 14:46:26,886 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:46:26,911 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 14:46:26,913 -- logStarted - Started AppApplication in 4.521 seconds (JVM running for 5.083)
+2019-04-24 14:46:29,112 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 14:46:29,113 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 14:46:29,122 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 14:47:07,055 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 14:48:23,219 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8164 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 14:48:23,225 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 14:48:24,020 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 14:48:24,109 -- registerRepositoriesIn - Finished Spring Data repository scanning in 82ms. Found 5 repository interfaces.
+2019-04-24 14:48:24,434 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d8c2386] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 14:48:24,732 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 14:48:24,745 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:48:24,753 -- log - Starting service [Tomcat]
+2019-04-24 14:48:24,754 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 14:48:24,858 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 14:48:24,859 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1519 ms
+2019-04-24 14:48:25,022 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 14:48:25,197 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 14:48:25,245 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 14:48:25,301 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 14:48:25,303 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 14:48:25,418 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 14:48:25,560 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 14:48:26,263 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 14:48:26,862 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 14:48:26,901 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 14:48:27,000 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 14:48:27,087 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 14:48:27,112 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 14:48:27,114 -- logStarted - Started AppApplication in 4.453 seconds (JVM running for 5.065)
+2019-04-24 14:48:34,393 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 14:48:34,394 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 14:48:34,403 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 14:48:55,257 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 15:04:19,260 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 2380 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 15:04:19,263 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 15:04:20,088 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 15:04:20,188 -- registerRepositoriesIn - Finished Spring Data repository scanning in 90ms. Found 5 repository interfaces.
+2019-04-24 15:04:20,499 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1d99cc7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 15:04:20,792 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 15:04:20,805 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:04:20,813 -- log - Starting service [Tomcat]
+2019-04-24 15:04:20,813 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 15:04:20,916 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 15:04:20,917 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1602 ms
+2019-04-24 15:04:21,067 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 15:04:21,251 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 15:04:21,305 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 15:04:21,364 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 15:04:21,366 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 15:04:21,481 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 15:04:21,612 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 15:04:22,353 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 15:04:22,954 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 15:04:22,994 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 15:04:23,098 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 15:04:23,189 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:04:23,212 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 15:04:23,214 -- logStarted - Started AppApplication in 4.593 seconds (JVM running for 5.184)
+2019-04-24 15:05:47,116 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 15:05:47,117 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 15:05:47,125 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 15:13:06,738 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8396 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 15:13:06,742 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 15:13:07,631 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 15:13:07,723 -- registerRepositoriesIn - Finished Spring Data repository scanning in 85ms. Found 5 repository interfaces.
+2019-04-24 15:13:08,061 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b4b6c668] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 15:13:08,360 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 15:13:08,375 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:13:08,383 -- log - Starting service [Tomcat]
+2019-04-24 15:13:08,384 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 15:13:08,494 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 15:13:08,495 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1700 ms
+2019-04-24 15:13:08,643 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 15:13:08,825 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 15:13:08,883 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 15:13:08,946 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 15:13:08,948 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 15:13:09,067 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 15:13:09,203 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 15:13:09,970 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 15:13:10,583 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 15:13:10,622 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 15:13:10,726 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 15:13:10,808 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:13:10,830 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 15:13:10,832 -- logStarted - Started AppApplication in 4.848 seconds (JVM running for 5.453)
+2019-04-24 15:13:39,719 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 15:13:39,719 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 15:13:39,727 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 15:34:02,153 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 480 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 15:34:02,156 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 15:34:03,066 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 15:34:03,160 -- registerRepositoriesIn - Finished Spring Data repository scanning in 88ms. Found 5 repository interfaces.
+2019-04-24 15:34:03,456 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$26085a56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 15:34:03,770 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 15:34:03,786 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:34:03,796 -- log - Starting service [Tomcat]
+2019-04-24 15:34:03,796 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 15:34:03,939 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 15:34:03,940 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1734 ms
+2019-04-24 15:34:04,170 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 15:34:04,305 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 15:34:04,431 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 15:34:04,493 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 15:34:04,494 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 15:34:04,608 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 15:34:04,772 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 15:34:05,519 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 15:34:06,157 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 15:34:06,198 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 15:34:06,299 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 15:34:06,394 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:34:06,437 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 15:34:06,439 -- logStarted - Started AppApplication in 5.042 seconds (JVM running for 5.956)
+2019-04-24 15:34:39,862 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 15:34:39,863 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 15:34:39,872 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 15:53:55,644 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8728 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 15:53:55,647 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 15:53:56,548 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 15:53:56,634 -- registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-04-24 15:53:56,987 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f17572a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 15:53:57,268 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 15:53:57,280 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:53:57,289 -- log - Starting service [Tomcat]
+2019-04-24 15:53:57,289 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 15:53:57,393 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 15:53:57,393 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1620 ms
+2019-04-24 15:53:57,535 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 15:53:57,710 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 15:53:57,763 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 15:53:57,823 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 15:53:57,825 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 15:53:57,939 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 15:53:58,080 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 15:53:58,878 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 15:53:59,499 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 15:53:59,538 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 15:53:59,636 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 15:53:59,719 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:53:59,745 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 15:53:59,748 -- logStarted - Started AppApplication in 4.775 seconds (JVM running for 5.409)
+2019-04-24 15:54:15,549 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 15:54:15,549 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 15:54:15,557 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 15:54:52,726 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 15:56:30,668 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 6728 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 15:56:30,670 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 15:56:31,489 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 15:56:31,572 -- registerRepositoriesIn - Finished Spring Data repository scanning in 77ms. Found 5 repository interfaces.
+2019-04-24 15:56:31,864 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4049ab86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 15:56:32,145 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 15:56:32,158 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:56:32,167 -- log - Starting service [Tomcat]
+2019-04-24 15:56:32,167 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 15:56:32,269 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 15:56:32,269 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1544 ms
+2019-04-24 15:56:32,425 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 15:56:32,586 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 15:56:32,633 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 15:56:32,690 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 15:56:32,692 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 15:56:32,804 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 15:56:32,939 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 15:56:33,653 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 15:56:34,247 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 15:56:34,288 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 15:56:34,393 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 15:56:34,478 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 15:56:34,503 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 15:56:34,505 -- logStarted - Started AppApplication in 4.435 seconds (JVM running for 5.027)
+2019-04-24 15:56:37,570 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 15:56:37,570 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 15:56:37,579 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 15:56:38,025 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 16:49:22,131 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 2816 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 16:49:22,142 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 16:49:23,030 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 16:49:23,121 -- registerRepositoriesIn - Finished Spring Data repository scanning in 84ms. Found 5 repository interfaces.
+2019-04-24 16:49:23,422 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$588c1299] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 16:49:23,703 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 16:49:23,715 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 16:49:23,723 -- log - Starting service [Tomcat]
+2019-04-24 16:49:23,724 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 16:49:23,825 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 16:49:23,826 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1566 ms
+2019-04-24 16:49:23,979 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 16:49:24,164 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 16:49:24,217 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 16:49:24,272 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 16:49:24,274 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 16:49:24,383 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 16:49:24,526 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 16:49:25,273 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 16:49:25,663 -- refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logController' defined in file [E:\Tools\Java\WorkSpace\Shadow\app\target\classes\com\example\app\controller\cms\LogController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logResource' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\resource\LogResource.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+2019-04-24 16:49:25,664 -- destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 16:49:25,666 -- close - HikariPool-1 - Shutdown initiated...
+2019-04-24 16:49:25,670 -- close - HikariPool-1 - Shutdown completed.
+2019-04-24 16:49:25,671 -- log - Stopping service [Tomcat]
+2019-04-24 16:49:25,680 -- logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-04-24 16:49:59,785 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 4764 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 16:49:59,788 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 16:50:00,675 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 16:50:00,758 -- registerRepositoriesIn - Finished Spring Data repository scanning in 77ms. Found 5 repository interfaces.
+2019-04-24 16:50:01,047 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$752257e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 16:50:01,326 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 16:50:01,339 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 16:50:01,346 -- log - Starting service [Tomcat]
+2019-04-24 16:50:01,347 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 16:50:01,451 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 16:50:01,451 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1603 ms
+2019-04-24 16:50:01,605 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 16:50:01,788 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 16:50:01,838 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 16:50:01,896 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 16:50:01,898 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 16:50:02,013 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 16:50:02,153 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 16:50:02,838 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 16:50:03,417 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 16:50:03,458 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 16:50:03,561 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 16:50:03,655 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 16:50:03,678 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 16:50:03,680 -- logStarted - Started AppApplication in 4.557 seconds (JVM running for 5.167)
+2019-04-24 16:51:09,471 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 16:51:09,471 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 16:51:09,479 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 16:51:09,912 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 16:52:47,016 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 732 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 16:52:47,021 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 16:52:47,879 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 16:52:47,996 -- registerRepositoriesIn - Finished Spring Data repository scanning in 105ms. Found 5 repository interfaces.
+2019-04-24 16:52:48,405 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9d6e248b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 16:52:48,761 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 16:52:48,778 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 16:52:48,788 -- log - Starting service [Tomcat]
+2019-04-24 16:52:48,789 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 16:52:48,914 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 16:52:48,914 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1786 ms
+2019-04-24 16:52:49,124 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 16:52:49,306 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 16:52:49,364 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 16:52:49,441 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 16:52:49,443 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 16:52:49,591 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 16:52:49,777 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 16:52:50,679 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 16:52:51,426 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 16:52:51,473 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 16:52:51,604 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 16:52:51,712 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 16:52:51,741 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 16:52:51,743 -- logStarted - Started AppApplication in 5.632 seconds (JVM running for 7.028)
+2019-04-24 16:52:56,961 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 16:52:56,962 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 16:52:56,970 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 16:53:03,936 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:00:10,227 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m49s806ms810µs494ns).
+2019-04-24 17:00:15,917 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 9568 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:00:15,921 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:00:16,674 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:00:16,762 -- registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-04-24 17:00:17,091 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cd40dbc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:00:17,387 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:00:17,400 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:00:17,408 -- log - Starting service [Tomcat]
+2019-04-24 17:00:17,409 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:00:17,510 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:00:17,510 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1540 ms
+2019-04-24 17:00:17,657 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:00:17,846 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:00:17,901 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:00:17,955 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:00:17,958 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:00:18,072 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:00:18,214 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:00:18,937 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:00:19,536 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:00:19,573 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:00:19,673 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:00:19,756 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:00:19,780 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:00:19,782 -- logStarted - Started AppApplication in 4.461 seconds (JVM running for 5.047)
+2019-04-24 17:00:23,611 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:00:23,611 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:00:23,619 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 17:00:24,048 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:01:37,487 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10136 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:01:37,526 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:01:38,331 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:01:38,417 -- registerRepositoriesIn - Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-04-24 17:01:38,727 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3474c06e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:01:39,015 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:01:39,030 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:01:39,039 -- log - Starting service [Tomcat]
+2019-04-24 17:01:39,039 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:01:39,142 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:01:39,143 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1525 ms
+2019-04-24 17:01:39,294 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:01:39,478 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:01:39,532 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:01:39,590 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:01:39,593 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:01:39,708 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:01:39,851 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:01:40,556 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:01:41,164 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:01:41,202 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:01:41,302 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:01:41,384 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:01:41,410 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:01:41,412 -- logStarted - Started AppApplication in 4.502 seconds (JVM running for 5.078)
+2019-04-24 17:01:47,270 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:01:47,271 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:01:47,281 -- initServletBean - Completed initialization in 10 ms
+2019-04-24 17:01:47,727 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:03:30,556 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 7876 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:03:30,560 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:03:31,367 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:03:31,456 -- registerRepositoriesIn - Finished Spring Data repository scanning in 83ms. Found 5 repository interfaces.
+2019-04-24 17:03:31,744 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8db67cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:03:32,026 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:03:32,039 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:03:32,047 -- log - Starting service [Tomcat]
+2019-04-24 17:03:32,047 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:03:32,152 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:03:32,152 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1507 ms
+2019-04-24 17:03:32,302 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:03:32,470 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:03:32,520 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:03:32,576 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:03:32,578 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:03:32,693 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:03:32,828 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:03:33,533 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:03:34,120 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:03:34,163 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:03:34,265 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:03:34,349 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:03:34,374 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:03:34,376 -- logStarted - Started AppApplication in 4.409 seconds (JVM running for 4.958)
+2019-04-24 17:04:11,057 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:04:11,057 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:04:11,065 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 17:04:11,545 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:05:57,614 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 4620 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:05:57,618 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:05:58,589 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:05:58,694 -- registerRepositoriesIn - Finished Spring Data repository scanning in 97ms. Found 5 repository interfaces.
+2019-04-24 17:05:59,055 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b8f1e1ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:05:59,408 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:05:59,424 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:05:59,434 -- log - Starting service [Tomcat]
+2019-04-24 17:05:59,434 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:05:59,570 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:05:59,570 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1901 ms
+2019-04-24 17:05:59,754 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:05:59,926 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:05:59,982 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:06:00,065 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:06:00,068 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:06:00,226 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:06:00,397 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:06:01,343 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:06:02,110 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:06:02,167 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:06:02,297 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:06:02,409 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:06:02,438 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:06:02,440 -- logStarted - Started AppApplication in 5.714 seconds (JVM running for 6.537)
+2019-04-24 17:06:06,597 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:06:06,597 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:06:06,606 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 17:06:07,157 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:07:37,402 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s853ms146µs27ns).
+2019-04-24 17:12:05,602 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 10904 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:12:05,605 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:12:06,405 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:12:06,496 -- registerRepositoriesIn - Finished Spring Data repository scanning in 84ms. Found 5 repository interfaces.
+2019-04-24 17:12:06,813 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa80b3a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:12:07,123 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:12:07,136 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:12:07,144 -- log - Starting service [Tomcat]
+2019-04-24 17:12:07,145 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:12:07,283 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:12:07,284 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1624 ms
+2019-04-24 17:12:07,456 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:12:07,640 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:12:07,690 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:12:07,757 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:12:07,769 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:12:07,894 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:12:08,029 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:12:08,783 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:12:09,404 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:12:09,446 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:12:09,546 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:12:09,630 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:12:09,654 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:12:09,656 -- logStarted - Started AppApplication in 4.66 seconds (JVM running for 5.525)
+2019-04-24 17:12:14,667 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:12:14,667 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:12:14,676 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 17:12:15,158 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:16:58,667 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 9200 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:16:58,670 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:16:59,555 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:16:59,644 -- registerRepositoriesIn - Finished Spring Data repository scanning in 82ms. Found 5 repository interfaces.
+2019-04-24 17:16:59,934 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c6be299a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:17:00,225 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:17:00,238 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:17:00,247 -- log - Starting service [Tomcat]
+2019-04-24 17:17:00,248 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:17:00,357 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:17:00,357 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1627 ms
+2019-04-24 17:17:00,524 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:17:00,669 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:17:00,716 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:17:00,776 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:17:00,781 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:17:00,905 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:17:01,030 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:17:01,743 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:17:02,336 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:17:02,373 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:17:02,475 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:17:02,564 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:17:02,588 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:17:02,591 -- logStarted - Started AppApplication in 4.422 seconds (JVM running for 4.983)
+2019-04-24 17:17:05,749 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:17:05,749 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:17:05,759 -- initServletBean - Completed initialization in 10 ms
+2019-04-24 17:17:12,688 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:19:50,166 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 7000 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:19:50,168 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:19:50,991 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:19:51,115 -- registerRepositoriesIn - Finished Spring Data repository scanning in 116ms. Found 5 repository interfaces.
+2019-04-24 17:19:51,428 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$16a6eb4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:19:51,722 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:19:51,735 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:19:51,743 -- log - Starting service [Tomcat]
+2019-04-24 17:19:51,743 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:19:51,847 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:19:51,848 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1584 ms
+2019-04-24 17:19:51,998 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:19:52,180 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:19:52,228 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:19:52,286 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:19:52,288 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:19:52,400 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:19:52,541 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:19:53,252 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:19:53,840 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:19:53,885 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:19:54,001 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:19:54,091 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:19:54,112 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:19:54,114 -- logStarted - Started AppApplication in 4.536 seconds (JVM running for 5.154)
+2019-04-24 17:19:57,406 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:19:57,406 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:19:57,415 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 17:19:57,865 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:20:47,668 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 1340 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:20:47,672 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:20:48,493 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:20:48,620 -- registerRepositoriesIn - Finished Spring Data repository scanning in 103ms. Found 5 repository interfaces.
+2019-04-24 17:20:48,920 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c8b0186] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:20:49,198 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:20:49,210 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:20:49,219 -- log - Starting service [Tomcat]
+2019-04-24 17:20:49,219 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:20:49,318 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:20:49,318 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1596 ms
+2019-04-24 17:20:49,457 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:20:49,644 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:20:49,695 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:20:49,745 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:20:49,747 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:20:49,861 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:20:49,987 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:20:50,699 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:20:51,388 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:20:51,437 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:20:51,557 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:20:51,647 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:20:51,669 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:20:51,671 -- logStarted - Started AppApplication in 4.632 seconds (JVM running for 5.276)
+2019-04-24 17:20:58,221 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:20:58,221 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:20:58,230 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 17:20:58,716 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:24:30,434 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 5288 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:24:30,438 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:24:31,403 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:24:31,509 -- registerRepositoriesIn - Finished Spring Data repository scanning in 96ms. Found 5 repository interfaces.
+2019-04-24 17:24:31,876 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fcd327e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:24:32,220 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:24:32,235 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:24:32,243 -- log - Starting service [Tomcat]
+2019-04-24 17:24:32,244 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:24:32,367 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:24:32,368 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1830 ms
+2019-04-24 17:24:32,574 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:24:32,749 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:24:32,805 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:24:32,891 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:24:32,893 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:24:33,047 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:24:33,226 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:24:34,093 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:24:34,801 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:24:34,846 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:24:34,972 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:24:35,074 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:24:35,102 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:24:35,105 -- logStarted - Started AppApplication in 5.476 seconds (JVM running for 6.352)
+2019-04-24 17:24:41,784 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:24:41,784 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:24:41,796 -- initServletBean - Completed initialization in 12 ms
+2019-04-24 17:24:42,322 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:54:16,414 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 2740 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:54:16,443 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:54:17,315 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:54:17,404 -- registerRepositoriesIn - Finished Spring Data repository scanning in 82ms. Found 5 repository interfaces.
+2019-04-24 17:54:17,732 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96e315d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:54:18,055 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:54:18,068 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:54:18,077 -- log - Starting service [Tomcat]
+2019-04-24 17:54:18,077 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:54:18,184 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:54:18,185 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1651 ms
+2019-04-24 17:54:18,340 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:54:18,519 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:54:18,571 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:54:18,629 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:54:18,631 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:54:18,753 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:54:18,911 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:54:19,683 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:54:20,303 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:54:20,343 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:54:20,447 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:54:20,541 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:54:20,570 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:54:20,572 -- logStarted - Started AppApplication in 4.758 seconds (JVM running for 5.33)
+2019-04-24 17:54:26,962 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:54:26,963 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:54:26,972 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 17:54:27,428 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 17:57:34,518 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 4912 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 17:57:34,522 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 17:57:35,313 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 17:57:35,398 -- registerRepositoriesIn - Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2019-04-24 17:57:35,680 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cb4291d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 17:57:35,958 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 17:57:35,975 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:57:35,984 -- log - Starting service [Tomcat]
+2019-04-24 17:57:35,984 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 17:57:36,087 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 17:57:36,087 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1499 ms
+2019-04-24 17:57:36,241 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 17:57:36,424 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 17:57:36,476 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 17:57:36,532 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 17:57:36,534 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 17:57:36,643 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 17:57:36,779 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 17:57:37,486 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 17:57:38,085 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 17:57:38,125 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 17:57:38,230 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 17:57:38,321 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 17:57:38,344 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 17:57:38,346 -- logStarted - Started AppApplication in 4.419 seconds (JVM running for 5.056)
+2019-04-24 17:57:41,617 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 17:57:41,617 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 17:57:41,625 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 17:57:42,084 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 18:09:03,670 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8036 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 18:09:03,673 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 18:09:04,540 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 18:09:04,626 -- registerRepositoriesIn - Finished Spring Data repository scanning in 81ms. Found 5 repository interfaces.
+2019-04-24 18:09:04,928 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13e55880] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 18:09:05,216 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 18:09:05,232 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:09:05,241 -- log - Starting service [Tomcat]
+2019-04-24 18:09:05,241 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 18:09:05,351 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 18:09:05,351 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1631 ms
+2019-04-24 18:09:05,504 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 18:09:05,683 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 18:09:05,730 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 18:09:05,788 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 18:09:05,790 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 18:09:05,902 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 18:09:06,042 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 18:09:06,737 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 18:09:07,348 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 18:09:07,385 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 18:09:07,496 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 18:09:07,580 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:09:07,608 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 18:09:07,610 -- logStarted - Started AppApplication in 4.515 seconds (JVM running for 5.088)
+2019-04-24 18:09:13,720 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 18:09:13,721 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 18:09:13,730 -- initServletBean - Completed initialization in 9 ms
+2019-04-24 18:09:14,199 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 18:10:35,648 -- buildExpressionFactory - Loaded expression factory via original TCCL
+2019-04-24 18:10:35,815 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 5596 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 18:10:35,816 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 18:10:36,855 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 18:10:36,963 -- registerRepositoriesIn - Finished Spring Data repository scanning in 101ms. Found 5 repository interfaces.
+2019-04-24 18:10:37,335 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$21d30071] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 18:10:37,682 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 18:10:37,697 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:10:37,706 -- log - Starting service [Tomcat]
+2019-04-24 18:10:37,706 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 18:10:37,840 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 18:10:37,840 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1902 ms
+2019-04-24 18:10:38,028 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 18:10:38,198 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 18:10:38,256 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 18:10:38,337 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 18:10:38,339 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 18:10:38,486 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 18:10:38,668 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 18:10:39,549 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 18:10:40,230 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 18:10:40,282 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 18:10:40,412 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 18:10:40,517 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:10:40,542 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 18:10:40,546 -- logStarted - Started AppApplication in 5.547 seconds (JVM running for 6.283)
+2019-04-24 18:10:49,029 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 18:10:49,029 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 18:10:49,039 -- initServletBean - Completed initialization in 10 ms
+2019-04-24 18:10:49,585 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 18:11:36,463 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s164ms856µs823ns).
+2019-04-24 18:12:53,640 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s177ms682µs653ns).
+2019-04-24 18:13:31,105 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8640 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 18:13:31,109 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 18:13:32,002 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 18:13:32,107 -- registerRepositoriesIn - Finished Spring Data repository scanning in 96ms. Found 5 repository interfaces.
+2019-04-24 18:13:32,486 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$127a43ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 18:13:32,836 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 18:13:32,850 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:13:32,860 -- log - Starting service [Tomcat]
+2019-04-24 18:13:32,860 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 18:13:32,991 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 18:13:32,992 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1791 ms
+2019-04-24 18:13:33,185 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 18:13:33,366 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 18:13:33,433 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 18:13:33,514 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 18:13:33,517 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 18:13:33,672 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 18:13:33,861 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 18:13:34,769 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 18:13:35,492 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 18:13:35,540 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 18:13:35,657 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 18:13:35,760 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:13:35,790 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 18:13:35,794 -- logStarted - Started AppApplication in 5.419 seconds (JVM running for 6.203)
+2019-04-24 18:13:38,048 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 18:13:38,049 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 18:13:38,059 -- initServletBean - Completed initialization in 10 ms
+2019-04-24 18:13:38,609 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 18:14:41,434 -- run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s966ms935µs426ns).
+2019-04-24 18:16:56,815 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 8460 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 18:16:56,818 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 18:16:57,611 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 18:16:57,701 -- registerRepositoriesIn - Finished Spring Data repository scanning in 84ms. Found 5 repository interfaces.
+2019-04-24 18:16:58,007 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc3dc584] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 18:16:58,297 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 18:16:58,309 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:16:58,317 -- log - Starting service [Tomcat]
+2019-04-24 18:16:58,317 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 18:16:58,417 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 18:16:58,417 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1543 ms
+2019-04-24 18:16:58,581 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 18:16:58,748 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 18:16:58,797 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 18:16:58,856 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 18:16:58,859 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 18:16:58,977 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 18:16:59,126 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 18:16:59,837 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 18:17:00,438 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 18:17:00,484 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 18:17:00,586 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 18:17:00,675 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:17:00,699 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 18:17:00,701 -- logStarted - Started AppApplication in 4.477 seconds (JVM running for 5.056)
+2019-04-24 18:17:04,213 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 18:17:04,213 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 18:17:04,221 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 18:17:04,705 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 18:17:23,976 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 5704 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 18:17:23,978 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 18:17:24,754 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 18:17:24,842 -- registerRepositoriesIn - Finished Spring Data repository scanning in 82ms. Found 5 repository interfaces.
+2019-04-24 18:17:25,143 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cd40dbc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 18:17:25,427 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 18:17:25,444 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:17:25,453 -- log - Starting service [Tomcat]
+2019-04-24 18:17:25,453 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 18:17:25,562 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 18:17:25,562 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1454 ms
+2019-04-24 18:17:25,716 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 18:17:25,880 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 18:17:25,932 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 18:17:25,994 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 18:17:25,996 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 18:17:26,109 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 18:17:26,257 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 18:17:26,948 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 18:17:27,540 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 18:17:27,580 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 18:17:27,680 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 18:17:27,768 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:17:27,794 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 18:17:27,796 -- logStarted - Started AppApplication in 4.458 seconds (JVM running for 5.01)
+2019-04-24 18:17:47,918 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 18:17:47,918 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 18:17:47,926 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 18:17:48,412 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory
+2019-04-24 18:20:00,139 -- logStarting - Starting AppApplication on DESKTOP-2RE8KLJ with PID 9476 (E:\Tools\Java\WorkSpace\Shadow\app\target\classes started by HyZhan in E:\Tools\Java\WorkSpace\Shadow)
+2019-04-24 18:20:00,142 -- logStartupProfileInfo - The following profiles are active: dev
+2019-04-24 18:20:00,890 -- registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-24 18:20:00,975 -- registerRepositoriesIn - Finished Spring Data repository scanning in 79ms. Found 5 repository interfaces.
+2019-04-24 18:20:01,254 -- postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d05c12c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-24 18:20:01,533 -- initialize - Tomcat initialized with port(s): 3000 (http)
+2019-04-24 18:20:01,546 -- log - Initializing ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:20:01,554 -- log - Starting service [Tomcat]
+2019-04-24 18:20:01,554 -- log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-24 18:20:01,664 -- log - Initializing Spring embedded WebApplicationContext
+2019-04-24 18:20:01,664 -- prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1445 ms
+2019-04-24 18:20:01,820 -- getConnection - HikariPool-1 - Starting...
+2019-04-24 18:20:01,995 -- getConnection - HikariPool-1 - Start completed.
+2019-04-24 18:20:02,045 -- logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-24 18:20:02,102 -- logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+2019-04-24 18:20:02,104 -- <clinit> - HHH000206: hibernate.properties not found
+2019-04-24 18:20:02,216 -- <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-04-24 18:20:02,358 -- <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-24 18:20:03,099 -- buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-24 18:20:03,697 -- initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-24 18:20:03,736 -- openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-24 18:20:03,853 -- <init> - Adding welcome page: class path resource [doc/index.html]
+2019-04-24 18:20:03,944 -- log - Starting ProtocolHandler ["http-nio-3000"]
+2019-04-24 18:20:03,967 -- start - Tomcat started on port(s): 3000 (http) with context path ''
+2019-04-24 18:20:03,969 -- logStarted - Started AppApplication in 4.551 seconds (JVM running for 5.138)
+2019-04-24 18:20:22,208 -- log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-24 18:20:22,208 -- initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-04-24 18:20:22,216 -- initServletBean - Completed initialization in 8 ms
+2019-04-24 18:20:22,667 -- initiateService - HHH000397: Using ASTQueryTranslatorFactory

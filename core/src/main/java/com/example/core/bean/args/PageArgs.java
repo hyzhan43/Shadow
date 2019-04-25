@@ -9,7 +9,7 @@ import lombok.Data;
  * desc：    TODO
  */
 @Data
-public class BaseArgs {
+public class PageArgs {
 
     public Integer page = Setting.PAGE;
 

@@ -1,0 +1,263 @@
+2019-04-24 09:14:09,204 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 09:14:35,221 - error - url->http://localhost:3000/cms/admin/group/1
+2019-04-24 10:11:06,707 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:11:07,221 - error - -------------------------------------------------
+2019-04-24 10:11:07,221 - error - java.lang.NullPointerException
+2019-04-24 10:11:07,222 - error - -------------------------------------------------
+2019-04-24 10:11:44,654 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:12:07,631 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:12:22,688 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:13:15,633 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:13:23,357 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:14:56,870 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:15:03,868 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 10:15:13,057 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:15:44,758 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:15:51,340 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:16:44,019 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:17:28,255 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:18:49,507 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:20:04,202 - error - -------------------------------------------------
+2019-04-24 10:20:04,203 - error - java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to [Lcom.example.core.bean.card.RouteMetaCard;
+2019-04-24 10:20:04,204 - error - -------------------------------------------------
+2019-04-24 10:20:40,666 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:23:09,328 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:23:21,391 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:24:31,741 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:24:37,073 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:25:20,362 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:25:26,163 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:26:37,507 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:26:42,753 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:27:28,621 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:30:57,488 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:31:03,455 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 10:33:25,435 - error - url->http://localhost:3000/cms/admin/group
+2019-04-24 11:12:53,142 - error - url->http://localhost:3000/cms/admin/group/74
+2019-04-24 11:12:57,133 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 11:13:08,015 - error - url->http://localhost:3000/cms/admin/group/74
+2019-04-24 11:13:47,173 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:14:07,792 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:14:24,630 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:14:40,891 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:15:08,710 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:15:58,584 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:18:21,948 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:19:47,541 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:19:53,770 - error - url->http://localhost:3000/cms/admin/dispatch
+2019-04-24 11:37:32,331 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 11:38:23,503 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 11:39:20,172 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 11:39:51,858 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 11:40:30,357 - error - url->http://localhost:3000/admin/authority
+2019-04-24 11:40:30,362 - error - url->http://localhost:3000/error
+2019-04-24 11:40:39,611 - error - url->http://localhost:3000/cms/admin/authority
+2019-04-24 12:28:44,056 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:28:44,493 - error - -------------------------------------------------
+2019-04-24 12:28:44,494 - error - javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.NotBlank' validating type 'java.util.List<java.lang.String>'. Check configuration for 'auths'
+2019-04-24 12:28:44,494 - error - -------------------------------------------------
+2019-04-24 12:29:34,010 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:29:55,875 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:30:08,220 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:30:29,387 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:30:42,472 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:32:58,132 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:33:01,766 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:33:21,738 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:33:30,850 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:34:05,848 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:36:18,304 - error - url->http://localhost:3000/cms/admin/dispatch/patch
+2019-04-24 12:43:38,217 - error - url->http://localhost:3000/cms/admin/remove
+2019-04-24 12:43:54,105 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 12:43:57,526 - error - url->http://localhost:3000/cms/admin/remove
+2019-04-24 12:44:30,492 - error - url->http://localhost:3000/cms/admin/remove
+2019-04-24 12:44:30,521 - error - -------------------------------------------------
+2019-04-24 12:44:30,521 - error - org.springframework.dao.InvalidDataAccessApiUsageException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call; nested exception is javax.persistence.TransactionRequiredException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call
+2019-04-24 12:44:30,521 - error - -------------------------------------------------
+2019-04-24 12:48:28,919 - error - url->http://localhost:3000/cms/admin/remove
+2019-04-24 12:48:29,507 - error - -------------------------------------------------
+2019-04-24 12:48:29,508 - error - org.springframework.dao.InvalidDataAccessApiUsageException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call; nested exception is javax.persistence.TransactionRequiredException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call
+2019-04-24 12:48:29,508 - error - -------------------------------------------------
+2019-04-24 12:55:29,484 - error - url->http://localhost:3000/cms/admin/remove
+2019-04-24 12:55:30,033 - error - -------------------------------------------------
+2019-04-24 12:55:30,034 - error - org.springframework.dao.InvalidDataAccessApiUsageException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call; nested exception is javax.persistence.TransactionRequiredException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call
+2019-04-24 12:55:30,034 - error - -------------------------------------------------
+2019-04-24 14:24:45,976 - error - url->http://localhost:3000/cms/admin/remove
+2019-04-24 14:25:00,988 - error - url->http://localhost:3000/cms/user/login
+2019-04-24 14:25:03,496 - error - url->http://localhost:3000/cms/admin/remove
+2019-04-24 14:25:03,549 - error - -------------------------------------------------
+2019-04-24 14:25:03,550 - error - org.springframework.dao.InvalidDataAccessApiUsageException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call; nested exception is javax.persistence.TransactionRequiredException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call
+2019-04-24 14:25:03,550 - error - -------------------------------------------------
+2019-04-24 14:27:21,096 - error - url->http://localhost:3000/cms/admin/remove
+2019-04-24 14:46:06,036 - error - url->http://localhost:3000/cms/user
+2019-04-24 14:46:06,046 - error - url->http://localhost:3000/error
+2019-04-24 14:46:29,137 - error - url->http://localhost:3000/cms/user
+2019-04-24 14:47:06,973 - error - url->http://localhost:3000/cms/user
+2019-04-24 14:48:34,430 - error - url->http://localhost:3000/cms/user
+2019-04-24 14:48:44,385 - error - url->http://localhost:3000/cms/user
+2019-04-24 14:48:49,424 - error - url->http://localhost:3000/cms/user
+2019-04-24 14:48:55,169 - error - url->http://localhost:3000/cms/user
+2019-04-24 15:05:47,138 - error - url->http://localhost:3000/cms/user/password/change
+2019-04-24 15:06:17,683 - error - url->http://localhost:3000/cms/user/password/change
+2019-04-24 15:06:52,039 - error - url->http://localhost:3000/cms/user/password/change
+2019-04-24 15:13:39,739 - error - url->http://localhost:3000/cms/user/information
+2019-04-24 15:13:48,068 - error - url->http://localhost:3000/cms/user/information
+2019-04-24 15:34:39,884 - error - url->http://localhost:3000/cms/user/refresh
+2019-04-24 15:35:05,514 - error - url->http://localhost:3000/cms/user/refresh
+2019-04-24 15:35:08,716 - error - url->http://localhost:3000/cms/user/refresh
+2019-04-24 15:35:10,179 - error - url->http://localhost:3000/cms/user/refresh
+2019-04-24 15:35:29,604 - error - url->http://localhost:3000/cms/user/refresh
+2019-04-24 15:35:39,151 - error - url->http://localhost:3000/cms/user/refresh
+2019-04-24 15:35:57,028 - error - url->http://localhost:3000/cms/user/refresh
+2019-04-24 15:54:15,587 - error - url->http://localhost:3000/cms/user/refresh
+2019-04-24 15:54:44,318 - error - url->http://localhost:3000/cms/user/auths
+2019-04-24 15:54:52,633 - error - url->http://localhost:3000/cms/user/auths
+2019-04-24 15:56:37,593 - error - url->http://localhost:3000/cms/user/auths
+2019-04-24 16:49:25,690 - reportFailure - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logController' defined in file [E:\Tools\Java\WorkSpace\Shadow\app\target\classes\com\example\app\controller\cms\LogController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logResource' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\resource\LogResource.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.example.app.AppApplication.main(AppApplication.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logResource' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\resource\LogResource.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 47 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+	at org.springframework.util.Assert.isTrue(Assert.java:118)
+	at org.springframework.data.repository.query.QueryMethod.<init>(QueryMethod.java:99)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:94)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:566)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:559)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:561)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:551)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:551)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:324)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 58 common frames omitted
+2019-04-24 16:51:09,493 - error - url->http://localhost:3000/cms/log
+2019-04-24 16:51:09,994 - error - -------------------------------------------------
+2019-04-24 16:51:09,995 - error - java.lang.ClassCastException: com.example.core.bean.card.LogCard cannot be cast to java.lang.Comparable
+2019-04-24 16:51:09,995 - error - -------------------------------------------------
+2019-04-24 16:52:56,985 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:00:10,246 - error - -------------------------------------------------
+2019-04-24 17:00:10,247 - error - java.lang.ClassCastException: com.example.core.bean.card.LogCard cannot be cast to java.lang.Comparable
+2019-04-24 17:00:10,248 - error - -------------------------------------------------
+2019-04-24 17:00:23,632 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:00:24,135 - error - -------------------------------------------------
+2019-04-24 17:00:24,136 - error - java.lang.ClassCastException: com.example.core.bean.card.LogCard cannot be cast to java.lang.Comparable
+2019-04-24 17:00:24,136 - error - -------------------------------------------------
+2019-04-24 17:01:47,296 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:04:11,096 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:06:06,645 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:12:14,709 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:12:35,967 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:12:54,459 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:13:01,999 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:14:37,081 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:15:03,509 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:15:16,574 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:17:05,793 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:17:12,665 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:18:33,949 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:19:57,450 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:20:58,264 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:22:10,931 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:24:41,836 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:28:12,899 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:28:22,372 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:28:31,885 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:30:07,903 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:31:11,036 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:54:27,006 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:57:41,660 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:58:02,908 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:58:10,190 - error - url->http://localhost:3000/cms/log
+2019-04-24 17:58:10,206 - error - -------------------------------------------------
+2019-04-24 17:58:10,207 - error - org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [2019-04-24 01:00:00] did not match expected type [java.util.Date (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [2019-04-24 01:00:00] did not match expected type [java.util.Date (n/a)]
+2019-04-24 17:58:10,207 - error - -------------------------------------------------
+2019-04-24 18:09:13,759 - error - url->http://localhost:3000/cms/log
+2019-04-24 18:10:49,078 - error - url->http://localhost:3000/cms/log
+2019-04-24 18:13:38,098 - error - url->http://localhost:3000/cms/log
+2019-04-24 18:17:04,252 - error - url->http://localhost:3000/cms/log
+2019-04-24 18:17:47,957 - error - url->http://localhost:3000/cms/log
+2019-04-24 18:20:22,250 - error - url->http://localhost:3000/cms/log
+2019-04-24 18:20:57,873 - error - url->http://localhost:3000/cms/log
+2019-04-24 18:21:02,578 - error - url->http://localhost:3000/cms/log

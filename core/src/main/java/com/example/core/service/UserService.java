@@ -126,4 +126,22 @@ public class UserService extends BaseService {
         user.setActive(status);
         userRepository.save(user);
     }
+
+    public void findUserByGroupId(Integer gid) {
+        Optional<User> userOptional = userRepository.findByGroupId(gid);
+
+        if (userOptional.isPresent()) {
+            throw new BaseException(ErrorCode.GROUP_EXIST_USER);
+        }
+    }
+
+    public void updateUserEmail(User user, String email) {
+        user.setEmail(email);
+        userRepository.save(user);
+    }
+
+    public void updateUserPassword(User user, String oldPassword) {
+        user.setPassword(Utils.encode(oldPassword));
+        userRepository.save(user);
+    }
 }

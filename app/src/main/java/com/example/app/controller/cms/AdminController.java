@@ -6,10 +6,7 @@ import com.example.core.annotation.RouteMeta;
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
 import com.example.core.bean.args.*;
-import com.example.core.bean.card.AdminUserCard;
-import com.example.core.bean.card.GroupCard;
-import com.example.core.bean.card.PageCard;
-import com.example.core.bean.card.RouteMetaCard;
+import com.example.core.bean.card.*;
 import com.example.core.controller.BaseController;
 import com.example.core.resource.AdminResource;
 import com.example.core.utils.RouteMetaUtil;
@@ -74,7 +71,7 @@ public class AdminController extends BaseController {
     @PutMapping("/password/{id}")
     @RouteMeta(auth = "修改用户密码", module = "管理员", mount = false)
     public BaseResponse ChangePassword(@PathVariable Integer id,
-                                       @Valid ChangePasswordArgs args) {
+                                       @Valid ResetPasswordArgs args) {
 
         adminResource.changePassword(id, args);
 
@@ -123,13 +120,98 @@ public class AdminController extends BaseController {
     @AdminRequired
     @GetMapping("/groups")
     @RouteMeta(auth = "查询所有权限组及其权限", module = "管理员", mount = false)
-    public BaseResponse getAdminGroups(BaseArgs args) {
+    public BaseResponse getAdminGroups(PageArgs args) {
 
         checkPaginate(args);
 
-        PageCard<GroupCard> groupCards = adminResource.getAdminGroups(args);
+        PageCard<GroupInfoCard> groupInfoCards = adminResource.getAdminGroups(args);
+
+        return Response.success(groupInfoCards);
+    }
+
+    @AdminRequired
+    @GetMapping("/group/all")
+    @RouteMeta(auth = "查询所有权限组", module = "管理员", mount = false)
+    public BaseResponse getAllGroups(PageArgs args) {
+
+        checkPaginate(args);
+
+        PageCard<GroupCard> groupCards = adminResource.getAllGroups(args);
 
         return Response.success(groupCards);
     }
 
+    @AdminRequired
+    @GetMapping("/group/{id}")
+    @RouteMeta(auth = "查询一个权限组及其权限", module = "管理员", mount = false)
+    public BaseResponse getGroup(@PathVariable Integer id) {
+
+        GroupInfoCard groupInfoCard = adminResource.getGroup(id);
+
+        return Response.success(groupInfoCard);
+    }
+
+
+    @AdminRequired
+    @PostMapping("/group")
+    @Logger(template = "管理员新建了一个权限组")
+    @RouteMeta(auth = "新建权限组", module = "管理员", mount = false)
+    public BaseResponse createGroup(@Valid NewGroupArgs args) {
+
+        adminResource.createGroup(args);
+
+        return Response.success("新建分组成功");
+    }
+
+    @AdminRequired
+    @PutMapping("/group/{id}")
+    @RouteMeta(auth = "更新一个权限组", module = "管理员", mount = false)
+    public BaseResponse updateGroup(@PathVariable Integer id, @Valid UpdateGroupArgs args) {
+
+        adminResource.updateGroup(id, args);
+
+        return Response.success("更新分组成功");
+    }
+
+    @AdminRequired
+    @DeleteMapping("/group/{id}")
+    @Logger(template = "管理员删除一个权限组")
+    @RouteMeta(auth = "删除一个权限组", module = "管理员", mount = false)
+    public BaseResponse deleteGroup(@PathVariable Integer id) {
+
+        adminResource.deleteGroup(id);
+
+        return Response.success("删除分组成功");
+    }
+
+
+    @AdminRequired
+    @PostMapping("/dispatch")
+    @RouteMeta(auth = "分配单个权限", module = "管理员", mount = false)
+    public BaseResponse dispatchAuth(@Valid DispatchAuthArgs args) {
+
+        adminResource.dispatchAuth(args);
+
+        return Response.success("添加权限成功");
+    }
+
+    @AdminRequired
+    @PostMapping("/dispatch/patch")
+    @RouteMeta(auth = "分配多个权限", module = "管理员", mount = false)
+    public BaseResponse dispatchAuths(@Valid DispatchAuthsArgs args) {
+
+        adminResource.dispatchAuths(args);
+
+        return Response.success("添加权限成功");
+    }
+
+    @AdminRequired
+    @PostMapping("/remove")
+    @RouteMeta(auth = "删除多个权限", module = "管理员", mount = false)
+    public BaseResponse removeAuths(@Valid RemoveAuthsArgs args) {
+
+        adminResource.removeAuths(args);
+
+        return Response.success("删除权限成功");
+    }
 }

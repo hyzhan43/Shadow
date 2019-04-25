@@ -61,7 +61,6 @@ public class ExceptionHandle {
         return Response.error(ErrorCode.UNKNOWN_ERROR);
     }
 
-
     // 没有传 requestBody 会抛出此异常
     @ExceptionHandler(HttpMessageNotReadableException.class)
     @ResponseBody
@@ -69,10 +68,14 @@ public class ExceptionHandle {
         return Response.error(ErrorCode.PARAMETER);
     }
 
-    // 没有传 requestBody 会抛出此异常
     @ExceptionHandler(BindException.class)
     @ResponseBody
     public BaseResponse methodHandle(BindException e) {
+        if (e.hasErrors() && e.getFieldError() != null) {
+            String msg = e.getFieldError().getDefaultMessage();
+            return Response.error(msg);
+        }
+
         return Response.error(ErrorCode.PARAMETER);
     }
 

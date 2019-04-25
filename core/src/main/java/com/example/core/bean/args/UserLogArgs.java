@@ -7,13 +7,13 @@ import javax.validation.constraints.NotBlank;
 
 /**
  * author：  HyZhan
- * create：  2019/4/24
+ * create：  2019/4/25
  * desc：    TODO
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class ChangePasswordArgs extends ResetPasswordArgs{
+public class UserLogArgs extends LogArgs{
 
-    @NotBlank(message = "原密码不能为空")
-    private String oldPassword;
+    @NotBlank(message = "搜索关键字不可为空")
+    private String keyword;
 }

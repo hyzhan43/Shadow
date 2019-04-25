@@ -3,11 +3,12 @@ package com.example.app.controller.cms;
 import com.example.core.annotation.*;
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
-import com.example.core.bean.args.LoginArgs;
-import com.example.core.bean.args.RegisterArgs;
+import com.example.core.bean.args.*;
 import com.example.core.bean.card.TokenCard;
+import com.example.core.bean.card.UserApisCard;
+import com.example.core.bean.card.UserCard;
 import com.example.core.resource.UserResource;
-import com.example.core.utils.L;
+import com.example.core.utils.TokenUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,7 +32,7 @@ public class UserController {
 
     @PostMapping("/register")
     @RouteMeta(auth = "注册", module = "用户", mount = false)
-    public BaseResponse register(@Valid @RequestBody RegisterArgs args) {
+    public BaseResponse register(@Valid RegisterArgs args) {
 
         userResource.register(args);
         return Response.success("注册成功");
@@ -39,9 +40,58 @@ public class UserController {
 
     @PostMapping("/login")
     @RouteMeta(auth = "登陆", module = "用户", mount = false)
-    public BaseResponse login(@Valid @RequestBody LoginArgs args) {
+    public BaseResponse login(@Valid LoginArgs args) {
 
         TokenCard tokenCard = userResource.login(args);
         return Response.success(tokenCard);
+    }
+
+    @LoginRequired
+    @PutMapping("")
+    @RouteMeta(auth = "用户更新信息", module = "用户", mount = false)
+    public BaseResponse update(@Valid UpdateInfoArgs args) {
+
+        String email = args.getEmail();
+        if (email != null && !email.isEmpty()) {
+            userResource.updateInfo(args);
+        }
+
+        return Response.success("操作成功");
+    }
+
+    @LoginRequired
+    @PutMapping("/password/change")
+    @Logger(template = "{user.nickname}修改了自己的密码")
+    @RouteMeta(auth = "修改密码", module = "用户", mount = false)
+    public BaseResponse changePassword(@Valid ChangePasswordArgs args) {
+
+        userResource.changePassword(args);
+
+        return Response.success("密码修改成功");
+    }
+
+    @LoginRequired
+    @GetMapping("/information")
+    @RouteMeta(auth = "查询自己信息", module = "用户", mount = false)
+    public BaseResponse getInformation() {
+
+        UserCard userCard = userResource.getUserInfo();
+        return Response.success(userCard);
+    }
+
+    @GetMapping("/refresh")
+    @RouteMeta(auth = "刷新令牌", module = "用户", mount = false)
+    public BaseResponse refreshToken(@Valid RefreshTokenArgs args) {
+        TokenCard tokenCard = userResource.refreshToken(args);
+        return Response.success(tokenCard);
+    }
+
+
+    @LoginRequired
+    @GetMapping("/auths")
+    @RouteMeta(auth = "查询自己拥有的权限", module = "用户", mount = false)
+    public BaseResponse getAllowedApis() {
+        UserApisCard userApisCard = userResource.getAllowedApis();
+        return Response.success(userApisCard);
     }
 }

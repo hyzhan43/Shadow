@@ -5,8 +5,10 @@ import com.example.core.annotation.GroupRequired;
 import com.example.core.annotation.Logger;
 import com.example.core.annotation.LoginRequired;
 import com.example.core.bean.db.User;
+import com.example.core.bean.args.LogInfoArgs;
 import com.example.core.exception.BaseException;
 import com.example.core.exception.code.ErrorCode;
+import com.example.core.resource.LogResource;
 import com.example.core.service.AuthService;
 import com.example.core.service.LogService;
 import com.example.core.service.UserService;
@@ -36,6 +38,9 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
     @Autowired
     LogService logService;
+
+    @Autowired
+    LogResource logResource;
 
     private String uid;
 
@@ -117,12 +122,15 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
             Logger logger = method.getAnnotation(Logger.class);
 
-            logService.saveLog(uid,
-                    logger.template(),
-                    response.getStatus(),
-                    request.getMethod(),
-                    request.getRequestURI(),
-                    method.getName());
+            LogInfoArgs args = new LogInfoArgs();
+            args.setUserId(Integer.parseInt(uid));
+            args.setMethodName(method.getName());
+            args.setTemplate(logger.template());
+            args.setStatusCode(response.getStatus());
+            args.setMethod(request.getMethod());
+            args.setPath(request.getRequestURI());
+
+            logResource.saveLog(args);
         }
     }
 

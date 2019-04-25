@@ -3,10 +3,17 @@ package com.example.core.service;
 import com.example.core.bean.card.RouteMetaCard;
 import com.example.core.bean.db.Log;
 import com.example.core.bean.db.User;
+import com.example.core.bean.model.LogModel;
 import com.example.core.repository.LogRepository;
 import com.example.core.utils.RouteMetaUtil;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
+
+import java.util.Date;
 
 /**
  * author：  HyZhan
@@ -16,9 +23,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class LogService {
 
-    @Autowired
-    UserService userService;
-
     private LogRepository logRepository;
 
     @Autowired
@@ -26,25 +30,18 @@ public class LogService {
         this.logRepository = logRepository;
     }
 
-    public void saveLog(String uid, String template, Integer status, String method,
-                        String url, String methodName) {
-
-        User user = userService.getUserById(Integer.parseInt(uid));
+    public void saveLog(LogModel model) {
 
         Log log = new Log();
-        log.setUserId(user.getId());
-        log.setUsername(user.getNickname());
-        log.setStatusCode(status);
-        log.setMethod(method);
-        log.setPath(url);
+        BeanUtils.copyProperties(model, log);
 
-        RouteMetaCard routeMetaCard = RouteMetaUtil.findRouteMetaCard(methodName);
+        RouteMetaCard routeMetaCard = RouteMetaUtil.getRouteMetaCard(model.getMethodName());
 
         if (routeMetaCard != null) {
             log.setAuthority(routeMetaCard.getAuth());
         }
 
-        String message = parseTemplate(template);
+        String message = parseTemplate(model.getTemplate());
         log.setMessage(message);
 
         logRepository.save(log);
@@ -65,4 +62,17 @@ public class LogService {
 
         logRepository.save(log);
     }
+
+    public Page<Log> getAllLogs(Specification<Log> specification, Pageable pageable) {
+        return logRepository.findAll(specification, pageable);
+    }
+
+    public Page<Log> getLogs(String name, Date start, Date end, Pageable pageable) {
+        return logRepository.getLogByAndNameAndTime(name, start, end, pageable);
+    }
+
+    public Page<Log> getUserLogs(String keyword, String name, Date start, Date end, Pageable pageable) {
+        return logRepository.getLogByKeywordAndNameAndTime(keyword, name, start, end, pageable);
+    }
+
 }

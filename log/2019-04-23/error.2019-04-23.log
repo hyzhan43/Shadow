@@ -699,3 +699,15 @@ Field error in object 'changePasswordArgs' on field 'newPassword': rejected valu
 2019-04-23 17:01:47,383 - error - url->http://localhost:3000/cms/admin/disable/44
 2019-04-23 17:03:09,302 - error - url->http://localhost:3000/cms/admin/active/44
 2019-04-23 17:17:18,135 - error - url->http://localhost:3000/cms/admin/active/44
+2019-04-23 17:18:32,241 - error - url->http://localhost:3000/cms/admin/groups
+2019-04-23 17:18:43,430 - error - url->http://localhost:3000/cms/admin/groups
+2019-04-23 18:07:48,056 - error - url->http://localhost:3000/cms/admin/groups/all
+2019-04-23 18:07:48,064 - error - url->http://localhost:3000/error
+2019-04-23 18:07:58,137 - error - url->http://localhost:3000/cms/admin/groups
+2019-04-23 18:08:25,381 - error - url->http://localhost:3000/cms/user/login
+2019-04-23 18:08:33,770 - error - url->http://localhost:3000/cms/admin/groups/all
+2019-04-23 18:08:33,775 - error - url->http://localhost:3000/error
+2019-04-23 18:14:37,198 - error - url->http://localhost:3000/cms/admin/group/all
+2019-04-23 18:14:37,209 - error - url->http://localhost:3000/error
+2019-04-23 18:14:57,356 - error - url->http://localhost:3000/cms/admin/group/all
+2019-04-23 18:15:03,223 - error - url->http://localhost:3000/cms/admin/group/all

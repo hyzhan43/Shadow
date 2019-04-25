@@ -1,5 +1,6 @@
 package com.example.core.utils;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -38,8 +39,23 @@ public class DateUtils {
 
     public static Date convertTime(int time) {
         long currentTime = System.currentTimeMillis();
-        currentTime +=  time;
+        currentTime += time;
         return new Date(currentTime);
+    }
+
+    public static Date stringFormat(String time) {
+
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+        if (time == null)
+            return null;
+
+        try {
+            return format.parse(time);
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }
 

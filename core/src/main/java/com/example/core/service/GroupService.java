@@ -1,24 +1,17 @@
 package com.example.core.service;
 
-import com.example.core.bean.card.AuthCard;
-import com.example.core.bean.card.GroupCard;
-import com.example.core.bean.card.ModuleCard;
-import com.example.core.bean.card.PageCard;
-import com.example.core.bean.db.Auth;
+import com.example.core.bean.args.NewGroupArgs;
 import com.example.core.bean.db.Group;
 import com.example.core.exception.BaseException;
 import com.example.core.exception.code.ErrorCode;
 import com.example.core.repository.GroupRepository;
+import com.example.core.resource.PageResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 /**
  * author：  HyZhan
@@ -49,5 +42,36 @@ public class GroupService extends PageResource {
 
     public Page<Group> getAllGroup(Pageable pageable) {
         return groupRepository.findAll(pageable);
+    }
+
+    public void findGroupByName(String name) {
+
+        Optional<Group> groupOptional = groupRepository.findByName(name);
+
+        if (groupOptional.isPresent()) {
+            throw new BaseException(ErrorCode.GROUP_IS_EXIST);
+        }
+    }
+
+    public Integer createGroup(NewGroupArgs args) {
+        Group group = new Group();
+        group.setName(args.getName());
+        group.setInfo(args.getInfo());
+
+        return groupRepository.save(group).getId();
+    }
+
+    public void updateGroup(Group group, String name, String info) {
+        group.setName(name);
+
+        if (info != null) {
+            group.setInfo(info);
+        }
+
+        groupRepository.save(group);
+    }
+
+    public void deleteGroup(Group group) {
+        groupRepository.delete(group);
     }
 }

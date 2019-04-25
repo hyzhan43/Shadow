@@ -2,6 +2,8 @@ package com.example.core.utils;
 
 import com.example.core.annotation.RouteMeta;
 import com.example.core.bean.card.RouteMetaCard;
+import com.example.core.exception.BaseException;
+import com.example.core.exception.code.ErrorCode;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.core.annotation.AnnotationUtils;
@@ -10,6 +12,7 @@ import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -49,7 +52,26 @@ public class RouteMetaUtil implements BeanPostProcessor {
         return routeMetaCardMap;
     }
 
-    public static RouteMetaCard findRouteMetaCard(String key){
+    public static RouteMetaCard getRouteMetaCard(String key) {
         return routeMetaCardMap.get(key);
+    }
+
+    public static RouteMetaCard getRouteMetaCardByAuth(String auth) {
+
+        RouteMetaCard[] routeMetaCards = new RouteMetaCard[]{};
+        routeMetaCards = routeMetaCardMap.values().toArray(routeMetaCards);
+
+        RouteMetaCard card = null;
+        for (RouteMetaCard routeMetaCard : routeMetaCards) {
+            if (routeMetaCard.getAuth().equals(auth)) {
+                card = routeMetaCard;
+                break;
+            }
+        }
+
+        if (card == null)
+            throw new BaseException(ErrorCode.ROUTE_META_NOT_EXIST);
+
+        return card;
     }
 }
