@@ -57,7 +57,7 @@ if (!Array.prototype.forEach) {
     // 3. Let len be ToUint32(lenValue).
     var len = O.length >>> 0;
 
-    // 4. If IsCallable(callback) is false, throw a TypeError exception.
+    // 4. If IsCallable(callback) is false, throw a TypeError error.
     // See: http://es5.github.com/#x9.11
     if (typeof callback !== "function") {
       throw new TypeError(callback + " is not a function");

@@ -1,6 +1,6 @@
-package com.example.core.exception;
+package com.example.core.error;
 
-import com.example.core.exception.code.ErrorCode;
+import com.example.core.error.code.ErrorCode;
 
 /**
  * author：  HyZhan
@@ -12,9 +12,9 @@ public class BaseException extends RuntimeException {
 
     private ErrorCode errorCode;
 
-    public BaseException(ErrorCode errorCode) {
-        super(errorCode.getMsg());
-        this.errorCode =  errorCode;
+    public BaseException(ErrorCode ErrorCode) {
+        super(ErrorCode.getMsg());
+        this.errorCode = ErrorCode;
     }
 
     public ErrorCode getErrorCode() {

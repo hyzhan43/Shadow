@@ -1,8 +1,7 @@
 package com.example.core.service;
 
-import com.example.core.exception.BaseException;
-import com.example.core.exception.code.ErrorCode;
-import org.apache.catalina.connector.Request;
+import com.example.core.error.BaseException;
+import com.example.core.error.code.ErrorCode;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 

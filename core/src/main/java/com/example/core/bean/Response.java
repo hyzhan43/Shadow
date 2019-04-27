@@ -1,6 +1,6 @@
 package com.example.core.bean;
 
-import com.example.core.exception.code.ErrorCode;
+import com.example.core.error.code.ErrorCode;
 
 /**
  * author：  HyZhan
@@ -14,9 +14,8 @@ public class Response {
 
     private static final String MSG_SUC = "获取成功";
 
-    @SuppressWarnings("unchecked")
-    public static BaseResponse success(String msg, Object object) {
-        BaseResponse response = new BaseResponse();
+    public static <T> BaseResponse success(String msg, T object) {
+        BaseResponse<T> response = new BaseResponse<>();
         response.setCode(SUCCESS);
         response.setMsg(msg);
         response.setData(object);
@@ -36,6 +35,13 @@ public class Response {
 
     public static BaseResponse success(Object object) {
         return success(MSG_SUC, object);
+    }
+
+    public static BaseResponse error(Integer code, String msg) {
+        BaseResponse response = new BaseResponse();
+        response.setCode(code);
+        response.setMsg(msg);
+        return response;
     }
 
     public static BaseResponse error(ErrorCode state) {

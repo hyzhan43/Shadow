@@ -2,8 +2,8 @@ package com.example.core.service;
 
 import com.example.core.bean.args.NewGroupArgs;
 import com.example.core.bean.db.Group;
-import com.example.core.exception.BaseException;
-import com.example.core.exception.code.ErrorCode;
+import com.example.core.error.BaseException;
+import com.example.core.error.code.ErrorCode;
 import com.example.core.repository.GroupRepository;
 import com.example.core.resource.PageResource;
 import org.springframework.beans.factory.annotation.Autowired;

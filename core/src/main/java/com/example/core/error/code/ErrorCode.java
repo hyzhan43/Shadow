@@ -1,4 +1,4 @@
-package com.example.core.exception.code;
+package com.example.core.error.code;
 
 /**
  * author：  HyZhan
@@ -28,16 +28,13 @@ public enum ErrorCode {
     AUTH_IS_EXIST(1014, "已有权限，不可重复添加"),
     ROUTE_META_NOT_EXIST(1015, "找不到对应的权限"),
     REFRESH_ERROR(1016, "刷新token 失败"),
-
-
-    USER_NOT_EXIST(2000, "用户不存在"),
-    USER_EXIST(2001, "用户已存在"),
-    ACCOUNT_OR_PASSWORD_ERROR(2002, "账号或密码错误"),
-    NICKNAME_EXIST(2003, "用户名重复, 请重新输入"),
-    EMAIL_EXIST(2004, "邮箱重复, 请重新输入"),
-    CONFIRM_PASSWORD_ERROR(2005, "两次密码输入不正确, 请重新输入"),
-
-    SEARCH_KEYWORD_EMPTY(3000, "搜索关键字不可为空"),
+    USER_NOT_EXIST(1017, "用户不存在"),
+    USER_EXIST(1018, "用户已存在"),
+    ACCOUNT_OR_PASSWORD_ERROR(1019, "账号或密码错误"),
+    NICKNAME_EXIST(1020, "用户名重复, 请重新输入"),
+    EMAIL_EXIST(1021, "邮箱重复, 请重新输入"),
+    CONFIRM_PASSWORD_ERROR(1022, "两次密码输入不正确, 请重新输入"),
+    SEARCH_KEYWORD_EMPTY(1023, "搜索关键字不可为空"),
 
     ;
     private Integer code;

@@ -1,5 +1,6 @@
 package com.example.core.bean.db;
 
+import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -14,9 +15,10 @@ import java.util.Date;
  * create：  2019/4/10
  * desc：    TODO
  */
+@Data
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-class Base {
+public class Base {
 
     @Column
     @CreatedDate
@@ -27,6 +29,5 @@ class Base {
     private Date updateTime;
 
     @Column
-    @LastModifiedDate
     private Date deleteTime;
 }

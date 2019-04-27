@@ -18,16 +18,6 @@ public class ModuleCard {
 
     private List<AuthCard> auths;
 
-    public ModuleCard(List<AuthCard> auths) {
-
-        if (auths.isEmpty()) {
-            return;
-        }
-
-        this.module = auths.get(0).getModule();
-        this.auths = auths;
-    }
-
     public ModuleCard(String module, List<AuthCard> auths) {
         this.module = module;
         this.auths = auths;

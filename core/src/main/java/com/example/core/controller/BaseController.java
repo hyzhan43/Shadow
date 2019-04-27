@@ -1,8 +1,8 @@
 package com.example.core.controller;
 
 import com.example.core.bean.args.PageArgs;
-import com.example.core.exception.BaseException;
-import com.example.core.exception.code.ErrorCode;
+import com.example.core.error.BaseException;
+import com.example.core.error.code.ErrorCode;
 
 /**
  * author：  HyZhan

@@ -1,14 +1,12 @@
-package com.example.core.exception.handle;
+package com.example.core.error.handle;
 
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
-import com.example.core.exception.BaseException;
-import com.example.core.exception.code.ErrorCode;
+import com.example.core.error.BaseException;
+import com.example.core.error.code.ErrorCode;
 import com.example.core.utils.L;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.SignatureException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.BindException;
@@ -20,8 +18,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
-import org.springframework.web.multipart.MaxUploadSizeExceededException;
 
 
 /**
@@ -33,15 +29,15 @@ import org.springframework.web.multipart.MaxUploadSizeExceededException;
 public class ExceptionHandle {
 
     // 捕获自定义异常   响应状态码 -> 200
-    @ExceptionHandler(BaseException.class)
     @ResponseBody
+    @ExceptionHandler(BaseException.class)
     public BaseResponse handle(BaseException e) {
         return Response.error(e.getErrorCode());
     }
 
     // 捕获 token 异常  状态码 -> 200
-    @ExceptionHandler({SignatureException.class, ExpiredJwtException.class})
     @ResponseBody
+    @ExceptionHandler({SignatureException.class, ExpiredJwtException.class})
     public BaseResponse tokenHandle(Exception e) {
         // jwt 校验失败
         return Response.error(ErrorCode.TOKEN_ERROR);
