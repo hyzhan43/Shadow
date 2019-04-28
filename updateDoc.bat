@@ -1,0 +1,1 @@
+apidoc -i ./ -o ./app/src/main/resources/doc
