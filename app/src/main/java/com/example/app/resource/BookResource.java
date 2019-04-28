@@ -64,6 +64,6 @@ public class BookResource extends PageResource {
 
     public void deleteBook(Integer id) {
         Book book = bookService.getBookById(id);
-        bookService.deleteBook(book);
+        bookService.deleteBook(book, false);
     }
 }

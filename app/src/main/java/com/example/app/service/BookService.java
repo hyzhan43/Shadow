@@ -69,13 +69,16 @@ public class BookService {
     }
 
     // 删除图书，软删除
-    public void deleteBook(Book book) {
-        book.setDeleteTime(new Date());
-        bookRepository.save(book);
-    }
+    public void deleteBook(Book book, boolean delete) {
 
-    // 删除图书，硬删除
-    public void deleteBookTrue(Book book) {
+        if (delete){
+            // 删除图书，硬删除
+            bookRepository.save(book);
+            return;
+        }
+
+        // 软删除
+        book.setDeleteTime(new Date());
         bookRepository.save(book);
     }
 }
