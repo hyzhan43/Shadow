@@ -17,6 +17,7 @@ import com.example.core.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -45,6 +46,7 @@ public class UserResource {
         this.authService = authService;
     }
 
+    @Transactional
     public TokenCard login(LoginArgs args) {
 
         User user = userService.getUserByNickname(args.getNickname());

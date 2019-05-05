@@ -4,15 +4,12 @@ import com.example.core.annotation.AdminRequired;
 import com.example.core.annotation.GroupRequired;
 import com.example.core.annotation.Logger;
 import com.example.core.annotation.LoginRequired;
-import com.example.core.bean.db.User;
 import com.example.core.bean.args.LogInfoArgs;
-import com.example.core.error.BaseException;
-import com.example.core.error.code.ErrorCode;
+import com.example.core.interceptor.auth.AuthFactory;
+import com.example.core.interceptor.auth.handle.AdminHandle;
+import com.example.core.interceptor.auth.handle.GroupHandle;
+import com.example.core.interceptor.auth.handle.LoginHandle;
 import com.example.core.resource.LogResource;
-import com.example.core.service.AuthService;
-import com.example.core.service.LogService;
-import com.example.core.service.UserService;
-import com.example.core.utils.TokenUtils;
 import com.example.core.utils.L;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
@@ -31,23 +28,24 @@ import java.lang.reflect.Method;
 public class AuthenticationInterceptor implements HandlerInterceptor {
 
     @Autowired
-    UserService userService;
-
-    @Autowired
-    AuthService authService;
-
-    @Autowired
-    LogService logService;
-
-    @Autowired
     LogResource logResource;
 
-    private String uid;
+    @Autowired
+    LoginHandle loginHandle;
+
+    @Autowired
+    AdminHandle adminHandle;
+
+    @Autowired
+    GroupHandle groupHandle;
+
+    @Autowired
+    AuthFactory authFactory;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 
-        L.error("url->" + request.getRequestURL().toString());
+        L.i("url->" + request.getRequestURL().toString());
 
         // 如果不是映射方法 直接通过
         if (!(handler instanceof HandlerMethod)) {
@@ -57,45 +55,19 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
         HandlerMethod handlerMethod = (HandlerMethod) handler;
         Method method = handlerMethod.getMethod();
 
-        // 判断方法是否有  @LoginRequired
         if (method.isAnnotationPresent(LoginRequired.class)) {
-            uid = verifyToken(request);
+            authFactory.setHandle(loginHandle);
+        } else if (method.isAnnotationPresent(AdminRequired.class)) {
+            authFactory.setHandle(adminHandle);
+        } else if (method.isAnnotationPresent(GroupRequired.class)) {
+            authFactory.setHandle(groupHandle);
+        } else {
+            // 默认没有以上注解，不进行拦截
             return true;
         }
 
-        // 被 adminRequired 装饰的视图函数只有超级管理员才可访问
-        if (method.isAnnotationPresent(AdminRequired.class)) {
-            uid = verifyToken(request);
+        authFactory.handle(request, method.getName());
 
-            User user = userService.getUserById(Integer.parseInt(uid));
-
-            if (!user.isSuper()) {
-                throw new BaseException(ErrorCode.ADMIN_ERROR);
-            }
-
-            return true;
-        }
-
-        // 判断方法是否有  @LoginRequired
-        if (method.isAnnotationPresent(GroupRequired.class)) {
-            String uid = verifyToken(request);
-
-            User user = userService.getUserById(Integer.parseInt(uid));
-
-            if (user.isForbid()) {
-                throw new BaseException(ErrorCode.ACTIVE_ERROR);
-            }
-
-            if (!user.isSuper()) {
-                Integer groupId = user.getGroupId();
-                if (groupId == null) {
-                    throw new BaseException(ErrorCode.GROUP_EMPTY);
-                }
-
-                authService.isUserAllowed(groupId, method.getName());
-            }
-            return true;
-        }
         return true;
     }
 
@@ -123,6 +95,8 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
             Logger logger = method.getAnnotation(Logger.class);
 
             LogInfoArgs args = new LogInfoArgs();
+
+            String uid = (String) request.getAttribute("uid");
             args.setUserId(Integer.parseInt(uid));
             args.setMethodName(method.getName());
             args.setTemplate(logger.template());
@@ -132,28 +106,5 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
             logResource.saveLog(args);
         }
-    }
-
-    private String verifyToken(HttpServletRequest request) {
-        String token = request.getHeader("token");
-        if (token == null || token.isEmpty()) {
-            throw new BaseException(ErrorCode.TOKEN_EMPTY);
-        }
-
-        String uid = prepareCachedValue(token);
-        request.setAttribute("uid", uid);
-
-        return uid;
-    }
-
-    private String prepareCachedValue(String token) {
-
-        String uid = TokenUtils.parseToken(token);
-
-        if (uid == null || uid.isEmpty()) {
-            throw new BaseException(ErrorCode.TOKEN_ERROR);
-        }
-
-        return uid;
     }
 }

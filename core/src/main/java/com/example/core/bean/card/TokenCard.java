@@ -12,7 +12,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class TokenCard {
 
-    private String accessToken;
+    private String access_token;
 
-    private String refreshToken;
+    private String refresh_token;
 }

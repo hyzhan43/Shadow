@@ -9,6 +9,7 @@ import com.example.core.bean.args.PageArgs;
 import com.example.core.bean.args.UserLogArgs;
 import com.example.core.bean.card.LogCard;
 import com.example.core.bean.card.PageCard;
+import com.example.core.bean.card.ResponseCard;
 import com.example.core.bean.db.Log;
 import com.example.core.controller.BaseController;
 import com.example.core.resource.LogResource;
@@ -38,8 +39,8 @@ public class LogController extends BaseController {
 
     @GroupRequired
     @GetMapping("")
-    @RouteMeta(auth = "查询所有日志", module = "日志", mount = false)
-    public BaseResponse getLogs(LogArgs args) {
+    @RouteMeta(auth = "查询所有日志", module = "日志")
+    public ResponseCard getLogs(LogArgs args) {
 
         checkPaginate(args);
 
@@ -50,8 +51,8 @@ public class LogController extends BaseController {
 
     @GroupRequired
     @GetMapping("/search")
-    @RouteMeta(auth = "搜索日志", module = "日志", mount = false)
-    public BaseResponse getUserLogs(@Valid UserLogArgs args) {
+    @RouteMeta(auth = "搜索日志", module = "日志")
+    public ResponseCard getUserLogs(@Valid UserLogArgs args) {
 
         checkPaginate(args);
 
@@ -63,7 +64,7 @@ public class LogController extends BaseController {
     @GroupRequired
     @GetMapping("/users")
     @RouteMeta(auth = "查询日志记录的用户", module = "日志")
-    public BaseResponse getUsers(PageArgs args) {
+    public ResponseCard getUsers(PageArgs args) {
 
         checkPaginate(args);
 

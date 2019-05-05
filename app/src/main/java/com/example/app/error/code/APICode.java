@@ -6,8 +6,8 @@ package com.example.app.error.code;
  * desc：    TODO
  */
 public enum APICode {
-    BOOK_NOT_FOUND(2000, "没有找到相关书籍"),
-    BOOK_IS_EXIST(2001, "图书已存在"),
+    BOOK_NOT_FOUND(10020, "没有找到相关书籍"),
+    BOOK_IS_EXIST(10021, "图书已存在"),
     ;
 
     private Integer code;

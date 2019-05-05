@@ -12,5 +12,5 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class AdminUserArgs extends PageArgs {
 
-    public Integer groupId;
+    public Integer group_id;
 }

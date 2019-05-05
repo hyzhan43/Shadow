@@ -71,14 +71,14 @@ public class LogResource extends PageResource {
 
     private Pageable prepareCondition(LogArgs args) {
         return PageRequest.of(args.getPage(),
-                args.getPageSize(),
+                args.getCount(),
                 Sort.Direction.DESC,
                 "create_time");
     }
 
     public PageCard<String> getUsers(PageArgs args) {
 
-        Pageable pageable = PageRequest.of(args.getPage(), args.getPageSize());
+        Pageable pageable = PageRequest.of(args.getPage(), args.getCount());
 
         Specification<Log> specification = (Specification<Log>) (root, criteriaQuery, criteriaBuilder) -> {
             Path path = root.get("username");

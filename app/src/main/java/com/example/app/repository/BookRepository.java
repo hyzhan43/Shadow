@@ -1,10 +1,9 @@
 package com.example.app.repository;
 
 import com.example.app.bean.db.Book;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.List;
 import java.util.Optional;
 
 
@@ -15,7 +14,7 @@ import java.util.Optional;
  */
 public interface BookRepository extends JpaRepository<Book, Integer> {
 
-    Page<Book> findByTitleLike(String title, Pageable pageable);
+    List<Book> findByTitleLike(String title);
 
     Optional<Book> findByTitleAndDeleteTimeIsNull(String title);
 }

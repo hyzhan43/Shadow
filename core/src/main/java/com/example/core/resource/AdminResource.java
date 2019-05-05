@@ -48,21 +48,16 @@ public class AdminResource extends PageResource {
 
     public PageCard<AdminUserCard> getAdminUsers(AdminUserArgs args) {
 
-        Integer groupId = args.getGroupId();
-
         // 分页查询条件
-        Pageable pageable = PageRequest.of(args.getPage(), args.getPageSize());
+        Pageable pageable = PageRequest.of(args.getPage(), args.getCount());
 
-        Page<User> userPage;
-        if (groupId == null) {
-            userPage = userService.getUserByAdmin(User.COMMON, pageable);
-        } else {
-            userPage = userService.getUserByAdminAndGroupId(User.COMMON, groupId, pageable);
-        }
+        Page<AdminUserCard> adminUserPage = userService.getUserByAdminAndGroupId(
+                User.COMMON,
+                args.getGroup_id(),
+                pageable)
+                .map(AdminUserCard::new);
 
-        Page<AdminUserCard> page = userPage.map(AdminUserCard::new);
-
-        return convertPageCard(page);
+        return convertPageCard(adminUserPage);
     }
 
     public void changePassword(Integer id, ResetPasswordArgs args) {
@@ -111,7 +106,7 @@ public class AdminResource extends PageResource {
     }
 
     public PageCard<GroupInfoCard> getAdminGroups(PageArgs args) {
-        Pageable pageable = PageRequest.of(args.getPage(), args.getPageSize());
+        Pageable pageable = PageRequest.of(args.getPage(), args.getCount());
 
         Page<Group> groupPage = groupService.getAllGroup(pageable);
 
@@ -136,7 +131,7 @@ public class AdminResource extends PageResource {
 
     public PageCard<GroupCard> getAllGroups(PageArgs args) {
 
-        Pageable pageable = PageRequest.of(args.getPage(), args.getPageSize());
+        Pageable pageable = PageRequest.of(args.getPage(), args.getCount());
 
         Page<GroupCard> groupCardPage = groupService.getAllGroup(pageable)
                 .map(GroupCard::new);

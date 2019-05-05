@@ -28,7 +28,7 @@ define({ "api": [
       "examples": [
         {
           "title": "返回样例：",
-          "content": "{\"code\":0,\"msg\":\"获取成功\",\"data\":{\"curPage\":0,\"pageCount\":1,\"size\":10,\"total\":2,\"collection\":[{\"id\":1,\"nickname\":\"asd\",\"active\":1,\"email\":\"asd\",\"groupId\":1,\"groupName\":\"张三\",\"admin\":1},{\"id\":2,\"nickname\":\"ww\",\"active\":1,\"email\":\"ww\",\"groupId\":2,\"groupName\":\"aa\",\"admin\":1}]}}",
+          "content": "{\"code\":0,\"msg\":\"获取成功\",\"data\":{\"curPage\":0,\"pageCount\":1,\"size\":10,\"total\":2,\"collection\":[{\"id\":1,\"nickname\":\"asd\",\"active\":1,\"email\":\"asd\",\"group_id\":1,\"groupName\":\"张三\",\"admin\":1},{\"id\":2,\"nickname\":\"ww\",\"active\":1,\"email\":\"ww\",\"group_id\":2,\"groupName\":\"aa\",\"admin\":1}]}}",
           "type": "json"
         }
       ]

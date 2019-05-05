@@ -13,5 +13,5 @@ public class PageArgs {
 
     public Integer page = Setting.PAGE;
 
-    public Integer pageSize = Setting.PAGE_SIZE;
+    public Integer count = Setting.PAGE_SIZE;
 }

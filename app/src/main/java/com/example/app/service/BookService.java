@@ -14,6 +14,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -42,8 +43,8 @@ public class BookService {
         return bookOptional.get();
     }
 
-    public Page<Book> searchBookByTitle(String keyword, Pageable pageable) {
-        return bookRepository.findByTitleLike(keyword, pageable);
+    public List<Book> searchBookByTitle(String keyword) {
+        return bookRepository.findByTitleLike(keyword);
     }
 
     public void findBookByTitle(String title) {

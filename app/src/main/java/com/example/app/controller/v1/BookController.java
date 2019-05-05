@@ -5,13 +5,15 @@ import com.example.app.bean.args.CreateOrUpdateBookArgs;
 import com.example.app.bean.card.BookCard;
 import com.example.app.resource.BookResource;
 import com.example.core.annotation.GroupRequired;
+import com.example.core.annotation.RouteMeta;
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
-import com.example.core.bean.card.PageCard;
+import com.example.core.bean.card.ResponseCard;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 /**
  * author：  HyZhan
@@ -30,21 +32,17 @@ public class BookController {
     }
 
     @GetMapping("/{id}")
-    public BaseResponse getBook(@PathVariable Integer id) {
-        BookCard bookCard = bookResource.getBookById(id);
-        return Response.success(bookCard);
+    public BookCard getBook(@PathVariable Integer id) {
+        return bookResource.getBookById(id);
     }
 
     @GetMapping("/search")
-    public BaseResponse searchBook(@Valid BookSearchArgs args) {
-
-        PageCard<BookCard> bookPageCard = bookResource.searchBook(args);
-
-        return Response.success(bookPageCard);
+    public List<BookCard> searchBook(@Valid @RequestBody BookSearchArgs args) {
+        return bookResource.searchBook(args);
     }
 
-    @PostMapping("")
-    public BaseResponse createBook(@Valid CreateOrUpdateBookArgs args) {
+    @PostMapping("/")
+    public ResponseCard createBook(@Valid @RequestBody CreateOrUpdateBookArgs args) {
 
         bookResource.createBook(args);
 
@@ -52,7 +50,8 @@ public class BookController {
     }
 
     @PutMapping("/{id}")
-    public BaseResponse updateBook(@PathVariable Integer id, @Valid CreateOrUpdateBookArgs args) {
+    public ResponseCard updateBook(@PathVariable Integer id,
+                                   @Valid @RequestBody CreateOrUpdateBookArgs args) {
 
         bookResource.updateBook(id, args);
         return Response.success("更新图书成功");
@@ -60,8 +59,9 @@ public class BookController {
 
 
     @GroupRequired
+    @RouteMeta(auth = "删除图书", module = "图书")
     @DeleteMapping("/{id}")
-    public BaseResponse updateBook(@PathVariable Integer id) {
+    public ResponseCard deleteBook(@PathVariable Integer id) {
 
         bookResource.deleteBook(id);
         return Response.success("删除图书成功");

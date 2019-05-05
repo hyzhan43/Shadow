@@ -5,6 +5,8 @@ import com.example.app.bean.args.CreateOrUpdateBookArgs;
 import com.example.app.bean.card.BookCard;
 import com.example.app.bean.db.Book;
 import com.example.app.bean.model.BookModel;
+import com.example.app.error.APIException;
+import com.example.app.error.code.APICode;
 import com.example.app.service.BookService;
 import com.example.core.bean.card.PageCard;
 import com.example.core.resource.PageResource;
@@ -14,6 +16,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * author：  HyZhan
@@ -35,14 +40,17 @@ public class BookResource extends PageResource {
         return new BookCard(book);
     }
 
-    public PageCard<BookCard> searchBook(BookSearchArgs args) {
+    public List<BookCard> searchBook(BookSearchArgs args) {
 
-        Pageable pageable = PageRequest.of(args.getPage(), args.getPageSize());
+        List<Book> books = bookService.searchBookByTitle(args.getQ());
 
-        Page<BookCard> bookPage = bookService.searchBookByTitle(args.getKeyword(), pageable)
-                .map(BookCard::new);
+        if (books.isEmpty()) {
+            throw new APIException(APICode.BOOK_NOT_FOUND);
+        }
 
-        return convertPageCard(bookPage);
+        return books.stream()
+                .map(BookCard::new) // 转化为BookCard
+                .collect(Collectors.toList());
     }
 
     public void createBook(CreateOrUpdateBookArgs args) {

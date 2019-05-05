@@ -16,7 +16,7 @@ public class BaseController {
      */
     protected void checkPaginate(PageArgs args) {
         Integer page = args.getPage();
-        Integer pageSize = args.getPageSize();
+        Integer pageSize = args.getCount();
 
         if (page < 0 || pageSize <= 0) {
             throw new BaseException(ErrorCode.PARAMETER);

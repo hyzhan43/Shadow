@@ -34,7 +34,7 @@ public class BookCard extends BaseCard {
      *  格式化输出
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
-    private Date createTime;
+    private Date create_time;
 
     public BookCard(Book book) {
         this.id = book.getId();
@@ -47,6 +47,6 @@ public class BookCard extends BaseCard {
         this.summary = book.getSummary();
         this.image = book.getImage();
 
-        this.createTime = book.getCreateTime();
+        this.create_time = book.getCreateTime();
     }
 }

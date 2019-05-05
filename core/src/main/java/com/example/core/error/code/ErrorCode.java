@@ -10,6 +10,7 @@ public enum ErrorCode {
     HTTP_METHOD_ERROR(-2, "Http 请求方法不匹配!"),
     PARAMETER(-3, "参数错误"),
     USER_ERROR(-4, "用户异常"),
+    REQUEST_BODY_ERROR(-5, "请传入application-json参数"),
 
     // 权限
     TOKEN_EMPTY(1000, "token 无效"),
@@ -43,6 +44,10 @@ public enum ErrorCode {
     ErrorCode(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
+    }
+
+    ErrorCode(Integer code) {
+        this.code = code;
     }
 
     public Integer getCode() {

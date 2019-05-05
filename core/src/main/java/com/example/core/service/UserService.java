@@ -95,12 +95,8 @@ public class UserService extends BaseService {
         }
     }
 
-    public Page<User> getUserByAdmin(Integer admin, Pageable pageable) {
-        return userRepository.findByAdmin(admin, pageable);
-    }
-
     public Page<User> getUserByAdminAndGroupId(Integer admin, Integer groupId, Pageable pageable) {
-        return userRepository.findByAdminAndGroupId(admin, groupId, pageable);
+        return userRepository.getUserByAdminAndGroupId(admin, groupId, pageable);
     }
 
     public void changePassword(Integer id, String newPassword) {
