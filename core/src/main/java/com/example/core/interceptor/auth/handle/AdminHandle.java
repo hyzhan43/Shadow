@@ -4,6 +4,9 @@ import com.example.core.bean.db.User;
 import com.example.core.error.BaseException;
 import com.example.core.error.code.ErrorCode;
 import com.example.core.interceptor.auth.AuthHandle;
+import com.example.core.service.UserService;
+import com.example.core.utils.TokenUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -14,13 +17,20 @@ import javax.servlet.http.HttpServletRequest;
  * desc：    TODO
  */
 @Component
-public class AdminHandle extends BaseHandle implements AuthHandle {
+public class AdminHandle implements AuthHandle {
+
+    private UserService userService;
+
+    @Autowired
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
 
     @Override
     public void handle(HttpServletRequest request, String methodName) {
-        verifyToken(request);
+        TokenUtils.verifyToken(request);
 
-        User user = getCurrentUser();
+        User user = userService.getUserById(Integer.parseInt(TokenUtils.uid));
 
         if (!user.isSuper()) {
             throw new BaseException(ErrorCode.ADMIN_ERROR);

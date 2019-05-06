@@ -17,7 +17,7 @@ public class DispatchAuthsArgs {
 
     @NotNull(message = "请输入分组id")
     @Min(value = 1, message = "分组id必须大于0")
-    private Integer groupId;
+    private Integer group_id;
 
     @NotNull(message = "请输入auths字段")
     private List<String> auths;

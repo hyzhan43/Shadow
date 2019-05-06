@@ -8,6 +8,7 @@ import com.example.core.bean.args.*;
 import com.example.core.bean.card.*;
 import com.example.core.controller.BaseController;
 import com.example.core.resource.AdminResource;
+import com.example.core.utils.L;
 import com.example.core.utils.RouteMetaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -60,7 +61,7 @@ public class AdminController extends BaseController {
     @PutMapping("/password/{id}")
     @RouteMeta(auth = "修改用户密码", module = "管理员", mount = false)
     public ResponseCard ChangePassword(@PathVariable Integer id,
-                                       @Valid ResetPasswordArgs args) {
+                                       @Valid @RequestBody ResetPasswordArgs args) {
 
         adminResource.changePassword(id, args);
 
@@ -80,7 +81,7 @@ public class AdminController extends BaseController {
     @AdminRequired
     @PutMapping("/{id}")
     @RouteMeta(auth = "管理员更新用户信息", module = "管理员", mount = false)
-    public ResponseCard updateUser(@PathVariable Integer id, @Valid UpdateUserArgs args) {
+    public ResponseCard updateUser(@PathVariable Integer id, @Valid @RequestBody UpdateUserArgs args) {
 
         adminResource.updateUser(id, args);
 
@@ -109,35 +110,28 @@ public class AdminController extends BaseController {
     @AdminRequired
     @GetMapping("/groups")
     @RouteMeta(auth = "查询所有权限组及其权限", module = "管理员", mount = false)
-    public ResponseCard getAdminGroups(PageArgs args) {
+    public PageCard getAdminGroups(PageArgs args) {
 
         checkPaginate(args);
 
-        PageCard<GroupInfoCard> groupInfoCards = adminResource.getAdminGroups(args);
-
-        return Response.success(groupInfoCards);
+        return adminResource.getAdminGroups(args);
     }
 
     @AdminRequired
     @GetMapping("/group/all")
     @RouteMeta(auth = "查询所有权限组", module = "管理员", mount = false)
-    public ResponseCard getAllGroups(PageArgs args) {
+    public List<GroupCard> getAllGroups(PageArgs args) {
 
         checkPaginate(args);
 
-        PageCard<GroupCard> groupCards = adminResource.getAllGroups(args);
-
-        return Response.success(groupCards);
+        return adminResource.getAllGroups(args);
     }
 
     @AdminRequired
     @GetMapping("/group/{id}")
     @RouteMeta(auth = "查询一个权限组及其权限", module = "管理员", mount = false)
-    public ResponseCard getGroup(@PathVariable Integer id) {
-
-        GroupInfoCard groupInfoCard = adminResource.getGroup(id);
-
-        return Response.success(groupInfoCard);
+    public GroupInfoCard getGroup(@PathVariable Integer id) {
+        return adminResource.getGroup(id);
     }
 
 
@@ -145,7 +139,7 @@ public class AdminController extends BaseController {
     @PostMapping("/group")
     @Logger(template = "管理员新建了一个权限组")
     @RouteMeta(auth = "新建权限组", module = "管理员", mount = false)
-    public ResponseCard createGroup(@Valid NewGroupArgs args) {
+    public ResponseCard createGroup(@Valid @RequestBody NewGroupArgs args) {
 
         adminResource.createGroup(args);
 
@@ -155,7 +149,8 @@ public class AdminController extends BaseController {
     @AdminRequired
     @PutMapping("/group/{id}")
     @RouteMeta(auth = "更新一个权限组", module = "管理员", mount = false)
-    public ResponseCard updateGroup(@PathVariable Integer id, @Valid UpdateGroupArgs args) {
+    public ResponseCard updateGroup(@PathVariable Integer id,
+                                    @Valid @RequestBody UpdateGroupArgs args) {
 
         adminResource.updateGroup(id, args);
 
@@ -177,7 +172,7 @@ public class AdminController extends BaseController {
     @AdminRequired
     @PostMapping("/dispatch")
     @RouteMeta(auth = "分配单个权限", module = "管理员", mount = false)
-    public ResponseCard dispatchAuth(@Valid DispatchAuthArgs args) {
+    public ResponseCard dispatchAuth(@Valid @RequestBody DispatchAuthArgs args) {
 
         adminResource.dispatchAuth(args);
 
@@ -187,7 +182,7 @@ public class AdminController extends BaseController {
     @AdminRequired
     @PostMapping("/dispatch/patch")
     @RouteMeta(auth = "分配多个权限", module = "管理员", mount = false)
-    public ResponseCard dispatchAuths(@Valid DispatchAuthsArgs args) {
+    public ResponseCard dispatchAuths(@Valid @RequestBody DispatchAuthsArgs args) {
 
         adminResource.dispatchAuths(args);
 
@@ -197,7 +192,7 @@ public class AdminController extends BaseController {
     @AdminRequired
     @PostMapping("/remove")
     @RouteMeta(auth = "删除多个权限", module = "管理员", mount = false)
-    public ResponseCard removeAuths(@Valid RemoveAuthsArgs args) {
+    public ResponseCard removeAuths(@Valid @RequestBody RemoveAuthsArgs args) {
 
         adminResource.removeAuths(args);
 

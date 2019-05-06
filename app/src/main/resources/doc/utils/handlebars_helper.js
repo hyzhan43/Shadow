@@ -22,7 +22,7 @@ define([
     });
 
     /**
-     * start/stop timer for simple performance check.
+     * page/stop timer for simple performance check.
      */
     var timer;
     Handlebars.registerHelper('startTimer', function(text) {

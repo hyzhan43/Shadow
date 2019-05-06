@@ -97,7 +97,7 @@ public class UserResource {
 
     public void changePassword(ChangePasswordArgs args) {
 
-        if (!args.getNewPassword().equals(args.getConfirmPassword())) {
+        if (!args.getNew_password().equals(args.getConfirm_password())) {
             throw new BaseException(ErrorCode.CONFIRM_PASSWORD_ERROR);
         }
 

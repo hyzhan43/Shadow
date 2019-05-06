@@ -2,39 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0a90af-2698-4f53-8ab1-201c3e144442" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/args/BookSearchArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/args/BookSearchArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/card/BookCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/card/BookCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/v1/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/v1/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/error/code/APICode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/error/code/APICode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/error/handle/APIExceptionHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/error/handle/APIExceptionHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/resource/BookResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/resource/BookResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/doc/api_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/doc/api_data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/AdminUserArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/AdminUserArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/PageArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/PageArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/TokenCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/TokenCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/code/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/code/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/handle/ExceptionHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/handle/ExceptionHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/AuthenticationInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/doc/utils/handlebars_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/doc/utils/handlebars_helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthsArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthsArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/NewGroupArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/NewGroupArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RemoveAuthsArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RemoveAuthsArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/ResetPasswordArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/ResetPasswordArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UpdateUserArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UpdateUserArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupInfoCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupInfoCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/AdminHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/AdminHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/BaseHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/GroupHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/GroupHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/LoginHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/LoginHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/AdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/AdminResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/LogResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/LogResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/PageResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/PageResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/RouteMetaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/RouteMetaUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/2019-04-28/error.2019-04-28.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/2019-04-28/info.2019-04-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/TokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/TokenUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,12 +74,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="181">
+              <caret line="182" column="27" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1474#1475#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/AdminHandle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,21 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/error/BookException.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/error/APIException.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/error/APIExceptionHandle.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/args/CreateBookArgs.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/model/BookModel.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Base.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/card/BookCard.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/BaseResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/card/ErrorCard.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/error/handle/APIExceptionHandle.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/repository/BookRepository.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/service/BookService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/args/BookSearchArgs.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/resource/BookResource.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/error/code/APICode.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/ErrorCard.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/error/code/ErrorCode.java" />
@@ -158,10 +141,7 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/service/UserService.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/PageArgs.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/AdminUserArgs.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/AdminResource.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/ITokenHandle.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/TokenFactory.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/TokenHandle.java" />
@@ -178,6 +158,24 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/AuthenticationInterceptor.kt" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/AuthenticationInterceptor.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/AuthFactory.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/PageArgs.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/L.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/ResetPasswordArgs.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UpdateUserArgs.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/service/GroupService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupInfoCard.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/NewGroupArgs.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/AdminResource.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthArgs.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthsArgs.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RemoveAuthsArgs.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/BaseHandle.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserCard.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/TokenUtils.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/AdminHandle.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/GroupHandle.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/LoginHandle.java" />
       </list>
     </option>
   </component>
@@ -210,18 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Shadow" type="58d84e3e:PackageViewProjectNode" />
-              <item name="core" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,6 +275,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Shadow" type="58d84e3e:PackageViewProjectNode" />
+              <item name="core" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +297,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557072074329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557154756307" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -434,18 +432,19 @@
       <workItem from="1556458450774" duration="9123000" />
       <workItem from="1556539653656" duration="7070000" />
       <workItem from="1556594536870" duration="9434000" />
-      <workItem from="1557020049649" duration="10032000" />
+      <workItem from="1557020049649" duration="10413000" />
+      <workItem from="1557142938657" duration="10836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199115000" />
+    <option name="totallyTimeSpent" value="210332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23257373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23592493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,13 +454,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4546742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.66288954" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.407932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.38526914" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.3371105" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.38668555" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
@@ -504,181 +503,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/resource/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../JDK/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="1213" lean-forward="true" selection-start-line="1213" selection-end-line="1213" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../JDK/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/RouteMetaCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../JDK/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../JDK/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="3411" column="36" selection-start-line="3411" selection-start-column="36" selection-end-line="3411" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/bind/annotation/GetMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../JDK/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
-          <folding>
-            <element signature="e#6024#6025#0" expanded="true" />
-            <element signature="e#6052#6053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/2019-04-29/info.2019-04-29.log" />
-    <entry file="file://$PROJECT_DIR$/log/2019-04-29/error.2019-04-29.log" />
-    <entry file="file://$PROJECT_DIR$/log/2019-04-30/error.2019-04-30.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/2019-04-30/info.2019-04-30.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="522" column="28" selection-start-line="522" selection-start-column="28" selection-end-line="522" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/config/Secure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/config/Setting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/domain/Slice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/resource/PageResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7ba25e1d-75a9-42d9-8549-f3db9a80c3dd/schema/scarecrow/table/lin_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/PageArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/AdminUserArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/LoginRequired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/RouteMeta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -704,20 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1801">
-          <caret line="97" column="73" selection-start-line="97" selection-start-column="73" selection-end-line="97" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/resource/AdminResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -753,16 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/LoginHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -775,34 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/GroupHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../JDK/src.zip!/java/lang/reflect/AccessibleObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="189" column="19" selection-start-line="189" selection-start-column="19" selection-end-line="189" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/BaseHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,16 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/AdminHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/AuthenticationInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -875,24 +641,264 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/2019-05-05/info.2019-05-05.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2019-05-05/error.2019-05-05.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/utils/L.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/ModuleCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/ResetPasswordArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/AdminUserArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UpdateUserArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.6.RELEASE/spring-data-jpa-2.1.6.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupInfoCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/resource/PageResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/AuthCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/PageArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/NewGroupArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/utils/RouteMetaUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        <state relative-caret-position="318">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UpdateGroupArgs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="250">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/resource/AdminResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthsArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RemoveAuthsArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/service/GroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/error/code/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/model/AuthModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/TokenCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/utils/TokenUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/BaseHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/LoginHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/GroupHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/auth/handle/AdminHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="182" column="27" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

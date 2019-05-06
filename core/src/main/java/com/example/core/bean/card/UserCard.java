@@ -12,6 +12,7 @@ import org.springframework.beans.BeanUtils;
  */
 @Data
 public class UserCard {
+
     private Integer id;
 
     private String nickname;

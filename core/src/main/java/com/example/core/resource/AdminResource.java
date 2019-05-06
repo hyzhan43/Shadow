@@ -19,7 +19,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
 import javax.transaction.Transactional;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -61,9 +60,9 @@ public class AdminResource extends PageResource {
     }
 
     public void changePassword(Integer id, ResetPasswordArgs args) {
-        String newPassword = args.getNewPassword();
+        String newPassword = args.getNew_password();
 
-        if (!newPassword.equals(args.getConfirmPassword())) {
+        if (!newPassword.equals(args.getConfirm_password())) {
             throw new BaseException(ErrorCode.CONFIRM_PASSWORD_ERROR);
         }
 
@@ -82,7 +81,7 @@ public class AdminResource extends PageResource {
             userService.emailIsPresent(email);
         }
 
-        Integer groupId = args.getGroupId();
+        Integer groupId = args.getGroup_id();
         Group group = groupService.getGroupById(groupId);
 
         userService.updateUserEmailAndGroup(user, email, group);
@@ -106,53 +105,43 @@ public class AdminResource extends PageResource {
     }
 
     public PageCard<GroupInfoCard> getAdminGroups(PageArgs args) {
+
         Pageable pageable = PageRequest.of(args.getPage(), args.getCount());
 
         Page<Group> groupPage = groupService.getAllGroup(pageable);
-
         Page<GroupInfoCard> groupCardPage = groupPage.map(group -> {
 
             List<Auth> authList = authService.getAuthByGroupId(group.getId());
 
             // 按module 模块分组
-            Map<String, List<AuthCard>> groupMap = authList.stream()
+            Map<String, List<AuthCard>> authMap = authList.stream()
                     .map(AuthCard::new)
                     .collect(Collectors.groupingBy(AuthCard::getModule));
 
-            List<ModuleCard> moduleCards = new ArrayList<>();
-            groupMap.forEach((module, authCards) ->
-                    moduleCards.add(new ModuleCard(module, authCards)));
-
-            return new GroupInfoCard(group, moduleCards);
+            return new GroupInfoCard(group, authMap);
         });
 
         return convertPageCard(groupCardPage);
     }
 
-    public PageCard<GroupCard> getAllGroups(PageArgs args) {
+    public List<GroupCard> getAllGroups(PageArgs args) {
 
-        Pageable pageable = PageRequest.of(args.getPage(), args.getCount());
-
-        Page<GroupCard> groupCardPage = groupService.getAllGroup(pageable)
-                .map(GroupCard::new);
-
-        return convertPageCard(groupCardPage);
+        return groupService.getAllGroup()
+                .stream()
+                .map(GroupCard::new)
+                .collect(Collectors.toList());
     }
 
     public GroupInfoCard getGroup(Integer id) {
 
         Group group = groupService.getGroupById(id);
 
-        Map<String, List<AuthCard>> groupMap = authService.getAuthByGroupId(group.getId())
+        Map<String, List<AuthCard>> authMap = authService.getAuthByGroupId(group.getId())
                 .stream()
                 .map(AuthCard::new)
                 .collect(Collectors.groupingBy(AuthCard::getModule));
 
-        List<ModuleCard> moduleCards = new ArrayList<>();
-
-        groupMap.forEach((module, authCards) -> moduleCards.add(new ModuleCard(module, authCards)));
-
-        return new GroupInfoCard(group, moduleCards);
+        return new GroupInfoCard(group, authMap);
     }
 
     @Transactional
@@ -161,6 +150,13 @@ public class AdminResource extends PageResource {
         groupService.findGroupByName(args.getName());
 
         Integer groupId = groupService.createGroup(args);
+
+        // 可选参数
+        List<String> auths = args.getAuths();
+
+        if (auths == null || auths.isEmpty()) {
+            return;
+        }
 
         List<RouteMetaCard> routeMetaCards = args.getAuths().stream()
                 .map(RouteMetaUtil::getRouteMetaCardByAuth)
@@ -195,7 +191,7 @@ public class AdminResource extends PageResource {
     public void dispatchAuth(DispatchAuthArgs args) {
 
         String auth = args.getAuth();
-        Integer groupId = args.getGroupId();
+        Integer groupId = args.getGroup_id();
 
         groupService.getGroupById(groupId);
 
@@ -216,7 +212,7 @@ public class AdminResource extends PageResource {
 
     public void dispatchAuths(DispatchAuthsArgs args) {
 
-        Integer gid = args.getGroupId();
+        Integer gid = args.getGroup_id();
 
         groupService.getGroupById(gid);
 
@@ -226,8 +222,8 @@ public class AdminResource extends PageResource {
     }
 
     public void removeAuths(RemoveAuthsArgs args) {
-        groupService.getGroupById(args.getGroupId());
+        groupService.getGroupById(args.getGroup_id());
 
-        authService.deleteAuths(args.getGroupId(), args.getAuths());
+        authService.deleteAuths(args.getGroup_id(), args.getAuths());
     }
 }

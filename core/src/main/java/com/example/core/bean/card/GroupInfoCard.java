@@ -2,9 +2,9 @@ package com.example.core.bean.card;
 
 import com.example.core.bean.db.Group;
 import lombok.Data;
-import org.springframework.beans.BeanUtils;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * author：  HyZhan
@@ -20,10 +20,12 @@ public class GroupInfoCard {
     // 组信息
     private String info;
 
-    private List<ModuleCard> modules;
+    private Object[] auths;
 
-    public GroupInfoCard(Group group, List<ModuleCard> moduleCards) {
-        BeanUtils.copyProperties(group, this);
-        this.modules = moduleCards;
+    public GroupInfoCard(Group group, Map<String, List<AuthCard>> authMap) {
+        this.id = group.getId();
+        this.info = group.getInfo();
+        this.name = group.getName();
+        this.auths = new Object[]{authMap};
     }
 }

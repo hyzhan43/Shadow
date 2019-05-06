@@ -1,6 +1,7 @@
 package com.example.core.interceptor.auth.handle;
 
 import com.example.core.interceptor.auth.AuthHandle;
+import com.example.core.utils.TokenUtils;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -11,10 +12,10 @@ import javax.servlet.http.HttpServletRequest;
  * desc：    TODO
  */
 @Component
-public class LoginHandle extends BaseHandle implements AuthHandle {
+public class LoginHandle implements AuthHandle {
 
     @Override
     public void handle(HttpServletRequest request, String methodName) {
-        verifyToken(request);
+        TokenUtils.verifyToken(request);
     }
 }

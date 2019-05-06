@@ -13,8 +13,8 @@ import javax.validation.constraints.NotBlank;
 public class ResetPasswordArgs {
 
     @NotBlank(message = "新密码不能为空")
-    private String newPassword;
+    private String new_password;
 
     @NotBlank(message = "确认密码不能为空")
-    private String confirmPassword;
+    private String confirm_password;
 }

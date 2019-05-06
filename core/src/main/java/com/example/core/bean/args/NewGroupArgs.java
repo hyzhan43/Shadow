@@ -19,6 +19,5 @@ public class NewGroupArgs {
 
     private String info;
 
-    @NotNull(message = "请输入auths字段")
     private List<String> auths;
 }

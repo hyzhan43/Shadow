@@ -14,7 +14,7 @@ public class UpdateUserArgs {
 
     @NotNull(message = "分组id不能为空")
     @Min(value = 0, message = "分组id必须大于0")
-    private Integer groupId;
+    private Integer group_id;
 
     @NotBlank(message = "邮箱不能为空")
     @Email(message = "邮箱不符合规范")
