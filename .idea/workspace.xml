@@ -3,25 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e0a90af-2698-4f53-8ab1-201c3e144442" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/LogArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/LogArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RegisterArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RegisterArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/AdminUserCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/AdminUserCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupInfoCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupInfoCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/LogCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/LogCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/ModuleCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/ResponseCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/ResponseCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/TokenCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/TokenCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserApisCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserApisCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/handle/ExceptionHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/handle/ExceptionHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/LogResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/LogResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/PageResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/PageResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/TokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/TokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,8 +58,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="916">
-                <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+              <first_editor relative-caret-position="77">
+                <caret line="12" selection-start-line="12" selection-end-line="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -228,7 +210,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557241790304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557242314227" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -369,18 +351,17 @@
       <workItem from="1557155520716" duration="337000" />
       <workItem from="1557155886382" duration="52000" />
       <workItem from="1557158442563" duration="148000" />
-      <workItem from="1557230991444" duration="9632000" />
+      <workItem from="1557230991444" duration="10087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221249000" />
+    <option name="totallyTimeSpent" value="221704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -396,7 +377,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.60056657" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" visible="true" weight="0.60056657" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.38668555" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
@@ -530,13 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -827,11 +801,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="916">
-            <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+          <first_editor relative-caret-position="77">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
           </first_editor>
           <second_editor />
         </state>

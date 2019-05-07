@@ -10,9 +10,6 @@ Lin CMS 是一个前后端分离的 CMS 解决方案，这意味着，Lin 既提
 
 想了解更多 Lin-cms 访问以下网址 [http://doc.cms.7yue.pro/]
 
-# Scarecrow
-Scarecrow, 稻草人的意思, 当时因为在看LoL直播比赛, 喜欢的战队WE被稻草人打败, 止步八强, 所以命名稻草人。后因个人原因, 更名为 
-
 # Shadow
 `Shadow` 是一款基于SpringBoot2.x编写的脚手架, 整合了 Spring Data JPA + JWT + MySQL 等一系列框架, `Shadow` 在很大程度上借鉴了 Lin-cms-flask，故起名为`Shadow`  “影子” 模仿的意思。我尽量保证二者的架构和模式一致。当然由于二者属于不同语言，也有截然不同的生态，因此或多或少的存在一定的差异性，因此我编写两个版本,
 如下
