@@ -18,7 +18,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
@@ -69,7 +72,7 @@ public class UserResource {
 
     public void register(RegisterArgs args) {
         // 判断两次密码是否输入正确
-        if (!args.getConfirmPassword().equals(args.getPassword())) {
+        if (!args.getConfirm_password().equals(args.getPassword())) {
             throw new BaseException(ErrorCode.CONFIRM_PASSWORD_ERROR);
         }
 
@@ -79,7 +82,7 @@ public class UserResource {
             userService.findUserByEmail(args.getEmail());
         }
 
-        Group group = groupService.getGroupById(args.getGroupId());
+        Group group = groupService.getGroupById(args.getGroup_id());
 
         userService.registerUser(args, group);
     }
@@ -129,10 +132,11 @@ public class UserResource {
         User user = userService.getCurrentUser();
         List<Auth> authList = authService.getAuthByGroupId(user.getGroupId());
 
-        List<AuthCard> authCards = authList.stream()
+        // 按module 模块分组
+        Map<String, List<AuthCard>> authMap = authList.stream()
                 .map(AuthCard::new)
-                .collect(Collectors.toList());
+                .collect(Collectors.groupingBy(AuthCard::getModule));
 
-        return new UserApisCard(user, authCards);
+        return new UserApisCard(user, authMap);
     }
 }

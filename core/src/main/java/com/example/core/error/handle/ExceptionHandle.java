@@ -15,6 +15,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.HttpMediaTypeNotSupportedException;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -43,6 +44,16 @@ public class ExceptionHandle {
 
 
     /**
+     *  没有传递 @RequestParam
+     */
+    @ResponseBody
+    @ExceptionHandler(MissingServletRequestParameterException.class)
+    public ResponseCard handle(HttpServletRequest request, MissingServletRequestParameterException e) {
+        return Response.error(ErrorCode.PARAMETER, decorateUrl(request));
+    }
+
+
+    /**
      * 捕获 token 异常  状态码 -> 401
      */
     @ResponseBody
@@ -54,7 +65,7 @@ public class ExceptionHandle {
     }
 
     /**
-     * valid注解校验出错抛出的异常处理类
+     * valid + requestBody 注解校验出错抛出的异常处理类
      */
     @ResponseBody
     @ResponseStatus(HttpStatus.BAD_REQUEST)

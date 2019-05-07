@@ -1,5 +1,6 @@
 package com.example.core.bean.card;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 /**
@@ -9,7 +10,8 @@ import lombok.Data;
  */
 @Data
 public class ResponseCard<T> {
-    private Integer error_code;
+    @JsonProperty("error_code")
+    private Integer errorCode;
 
     private T msg;
 

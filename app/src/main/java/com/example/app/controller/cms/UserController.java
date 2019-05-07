@@ -31,9 +31,11 @@ public class UserController {
         this.userResource = userResource;
     }
 
+    @AdminRequired
     @PostMapping("/register")
+    @Logger(template = "管理员新建了一个用户")
     @RouteMeta(auth = "注册", module = "用户", mount = false)
-    public ResponseCard register(@Valid RegisterArgs args) {
+    public ResponseCard register(@Valid @RequestBody RegisterArgs args) {
 
         userResource.register(args);
         return Response.success("注册成功");
@@ -46,9 +48,9 @@ public class UserController {
     }
 
     @LoginRequired
-    @PutMapping("")
+    @PutMapping("/")
     @RouteMeta(auth = "用户更新信息", module = "用户", mount = false)
-    public ResponseCard update(@Valid UpdateInfoArgs args) {
+    public ResponseCard update(@Valid @RequestBody UpdateInfoArgs args) {
 
         String email = args.getEmail();
         if (email != null && !email.isEmpty()) {
@@ -62,7 +64,7 @@ public class UserController {
     @PutMapping("/password/change")
     @Logger(template = "{user.nickname}修改了自己的密码")
     @RouteMeta(auth = "修改密码", module = "用户", mount = false)
-    public ResponseCard changePassword(@Valid ChangePasswordArgs args) {
+    public ResponseCard changePassword(@Valid @RequestBody ChangePasswordArgs args) {
 
         userResource.changePassword(args);
 
@@ -72,25 +74,21 @@ public class UserController {
     @LoginRequired
     @GetMapping("/information")
     @RouteMeta(auth = "查询自己信息", module = "用户", mount = false)
-    public ResponseCard getInformation() {
-
-        UserCard userCard = userResource.getUserInfo();
-        return Response.success(userCard);
+    public UserCard getInformation() {
+        return userResource.getUserInfo();
     }
 
     @GetMapping("/refresh")
     @RouteMeta(auth = "刷新令牌", module = "用户", mount = false)
-    public ResponseCard refreshToken(@Valid RefreshTokenArgs args) {
-        TokenCard tokenCard = userResource.refreshToken(args);
-        return Response.success(tokenCard);
+    public TokenCard refreshToken(@Valid @RequestBody RefreshTokenArgs args) {
+        return userResource.refreshToken(args);
     }
 
 
     @LoginRequired
     @GetMapping("/auths")
     @RouteMeta(auth = "查询自己拥有的权限", module = "用户", mount = false)
-    public ResponseCard getAllowedApis() {
-        UserApisCard userApisCard = userResource.getAllowedApis();
-        return Response.success(userApisCard);
+    public UserApisCard getAllowedApis() {
+        return userResource.getAllowedApis();
     }
 }

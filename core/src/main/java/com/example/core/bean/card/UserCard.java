@@ -1,7 +1,7 @@
 package com.example.core.bean.card;
 
-import com.example.core.bean.db.Group;
 import com.example.core.bean.db.User;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 
@@ -36,11 +36,12 @@ public class UserCard {
     /**
      * 用户所属的权限组 id
      */
+    @JsonProperty("group_id")
     private Integer groupId;
-
-    private Group group;
 
     public UserCard(User user) {
         BeanUtils.copyProperties(user, this);
+
+        this.groupId = user.getGroupId();
     }
 }

@@ -15,11 +15,11 @@ import com.example.core.controller.BaseController;
 import com.example.core.resource.LogResource;
 import com.example.core.utils.L;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
+import java.util.List;
 
 /**
  * author：  HyZhan
@@ -38,38 +38,33 @@ public class LogController extends BaseController {
     }
 
     @GroupRequired
-    @GetMapping("")
+    @GetMapping("/")
     @RouteMeta(auth = "查询所有日志", module = "日志")
-    public ResponseCard getLogs(LogArgs args) {
+    public PageCard getLogs(@RequestBody LogArgs args) {
 
         checkPaginate(args);
 
-        PageCard<LogCard> logPageCard = logResource.getLogs(args);
-
-        return Response.success(logPageCard);
+        return logResource.getLogs(args);
     }
 
     @GroupRequired
     @GetMapping("/search")
     @RouteMeta(auth = "搜索日志", module = "日志")
-    public ResponseCard getUserLogs(@Valid UserLogArgs args) {
+    public PageCard getUserLogs(@RequestParam(name = "keyword") String keyword,
+                                @RequestBody LogArgs args) {
 
         checkPaginate(args);
 
-        PageCard<LogCard> logPageCard = logResource.getUserLogs(args);
-
-        return Response.success(logPageCard);
+        return logResource.getUserLogs(keyword, args);
     }
 
     @GroupRequired
     @GetMapping("/users")
     @RouteMeta(auth = "查询日志记录的用户", module = "日志")
-    public ResponseCard getUsers(PageArgs args) {
+    public List<String> getUsers(PageArgs args) {
 
         checkPaginate(args);
 
-        PageCard<String> logPageCar = logResource.getUsers(args);
-
-        return Response.success(logPageCar);
+        return logResource.getUsers(args);
     }
 }

@@ -37,7 +37,7 @@ public class Response {
 
     public static <T> ResponseCard error(Integer code, T msg, String request) {
         ResponseCard<T> responseCard = new ResponseCard<>();
-        responseCard.setError_code(code);
+        responseCard.setErrorCode(code);
         responseCard.setMsg(msg);
         responseCard.setRequest(request);
         return responseCard;
@@ -52,7 +52,7 @@ public class Response {
 
     public static ResponseCard error(ErrorCode state, String requestInfo) {
         ResponseCard<String> responseCard = new ResponseCard<>();
-        responseCard.setError_code(state.getCode());
+        responseCard.setErrorCode(state.getCode());
         responseCard.setMsg(state.getMsg());
         responseCard.setRequest(requestInfo);
         return responseCard;

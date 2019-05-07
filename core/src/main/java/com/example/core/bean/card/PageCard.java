@@ -1,6 +1,7 @@
 package com.example.core.bean.card;
 
 import com.example.core.config.Setting;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 import java.util.List;
@@ -15,5 +16,6 @@ public class PageCard<T> {
 
     private List<T> collection;
 
-    private long total_nums;
+    @JsonProperty("total_nums")
+    private long totalNums;
 }

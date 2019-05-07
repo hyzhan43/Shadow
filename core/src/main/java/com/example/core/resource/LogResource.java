@@ -23,6 +23,7 @@ import org.springframework.stereotype.Component;
 
 import javax.persistence.criteria.*;
 import java.util.Date;
+import java.util.List;
 
 /**
  * author：  HyZhan
@@ -46,8 +47,8 @@ public class LogResource extends PageResource {
 
         Pageable pageable = prepareCondition(args);
 
-        Date start = DateUtils.stringFormat(args.getStartTime());
-        Date end = DateUtils.stringFormat(args.getEndTime());
+        Date start = DateUtils.stringFormat(args.getStart());
+        Date end = DateUtils.stringFormat(args.getEnd());
 
         Page<LogCard> logCardPage = logService.getLogs(args.getName(), start, end, pageable)
                 .map(LogCard::new);
@@ -55,14 +56,14 @@ public class LogResource extends PageResource {
         return convertPageCard(logCardPage);
     }
 
-    public PageCard<LogCard> getUserLogs(UserLogArgs args) {
+    public PageCard<LogCard> getUserLogs(String keyword, LogArgs args) {
 
         Pageable pageable = prepareCondition(args);
 
-        Date start = DateUtils.stringFormat(args.getStartTime());
-        Date end = DateUtils.stringFormat(args.getEndTime());
+        Date start = DateUtils.stringFormat(args.getStart());
+        Date end = DateUtils.stringFormat(args.getEnd());
 
-        Page<LogCard> logList = logService.getUserLogs(args.getKeyword(),
+        Page<LogCard> logList = logService.getUserLogs(keyword,
                 args.getName(), start, end, pageable)
                 .map(LogCard::new);
 
@@ -76,7 +77,7 @@ public class LogResource extends PageResource {
                 "create_time");
     }
 
-    public PageCard<String> getUsers(PageArgs args) {
+    public List<String> getUsers(PageArgs args) {
 
         Pageable pageable = PageRequest.of(args.getPage(), args.getCount());
 
@@ -91,7 +92,7 @@ public class LogResource extends PageResource {
         Page<String> logPage = logService.getAllLogs(specification, pageable)
                 .map(Log::getUsername);
 
-        return convertPageCard(logPage);
+        return logPage.getContent();
     }
 
     public void saveLog(LogInfoArgs args) {

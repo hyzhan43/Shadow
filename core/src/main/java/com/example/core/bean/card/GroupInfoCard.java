@@ -3,6 +3,8 @@ package com.example.core.bean.card;
 import com.example.core.bean.db.Group;
 import lombok.Data;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -20,12 +22,19 @@ public class GroupInfoCard {
     // 组信息
     private String info;
 
-    private Object[] auths;
+    private List<Map<String, List<AuthCard>>> auths;
 
     public GroupInfoCard(Group group, Map<String, List<AuthCard>> authMap) {
         this.id = group.getId();
         this.info = group.getInfo();
         this.name = group.getName();
-        this.auths = new Object[]{authMap};
+
+        this.auths = new ArrayList<>();
+
+        authMap.forEach((module, authCardList) -> {
+            Map<String, List<AuthCard>> map = new HashMap<>();
+            map.put(module, authCardList);
+            this.auths.add(map);
+        });
     }
 }

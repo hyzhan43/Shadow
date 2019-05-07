@@ -1,5 +1,6 @@
 package com.example.core.bean.card;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -12,7 +13,9 @@ import lombok.Data;
 @AllArgsConstructor
 public class TokenCard {
 
-    private String access_token;
+    @JsonProperty("access_token")
+    private String accessToken;
 
-    private String refresh_token;
+    @JsonProperty("refresh_token")
+    private String refreshToken;
 }

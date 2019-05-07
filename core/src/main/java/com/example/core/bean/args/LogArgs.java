@@ -16,8 +16,8 @@ public class LogArgs extends PageArgs{
     private String name;
 
     // 开始时间
-    private String startTime;
+    private String start;
 
     // 结束时间
-    private String endTime;
+    private String end;
 }

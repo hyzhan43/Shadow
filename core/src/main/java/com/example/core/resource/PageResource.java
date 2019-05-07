@@ -3,8 +3,6 @@ package com.example.core.resource;
 import com.example.core.bean.card.PageCard;
 import org.springframework.data.domain.Page;
 
-import java.util.List;
-
 /**
  * author：  HyZhan
  * create：  2019/4/14
@@ -16,7 +14,7 @@ public abstract class PageResource {
         // 分页查询 默认从 0页开始 查询10条
         PageCard<T> pageCard = new PageCard<>();
 
-        pageCard.setTotal_nums(source.getTotalElements());
+        pageCard.setTotalNums(source.getTotalElements());
         pageCard.setCollection(source.getContent());
 
         return pageCard;

@@ -37,22 +37,22 @@ public class TokenUtils {
     }
 
     public static void verifyToken(HttpServletRequest request) {
-        String token = request.getHeader("token");
+        String token = request.getHeader("Authorization");
         if (token == null || token.isEmpty()) {
             throw new BaseException(ErrorCode.TOKEN_EMPTY);
         }
 
-        prepareCachedValue(token);
+        if (!token.contains("Bearer ")){
+            throw new BaseException(ErrorCode.TOKEN_ERROR);
+        }
 
-        request.setAttribute("uid", uid);
-    }
-
-    private static void prepareCachedValue(String token) {
-
+        token = token.substring(7);
         uid = TokenUtils.parseToken(token);
 
         if (uid == null || uid.isEmpty()) {
             throw new BaseException(ErrorCode.TOKEN_ERROR);
         }
+
+        request.setAttribute("uid", uid);
     }
 }

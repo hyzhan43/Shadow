@@ -2,6 +2,7 @@ package com.example.core.bean.card;
 
 import com.example.core.bean.db.User;
 import com.example.core.utils.L;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
@@ -24,8 +25,10 @@ public class AdminUserCard {
 
     private String email;
 
+    @JsonProperty("group_id")
     private Integer groupId;
 
+    @JsonProperty("group_name")
     private String groupName;
 
     private Integer admin;
