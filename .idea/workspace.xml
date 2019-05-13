@@ -2,9 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0a90af-2698-4f53-8ab1-201c3e144442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/resource/BookResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/resource/BookResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/app/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/AppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/api/doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/api/doc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/api/version.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/api/version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/args/BookSearchArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/args/BookSearchArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/args/CreateOrUpdateBookArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/args/CreateOrUpdateBookArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/card/BookCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/card/BookCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/db/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/db/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/bean/model/BookModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/model/BookModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/cms/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/cms/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/cms/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/v1/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/v1/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/error/APIException.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/error/APIException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/error/code/APICode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/error/code/APICode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/error/handle/APIExceptionHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/error/handle/APIExceptionHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/resource/BookResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/resource/BookResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/app/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zhan/app/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/app/AppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/zhan/app/AppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/CoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/CoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/AdminRequired.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/annotation/AdminRequired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/GroupRequired.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/annotation/GroupRequired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/annotation/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/LoginRequired.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/annotation/LoginRequired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/RouteMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/annotation/RouteMeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/AdminUserArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/AdminUserArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/ChangePasswordArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/ChangePasswordArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/DispatchAuthArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/DispatchAuthsArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/DispatchAuthsArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/LogArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/LogArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/LogInfoArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/LogInfoArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/LoginArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/LoginArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/NewGroupArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/NewGroupArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/PageArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/PageArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RefreshTokenArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/RefreshTokenArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RegisterArgs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/RemoveAuthsArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/RemoveAuthsArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/ResetPasswordArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/ResetPasswordArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UpdateGroupArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/UpdateGroupArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UpdateInfoArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/UpdateInfoArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UpdateUserArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/UpdateUserArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/UserLogArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/args/UserLogArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/AdminUserCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/AdminUserCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/AuthCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/AuthCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/BaseCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/BaseCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/GroupCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupInfoCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/GroupInfoCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/LogCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/LogCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/ModuleCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/ModuleCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/PageCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/RouteMetaCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/RouteMetaCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/TokenCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/TokenCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserApisCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/UserApisCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/UserCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/db/Auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/db/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/db/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/db/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/db/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/db/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/model/AuthModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/model/AuthModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/model/GroupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/model/GroupModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/model/LogModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/model/LogModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/config/Secure.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/config/Secure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/config/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/config/Setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/code/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/error/code/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/error/handle/ExceptionHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/error/handle/ExceptionHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/interceptor/AuthenticationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/interceptor/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/AuthRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/repository/AuthRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/repository/EventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/repository/GroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/LogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/repository/LogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/AdminResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/resource/AdminResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/LogResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/PageResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/resource/PageResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/service/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/service/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/L.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/utils/L.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/RouteMetaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/utils/RouteMetaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/TokenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/utils/TokenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/zhan/core/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/example/core/CoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/com/zhan/core/CoreApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-23/error.2019-04-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-23/error.2019-04-23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-23/info.2019-04-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-23/info.2019-04-23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-24/error.2019-04-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-24/error.2019-04-24.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-24/info.2019-04-24.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-24/info.2019-04-24.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-25/error.2019-04-25.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-25/error.2019-04-25.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-25/info.2019-04-25.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-25/info.2019-04-25.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-26/error.2019-04-26.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-26/error.2019-04-26.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-26/info.2019-04-26.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-26/info.2019-04-26.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-27/error.2019-04-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-27/error.2019-04-27.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/2019-04-27/info.2019-04-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2019-04-27/info.2019-04-27.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,20 +153,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/v1/BookController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,9 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/UserResource.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserApisCard.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/LoginArs.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/resource/PageResource.java" />
         <option value="$PROJECT_DIR$/app/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/LogCard.java" />
@@ -136,6 +226,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/controller/v1/BookController.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/service/BookService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/app/resource/BookResource.java" />
+        <option value="$PROJECT_DIR$/app/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
       </list>
     </option>
   </component>
@@ -173,11 +266,11 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,53 +286,18 @@
             <path>
               <item name="Shadow" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shadow" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="Shadow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shadow" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shadow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shadow" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shadow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shadow" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shadow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shadow" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shadow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shadow" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
+              <item name="Shadow" type="58d84e3e:PackageViewProjectNode" />
+              <item name="core" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -255,7 +313,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556370461173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557750507561" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -289,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppApplication">
+  <component name="RunManager">
     <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.app.AppApplication" />
@@ -297,17 +355,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="core" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.core.CoreApplication" />
+    <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhan.app.AppApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.AppApplication" />
-      <item itemvalue="Spring Boot.CoreApplication" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -340,17 +395,17 @@
       <workItem from="1556335961686" duration="2925000" />
       <workItem from="1556361488517" duration="6845000" />
       <workItem from="1556454928308" duration="1323000" />
+      <workItem from="1557749990006" duration="301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162979000" />
+    <option name="totallyTimeSpent" value="163326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21514745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19436997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -406,7 +461,7 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/AuthenticationInterceptor.java</url>
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/interceptor/AuthenticationInterceptor.java</url>
           <line>89</line>
           <properties />
           <option name="timeStamp" value="13" />
@@ -415,122 +470,84 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/model/LogModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/args/NewGroupArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/ModuleCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/LogCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupInfoCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/GroupInfoCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/GroupCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/GroupCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/AuthCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/AuthCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/AdminUserCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/AdminUserCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/UserCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-244">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/UserApisCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/UserApisCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/TokenCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/TokenCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/RouteMetaCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/RouteMetaCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/PageCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/PageCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/UserController.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/cms/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/cms/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
@@ -549,7 +566,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/cms/LogController.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/cms/LogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
@@ -560,28 +577,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/error/exception/NotFoundException.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/controller/BaseController.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/error/code/ErrorCode.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/error/code/ErrorCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/utils/RouteMetaUtil.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/utils/RouteMetaUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-674">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/BaseResponse.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/BaseResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
@@ -597,7 +614,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/ErrorCard.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/card/BaseCard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/card/BaseCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
@@ -619,7 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/error/BaseException.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/error/BaseException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
@@ -628,21 +645,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/error/APIException.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/error/BookException.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/error/handle/ExceptionHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/Response.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/error/APIException.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/error/APIException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -653,7 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/error/handle/APIExceptionHandle.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/error/handle/APIExceptionHandle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
@@ -663,7 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/resource/AdminResource.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/resource/AdminResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-500">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
@@ -673,7 +683,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/bean/card/BookCard.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/card/BookCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
@@ -683,28 +693,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/error/code/APICode.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/error/code/APICode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/bean/model/BookModel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/model/BookModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/Base.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/db/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/repository/BookRepository.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/repository/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
@@ -714,7 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/bean/db/Book.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/db/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
@@ -724,14 +734,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/annotation/GroupRequired.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/annotation/GroupRequired.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/bean/db/User.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/bean/db/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -742,7 +752,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/example/core/interceptor/AuthenticationInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/interceptor/AuthenticationInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="98" column="20" lean-forward="true" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
@@ -753,7 +763,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/bean/args/CreateOrUpdateBookArgs.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/args/CreateOrUpdateBookArgs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
@@ -763,7 +773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/bean/args/BookSearchArgs.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/bean/args/BookSearchArgs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -773,7 +783,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/service/BookService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
@@ -783,7 +793,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/resource/BookResource.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/resource/BookResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
           <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
@@ -793,13 +803,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/app/controller/v1/BookController.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zhan/app/controller/v1/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/zhan/core/error/handle/ExceptionHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shadow.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>

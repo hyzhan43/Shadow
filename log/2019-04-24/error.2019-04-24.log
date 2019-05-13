@@ -114,7 +114,7 @@
 2019-04-24 15:54:52,633 - error - url->http://localhost:3000/cms/user/auths
 2019-04-24 15:56:37,593 - error - url->http://localhost:3000/cms/user/auths
 2019-04-24 16:49:25,690 - reportFailure - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logController' defined in file [E:\Tools\Java\WorkSpace\Shadow\app\target\classes\com\example\app\controller\cms\LogController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logResource' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\resource\LogResource.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logController' defined in file [E:\Tools\Java\WorkSpace\Shadow\app\target\classes\com\example\app\controller\cms\LogController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logResource' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\resource\LogResource.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page LogRepository.findByUsername(java.lang.String)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
@@ -134,8 +134,8 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
-	at com.example.app.AppApplication.main(AppApplication.java:14)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logResource' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\resource\LogResource.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+	at AppApplication.main(AppApplication.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logResource' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\resource\LogResource.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page LogRepository.findByUsername(java.lang.String)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
@@ -152,7 +152,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
 	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logService' defined in file [E:\Tools\Java\WorkSpace\Shadow\core\target\classes\com\example\core\service\LogService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page LogRepository.findByUsername(java.lang.String)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
@@ -169,7 +169,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
 	... 33 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page LogRepository.findByUsername(java.lang.String)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
@@ -183,7 +183,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
 	... 47 common frames omitted
-Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page com.example.core.repository.LogRepository.findByUsername(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Pageable parameter! Offending method public abstract org.springframework.data.domain.Page LogRepository.findByUsername(java.lang.String)
 	at org.springframework.util.Assert.isTrue(Assert.java:118)
 	at org.springframework.data.repository.query.QueryMethod.<init>(QueryMethod.java:99)
 	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:94)
@@ -214,15 +214,15 @@ Caused by: java.lang.IllegalArgumentException: Paging query needs to have a Page
 	... 58 common frames omitted
 2019-04-24 16:51:09,493 - error - url->http://localhost:3000/cms/log
 2019-04-24 16:51:09,994 - error - -------------------------------------------------
-2019-04-24 16:51:09,995 - error - java.lang.ClassCastException: com.example.core.bean.card.LogCard cannot be cast to java.lang.Comparable
+2019-04-24 16:51:09,995 - error - java.lang.ClassCastException: LogCard cannot be cast to java.lang.Comparable
 2019-04-24 16:51:09,995 - error - -------------------------------------------------
 2019-04-24 16:52:56,985 - error - url->http://localhost:3000/cms/log
 2019-04-24 17:00:10,246 - error - -------------------------------------------------
-2019-04-24 17:00:10,247 - error - java.lang.ClassCastException: com.example.core.bean.card.LogCard cannot be cast to java.lang.Comparable
+2019-04-24 17:00:10,247 - error - java.lang.ClassCastException: LogCard cannot be cast to java.lang.Comparable
 2019-04-24 17:00:10,248 - error - -------------------------------------------------
 2019-04-24 17:00:23,632 - error - url->http://localhost:3000/cms/log
 2019-04-24 17:00:24,135 - error - -------------------------------------------------
-2019-04-24 17:00:24,136 - error - java.lang.ClassCastException: com.example.core.bean.card.LogCard cannot be cast to java.lang.Comparable
+2019-04-24 17:00:24,136 - error - java.lang.ClassCastException: LogCard cannot be cast to java.lang.Comparable
 2019-04-24 17:00:24,136 - error - -------------------------------------------------
 2019-04-24 17:01:47,296 - error - url->http://localhost:3000/cms/log
 2019-04-24 17:04:11,096 - error - url->http://localhost:3000/cms/log
