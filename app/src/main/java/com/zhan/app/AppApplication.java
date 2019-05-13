@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing  // jpa 注入createTime,updateTime
-@ComponentScan("com.example")
+@ComponentScan("com.zhan")
 public class AppApplication {
 
     public static void main(String[] args) {

@@ -23,7 +23,7 @@ import java.util.Collection;
  */
 
 @RestController
-@RequestMapping("cms/admin")
+@RequestMapping("/cms/admin")
 public class AdminController extends BaseController {
 
     private AdminResource adminResource;

@@ -1,8 +1,12 @@
 package com.zhan.core.utils;
 
 import com.zhan.core.config.Secure;
+import com.zhan.core.error.BaseException;
+import com.zhan.core.error.code.ErrorCode;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * author：  HyZhan
@@ -10,6 +14,8 @@ import io.jsonwebtoken.SignatureAlgorithm;
  * desc：    TODO
  */
 public class TokenUtils {
+
+    public static String uid;
 
     public static String parseToken(String token) {
 
@@ -27,5 +33,25 @@ public class TokenUtils {
                 .signWith(SignatureAlgorithm.HS512, Secure.SECRET)
                 .setExpiration(DateUtils.convertTime(time))
                 .compact();
+    }
+
+    public static void verifyToken(HttpServletRequest request) {
+        String token = request.getHeader("Authorization");
+        if (token == null || token.isEmpty()) {
+            throw new BaseException(ErrorCode.TOKEN_EMPTY);
+        }
+
+        if (!token.contains("Bearer ")){
+            throw new BaseException(ErrorCode.TOKEN_ERROR);
+        }
+
+        token = token.substring(7);
+        uid = parseToken(token);
+
+        if (uid == null || uid.isEmpty()) {
+            throw new BaseException(ErrorCode.TOKEN_ERROR);
+        }
+
+        request.setAttribute("uid", uid);
     }
 }

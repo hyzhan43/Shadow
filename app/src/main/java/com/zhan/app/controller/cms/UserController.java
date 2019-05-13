@@ -21,7 +21,7 @@ import javax.validation.Valid;
  * desc：    TODO
  */
 @RestController
-@RequestMapping("cms/user")
+@RequestMapping("/cms/user")
 public class UserController {
 
     private UserResource userResource;
