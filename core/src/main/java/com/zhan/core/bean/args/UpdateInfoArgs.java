@@ -1,5 +1,6 @@
 package com.zhan.core.bean.args;
 
+import io.swagger.annotations.ApiParam;
 import lombok.Data;
 
 import javax.validation.constraints.Email;
@@ -13,5 +14,6 @@ import javax.validation.constraints.Email;
 public class UpdateInfoArgs {
 
     @Email
+    @ApiParam(value = "邮箱")
     private String email;
 }

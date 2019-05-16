@@ -14,11 +14,11 @@ public class Response {
 
     private static final String MSG_SUC = "获取成功";
 
-    public static <T> BaseResponse success(String msg, T object) {
+    public static <T> BaseResponse<T> success(String msg, T data) {
         BaseResponse<T> response = new BaseResponse<>();
         response.setCode(SUCCESS);
         response.setMsg(msg);
-        response.setData(object);
+        response.setData(data);
         return response;
     }
 
@@ -33,8 +33,8 @@ public class Response {
         return success(msg, null);
     }
 
-    public static BaseResponse success(Object object) {
-        return success(MSG_SUC, object);
+    public static <T> BaseResponse<T> success(T data) {
+        return success(MSG_SUC, data);
     }
 
     public static BaseResponse error(Integer code, String msg) {

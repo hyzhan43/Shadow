@@ -11,6 +11,8 @@ import com.zhan.core.bean.card.LogCard;
 import com.zhan.core.bean.card.PageCard;
 import com.zhan.core.controller.BaseController;
 import com.zhan.core.resource.LogResource;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,6 +25,7 @@ import javax.validation.Valid;
  * create：  2019/4/24
  * desc：    TODO
  */
+@Api(tags = "日志模块")
 @RestController
 @RequestMapping("/cms/log")
 public class LogController extends BaseController {
@@ -36,8 +39,9 @@ public class LogController extends BaseController {
 
     @GroupRequired
     @GetMapping("")
+    @ApiOperation("查询所有日志")
     @RouteMeta(auth = "查询所有日志", module = "日志", mount = false)
-    public BaseResponse getLogs(LogArgs args) {
+    public BaseResponse<PageCard<LogCard>> getLogs(LogArgs args) {
 
         checkPaginate(args);
 
@@ -48,8 +52,9 @@ public class LogController extends BaseController {
 
     @GroupRequired
     @GetMapping("/search")
+    @ApiOperation("搜索日志")
     @RouteMeta(auth = "搜索日志", module = "日志", mount = false)
-    public BaseResponse getUserLogs(@Valid UserLogArgs args) {
+    public BaseResponse<PageCard<LogCard>> getUserLogs(@Valid UserLogArgs args) {
 
         checkPaginate(args);
 
@@ -60,8 +65,9 @@ public class LogController extends BaseController {
 
     @GroupRequired
     @GetMapping("/users")
+    @ApiOperation("查询日志记录的用户")
     @RouteMeta(auth = "查询日志记录的用户", module = "日志")
-    public BaseResponse getUsers(PageArgs args) {
+    public BaseResponse<PageCard<String>> getUsers(PageArgs args) {
 
         checkPaginate(args);
 

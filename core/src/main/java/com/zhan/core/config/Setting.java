@@ -12,8 +12,8 @@ public class Setting {
     // 一页的数量
     public static final int PAGE_SIZE = 10;
 
-    // token 过期时间 (1h)
-    public static final int TOKEN_TIME = 60 * 60 * 1000;
+    // token 过期时间 (3h)
+    public static final int TOKEN_TIME = 3 * 60 * 60 * 1000;
 
     // token 延长时间 (3天)
     public static final int TOKEN_DELAYED_TIME = 3 * 24 * 60 * 60 * 1000;

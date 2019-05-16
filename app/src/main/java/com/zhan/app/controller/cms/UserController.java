@@ -10,6 +10,8 @@ import com.zhan.core.bean.card.TokenCard;
 import com.zhan.core.bean.card.UserApisCard;
 import com.zhan.core.bean.card.UserCard;
 import com.zhan.core.resource.UserResource;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,6 +22,7 @@ import javax.validation.Valid;
  * create：  2019/4/17
  * desc：    TODO
  */
+@Api(tags = "用户模块")
 @RestController
 @RequestMapping("/cms/user")
 public class UserController {
@@ -32,6 +35,7 @@ public class UserController {
     }
 
     @PostMapping("/register")
+    @ApiOperation("注册用户")
     @RouteMeta(auth = "注册", module = "用户", mount = false)
     public BaseResponse register(@Valid RegisterArgs args) {
 
@@ -40,8 +44,9 @@ public class UserController {
     }
 
     @PostMapping("/login")
+    @ApiOperation("登陆用户")
     @RouteMeta(auth = "登陆", module = "用户", mount = false)
-    public BaseResponse login(@Valid LoginArgs args) {
+    public BaseResponse<TokenCard> login(@Valid LoginArgs args) {
 
         TokenCard tokenCard = userResource.login(args);
         return Response.success(tokenCard);
@@ -49,6 +54,7 @@ public class UserController {
 
     @LoginRequired
     @PutMapping("")
+    @ApiOperation("用户更新信息")
     @RouteMeta(auth = "用户更新信息", module = "用户", mount = false)
     public BaseResponse update(@Valid UpdateInfoArgs args) {
 
@@ -62,6 +68,7 @@ public class UserController {
 
     @LoginRequired
     @PutMapping("/password/change")
+    @ApiOperation("修改密码")
     @Logger(template = "{user.nickname}修改了自己的密码")
     @RouteMeta(auth = "修改密码", module = "用户", mount = false)
     public BaseResponse changePassword(@Valid ChangePasswordArgs args) {
@@ -73,14 +80,16 @@ public class UserController {
 
     @LoginRequired
     @GetMapping("/information")
+    @ApiOperation("查询自己信息")
     @RouteMeta(auth = "查询自己信息", module = "用户", mount = false)
-    public BaseResponse getInformation() {
+    public BaseResponse<UserCard> getInformation() {
 
         UserCard userCard = userResource.getUserInfo();
         return Response.success(userCard);
     }
 
     @GetMapping("/refresh")
+    @ApiOperation("刷新令牌")
     @RouteMeta(auth = "刷新令牌", module = "用户", mount = false)
     public BaseResponse refreshToken(@Valid RefreshTokenArgs args) {
         TokenCard tokenCard = userResource.refreshToken(args);
@@ -90,8 +99,9 @@ public class UserController {
 
     @LoginRequired
     @GetMapping("/auths")
+    @ApiOperation("查询自己拥有的权限")
     @RouteMeta(auth = "查询自己拥有的权限", module = "用户", mount = false)
-    public BaseResponse getAllowedApis() {
+    public BaseResponse<UserApisCard> getAllowedApis() {
         UserApisCard userApisCard = userResource.getAllowedApis();
         return Response.success(userApisCard);
     }
