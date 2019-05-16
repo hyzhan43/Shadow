@@ -33,13 +33,6 @@ public class AdminController extends BaseController {
         this.adminResource = adminResource;
     }
 
-    /**
-     * @api {get} /admin/authority 获取所有可分配权限
-     * @apiGroup admin
-     * @apiVersion 1.0.0
-     * @apiSuccessExample {json} 返回样例：
-     * {"图书":{"删除图书":["[/v1/book]+deleteBook"]},"日志":{"查询所有日志":["[/cms/log]+getLogs"],"查询日志记录的用户":["[/cms/log]+getUsers"],"搜索日志":["[/cms/log]+getUserLogs"]}}
-     */
     @AdminRequired
     @GetMapping("/authority")
     @RouteMeta(auth = "查询所有可分配的权限", module = "管理员", mount = false)
