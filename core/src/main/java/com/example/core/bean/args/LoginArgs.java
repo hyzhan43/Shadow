@@ -1,5 +1,6 @@
 package com.example.core.bean.args;
 
+import io.swagger.annotations.ApiParam;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;
@@ -13,8 +14,10 @@ import javax.validation.constraints.NotBlank;
 public class LoginArgs {
 
     @NotBlank(message = "昵称不能为空")
+    @ApiParam(value = "昵称", required = true)
     private String nickname;
 
     @NotBlank(message = "密码不能为空")
+    @ApiParam(value = "密码", required = true)
     private String password;
 }

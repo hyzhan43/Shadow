@@ -1,5 +1,6 @@
 package com.example.core.bean.args;
 
+import io.swagger.annotations.ApiParam;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -12,5 +13,6 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class AdminUserArgs extends PageArgs {
 
+    @ApiParam("组id")
     public Integer group_id;
 }

@@ -9,6 +9,9 @@ import com.example.core.annotation.RouteMeta;
 import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
 import com.example.core.bean.card.ResponseCard;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,6 +23,7 @@ import java.util.List;
  * create：  2019/4/26
  * desc：    通过 图书 来实现一套标准的 CRUD 功能，供学习
  */
+@Api(tags = "图书模块")
 @RestController
 @RequestMapping("/v1/book")
 public class BookController {
@@ -32,16 +36,20 @@ public class BookController {
     }
 
     @GetMapping("/{id}")
-    public BookCard getBook(@PathVariable Integer id) {
+    @ApiOperation("获取图书")
+    public BookCard getBook(@ApiParam(value = "图书id", required = true)
+                            @PathVariable Integer id) {
         return bookResource.getBookById(id);
     }
 
     @GetMapping("/search")
+    @ApiOperation("搜索图书")
     public List<BookCard> searchBook(@Valid @RequestBody BookSearchArgs args) {
         return bookResource.searchBook(args);
     }
 
     @PostMapping("/")
+    @ApiOperation("创建图书")
     public ResponseCard createBook(@Valid @RequestBody CreateOrUpdateBookArgs args) {
 
         bookResource.createBook(args);
@@ -50,7 +58,9 @@ public class BookController {
     }
 
     @PutMapping("/{id}")
-    public ResponseCard updateBook(@PathVariable Integer id,
+    @ApiOperation("更新图书信息")
+    public ResponseCard updateBook(@ApiParam(value = "图书id", required = true)
+                                   @PathVariable Integer id,
                                    @Valid @RequestBody CreateOrUpdateBookArgs args) {
 
         bookResource.updateBook(id, args);
@@ -59,9 +69,11 @@ public class BookController {
 
 
     @GroupRequired
-    @RouteMeta(auth = "删除图书", module = "图书")
     @DeleteMapping("/{id}")
-    public ResponseCard deleteBook(@PathVariable Integer id) {
+    @ApiOperation("删除图书")
+    @RouteMeta(auth = "删除图书", module = "图书")
+    public ResponseCard deleteBook(@ApiParam(value = "图书id", required = true)
+                                   @PathVariable Integer id) {
 
         bookResource.deleteBook(id);
         return Response.success("删除图书成功");

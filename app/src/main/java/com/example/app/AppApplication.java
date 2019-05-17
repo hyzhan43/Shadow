@@ -5,9 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-@SpringBootApplication
 @EnableJpaAuditing  // jpa 注入createTime,updateTime
-@ComponentScan("com.example")
+@SpringBootApplication(scanBasePackages = "com.example")
 public class AppApplication {
 
     public static void main(String[] args) {

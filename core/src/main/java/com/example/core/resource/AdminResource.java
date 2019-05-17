@@ -45,6 +45,11 @@ public class AdminResource extends PageResource {
         this.authService = authService;
     }
 
+    public void addAdminUser() {
+        userService.findUserByNickname("super");
+        userService.addAdminUser();
+    }
+
     public PageCard<AdminUserCard> getAdminUsers(AdminUserArgs args) {
 
         // 分页查询条件
@@ -226,4 +231,5 @@ public class AdminResource extends PageResource {
 
         authService.deleteAuths(args.getGroup_id(), args.getAuths());
     }
+
 }

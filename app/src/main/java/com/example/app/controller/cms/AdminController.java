@@ -3,6 +3,7 @@ package com.example.app.controller.cms;
 import com.example.core.annotation.AdminRequired;
 import com.example.core.annotation.Logger;
 import com.example.core.annotation.RouteMeta;
+import com.example.core.bean.BaseResponse;
 import com.example.core.bean.Response;
 import com.example.core.bean.args.*;
 import com.example.core.bean.card.*;
@@ -10,8 +11,12 @@ import com.example.core.controller.BaseController;
 import com.example.core.resource.AdminResource;
 import com.example.core.utils.L;
 import com.example.core.utils.RouteMetaUtil;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 import javax.validation.Valid;
 import java.util.*;
@@ -22,6 +27,7 @@ import java.util.*;
  * desc：    TODO
  */
 
+@Api(tags = "管理员模块")
 @RestController
 @RequestMapping("cms/admin")
 public class AdminController extends BaseController {
@@ -33,8 +39,16 @@ public class AdminController extends BaseController {
         this.adminResource = adminResource;
     }
 
+    @GetMapping("/add")
+    @ApiIgnore
+    public ResponseCard addAdminUser() {
+        adminResource.addAdminUser();
+        return Response.success("添加成功");
+    }
+
     @AdminRequired
     @GetMapping("/authority")
+    @ApiOperation("查询所有可分配的权限")
     @RouteMeta(auth = "查询所有可分配的权限", module = "管理员", mount = false)
     public Map<String, Map<String, List<String>>> authority() {
         return RouteMetaUtil.getAuthorityInfo();
@@ -42,6 +56,7 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @GetMapping("/users")
+    @ApiOperation("查询所有用户")
     @RouteMeta(auth = "查询所有用户", module = "管理员", mount = false)
     public PageCard getAdminUsers(@RequestBody AdminUserArgs args) {
         // 校验页码
@@ -52,8 +67,10 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @PutMapping("/password/{id}")
+    @ApiOperation("修改用户密码")
     @RouteMeta(auth = "修改用户密码", module = "管理员", mount = false)
-    public ResponseCard ChangePassword(@PathVariable Integer id,
+    public ResponseCard ChangePassword(@ApiParam("用户id")
+                                       @PathVariable Integer id,
                                        @Valid @RequestBody ResetPasswordArgs args) {
 
         adminResource.changePassword(id, args);
@@ -63,9 +80,11 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @DeleteMapping("/{id}")
+    @ApiOperation("删除用户")
     @RouteMeta(auth = "删除用户", module = "管理员", mount = false)
     @Logger(template = "管理员删除了一个用户")
-    public ResponseCard deleteUser(@PathVariable Integer id) {
+    public ResponseCard deleteUser(@ApiParam("用户id")
+                                   @PathVariable Integer id) {
         adminResource.deleteUser(id);
         return Response.success("操作成功");
     }
@@ -73,8 +92,11 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @PutMapping("/{id}")
+    @ApiOperation("管理员更新用户信息")
     @RouteMeta(auth = "管理员更新用户信息", module = "管理员", mount = false)
-    public ResponseCard updateUser(@PathVariable Integer id, @Valid @RequestBody UpdateUserArgs args) {
+    public ResponseCard updateUser(@ApiParam("用户id")
+                                   @PathVariable Integer id,
+                                   @Valid @RequestBody UpdateUserArgs args) {
 
         adminResource.updateUser(id, args);
 
@@ -83,8 +105,10 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @PutMapping("/disable/{id}")
+    @ApiOperation("禁用用户")
     @RouteMeta(auth = "禁用用户", module = "管理员", mount = false)
-    public ResponseCard transDisable(@PathVariable Integer id) {
+    public ResponseCard transDisable(@ApiParam("用户id")
+                                     @PathVariable Integer id) {
 
         adminResource.transDisable(id);
         return Response.success("操作成功");
@@ -92,8 +116,10 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @PutMapping("/active/{id}")
+    @ApiOperation("激活用户")
     @RouteMeta(auth = "激活用户", module = "管理员", mount = false)
-    public ResponseCard transActive(@PathVariable Integer id) {
+    public ResponseCard transActive(@ApiParam("用户id")
+                                    @PathVariable Integer id) {
 
         adminResource.transActive(id);
         return Response.success("操作成功");
@@ -102,6 +128,7 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @GetMapping("/groups")
+    @ApiOperation("查询所有权限组及其权限")
     @RouteMeta(auth = "查询所有权限组及其权限", module = "管理员", mount = false)
     public PageCard getAdminGroups(PageArgs args) {
 
@@ -112,6 +139,7 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @GetMapping("/group/all")
+    @ApiOperation("查询所有权限组")
     @RouteMeta(auth = "查询所有权限组", module = "管理员", mount = false)
     public List<GroupCard> getAllGroups(PageArgs args) {
 
@@ -122,14 +150,17 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @GetMapping("/group/{id}")
+    @ApiOperation("查询一个权限组及其权限")
     @RouteMeta(auth = "查询一个权限组及其权限", module = "管理员", mount = false)
-    public GroupInfoCard getGroup(@PathVariable Integer id) {
+    public GroupInfoCard getGroup(@ApiParam("组id")
+                                  @PathVariable Integer id) {
         return adminResource.getGroup(id);
     }
 
 
     @AdminRequired
     @PostMapping("/group")
+    @ApiOperation("管理员新建了一个权限组")
     @Logger(template = "管理员新建了一个权限组")
     @RouteMeta(auth = "新建权限组", module = "管理员", mount = false)
     public ResponseCard createGroup(@Valid @RequestBody NewGroupArgs args) {
@@ -141,8 +172,10 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @PutMapping("/group/{id}")
+    @ApiOperation("更新一个权限组")
     @RouteMeta(auth = "更新一个权限组", module = "管理员", mount = false)
-    public ResponseCard updateGroup(@PathVariable Integer id,
+    public ResponseCard updateGroup(@ApiParam("组id")
+                                    @PathVariable Integer id,
                                     @Valid @RequestBody UpdateGroupArgs args) {
 
         adminResource.updateGroup(id, args);
@@ -152,9 +185,11 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @DeleteMapping("/group/{id}")
+    @ApiOperation("删除一个权限组")
     @Logger(template = "管理员删除一个权限组")
     @RouteMeta(auth = "删除一个权限组", module = "管理员", mount = false)
-    public ResponseCard deleteGroup(@PathVariable Integer id) {
+    public ResponseCard deleteGroup(@ApiParam("组id")
+                                    @PathVariable Integer id) {
 
         adminResource.deleteGroup(id);
 
@@ -164,6 +199,7 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @PostMapping("/dispatch")
+    @ApiOperation("分配单个权限")
     @RouteMeta(auth = "分配单个权限", module = "管理员", mount = false)
     public ResponseCard dispatchAuth(@Valid @RequestBody DispatchAuthArgs args) {
 
@@ -174,6 +210,7 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @PostMapping("/dispatch/patch")
+    @ApiOperation("分配多个权限")
     @RouteMeta(auth = "分配多个权限", module = "管理员", mount = false)
     public ResponseCard dispatchAuths(@Valid @RequestBody DispatchAuthsArgs args) {
 
@@ -184,6 +221,7 @@ public class AdminController extends BaseController {
 
     @AdminRequired
     @PostMapping("/remove")
+    @ApiOperation("删除多个权限")
     @RouteMeta(auth = "删除多个权限", module = "管理员", mount = false)
     public ResponseCard removeAuths(@Valid @RequestBody RemoveAuthsArgs args) {
 

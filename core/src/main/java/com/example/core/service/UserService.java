@@ -140,4 +140,14 @@ public class UserService extends BaseService {
         user.setPassword(Utils.encode(oldPassword));
         userRepository.save(user);
     }
+
+    public void addAdminUser() {
+        User user = new User();
+
+        user.setNickname("super");
+        user.setPassword("123456");
+        user.setEmail("1234995678@qq.com");
+        user.setAdmin(2);
+        userRepository.save(user);
+    }
 }
